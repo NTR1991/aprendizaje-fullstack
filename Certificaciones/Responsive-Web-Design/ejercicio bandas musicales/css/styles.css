@@ -1,0 +1,87 @@
+.banner{
+    background-color: black;
+    color: red;
+    min-width: auto;
+    min-height: auto;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu{
+    background-color: black;
+    color: white;
+}
+
+body{
+    background-color: rgb(116, 116, 116);
+}
+
+footer{
+    background-color: black;
+    color: red;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.contenedor-videos {
+    text-align: center;      /* Centra el contenido */
+    white-space: nowrap;     /* Evita que bajen */
+    overflow-x: auto; 
+    
+}
+
+.video-center {
+    display: inline-block;   /* Pone los divs en línea */
+    margin: 20px;          /* Espacio entre videos */
+    white-space: normal;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+p{
+    margin: 50px;
+    font-size: 1.5rem;
+}
+
+.image-center {
+    display: block;          /* Necesario para centrar */
+    margin-left: auto;       /* Centra desde izquierda */
+    margin-right: auto;      /* Centra desde derecha */
+    width: 80%;              /* Ancho responsive */
+    max-width: 50%;        /* Tamaño máximo */
+    border-radius: 8%;      /* Bordes ovalados */
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);  /* Sombra */
+}
+
+/* Eliminar los puntos de la lista */
+/* Elimina los puntos grandes de la lista */
+.menu ul {
+    list-style: none;        /* ← Esto elimina las viñetas */
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;  
+    
+}
+
