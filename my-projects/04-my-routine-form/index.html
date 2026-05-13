@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <h1 id="title">My Routine</h1>
+    <p id="description">Specific Things</p>
+
+    <form id="survey-form">
+
+     
+        <label class="label-title"  id="name-label">Name</label><br>
+        <input type="text" id="name" required placeholder="Your name"><br><br>
+
+     
+        <label class="label-title"  id="email-label">Email</label><br>
+        <input type="email" id="email" required placeholder="Your Email "><br><br>
+
+  
+        <label class="label-title"  id="number-label">Age (optional)</label><br>
+        <input type="number" id="number" min="3" max="100" placeholder="Age"><br><br>
+
+        <label class="label-title">What is your favorite time of day?</label><br>
+        <select id="dropdown">
+            <option value="morning">Morning</option>
+            <option value="afternoon">Afternoon</option>
+            <option value="evening">Evening</option>
+        </select><br><br>
+
+  
+        <label class="label-title">Gender:</label><br>
+        <label>
+            <input type="radio" name="gender" value="male"> Male
+        </label><br>
+        <label>
+            <input type="radio" name="gender" value="female"> Female
+        </label><br>
+        <label>
+            <input type="radio" name="gender" value="other"> Other
+        </label><br><br>
+
+   
+        <label class="label-title">Hobbies (check all that apply):</label><br>
+        <label>
+            <input type="checkbox" value="reading"> Reading
+        </label><br>
+        <label>
+            <input type="checkbox" value="sports"> Sports
+        </label><br>
+        <label>
+            <input type="checkbox" value="music"> Music
+        </label><br><br>
+
+       
+        <label class="label-title">Additional comments:</label><br>
+        <textarea rows="5" cols="40" placeholder="Your comments..."></textarea><br><br>
+
+       
+        <button type="submit" id="submit">Submit</button>
+
+    </form>
+
+</body>
+</html>
