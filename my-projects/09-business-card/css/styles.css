@@ -1,0 +1,37 @@
+body{
+ 
+  background-color: rgb(83, 83, 83);
+  font-family: Arial,sans-serif;
+  background-image: url(../images/logo.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 900px;
+  height: auto;
+  margin: 0 auto;
+  
+}
+.business-card{
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.849);
+  padding: 20px;
+  margin: 100px;
+  text-align: center;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+
+}
+
+.profile-image{
+  max-width: 50%;
+
+}
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+a{
+  text-decoration: none;
+}
