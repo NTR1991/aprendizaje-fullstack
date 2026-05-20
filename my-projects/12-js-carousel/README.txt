@@ -11,7 +11,6 @@ An interactive image carousel (slider) that allows users to navigate through a g
 - **JavaScript** (DOM manipulation, event handlers, array management)
 
 ## 📁 Project Structure
-
 12-js-carousel/
 ├── index.html
 ├── css/
