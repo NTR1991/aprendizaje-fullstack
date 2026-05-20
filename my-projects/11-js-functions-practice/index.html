@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="cosa"></p>
+    <script>
+        function saludar1(){
+            console.log("Hola");
+
+        }
+        saludar1();
+        function saludar2(mensaje){
+             return mensaje;
+        }
+        document.getElementById("cosa").innerHTML = saludar2("Leopoldo");
+        
+        function saludar3(p_nombre) {
+            console.log("Hola " + p_nombre);
+        }
+        saludar3("Rigoberta");
+
+
+
+        function saludar4() {
+            return "Pingüinos de Madagascar ";
+         }
+         console.log(saludar4());
+    </script>
+</body>
+</html>
