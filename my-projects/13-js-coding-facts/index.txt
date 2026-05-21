@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Facts</title>
+</head>
+<body>
+    <h1>Coding Facts</h1>
+    <p>Open the browser console (F12 → Console) to see the output.</p>
+
+    <script>
+        console.log("Hello! I'm your coding fun fact guide!");
+
+        const botName = "Ernesto";
+        const botLocation = "Madrid";
+        const favoriteLanguage = "JavaScript";
+
+        console.log("My name is " + botName + " and I live on " + botLocation + ".");
+
+        console.log("My favorite programming language is " + favoriteLanguage + ".");
+
+        let codingFact = "I love " + favoriteLanguage;
+        console.log(codingFact);
+
+        codingFact = "I need " + favoriteLanguage;
+        console.log(codingFact);
+
+        codingFact = "I work with " + favoriteLanguage;
+        console.log(codingFact);
+
+        console.log("It was fun sharing these facts with you. Goodbye! - " + botName + " from " + botLocation + ".");
+    </script>
+</body>
+</html>
