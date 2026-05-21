@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration-Form</title>
+</head>
+<body>
+        <script>
+        let nombre = prompt("Escribe tu nombre:");
+        let edad = prompt("Escribe tu edad:");
+        let pais = prompt("Escribe tu país:");
+        let hobby = prompt("Escribe tu hobby:");
+
+        const d = new Date();
+        let dia = d.getDate();
+        let mesNumero = d.getMonth();
+        let año = d.getFullYear();
+        let horas = d.getHours();
+        let minutos = d.getMinutes();
+        let segundos = d.getSeconds();
+
+        let meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+
+        let mesNombre = meses[mesNumero];
+
+        let mensaje = "Gracias "+ nombre + " " + " \nHas registrado los siguientes datos: " + " \nTienes " + edad + " años, " + " eres de " + pais + "." + " Tú Hobby es: " + hobby + "." + " \nFecha de Registro: \nMadrid " + dia + ", " + mesNombre + ", " + año + "\nHora: " + horas + ":" + minutos + ":" + segundos;
+        alert(mensaje);
+        console.log(mensaje);
+    </script>
+
+</body>
+</html>
