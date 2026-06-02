@@ -25,7 +25,7 @@ README.md
 
 ## 🧮 Code
 
-public class PuedeConducir {
+````public class PuedeConducir {
     public static boolean puedeConducir(int edad, boolean tieneLicencia, boolean esPractica) {
         if (esPractica && edad >= 16) {
             return true;
@@ -36,7 +36,7 @@ public class PuedeConducir {
         return edad >= 18 && tieneLicencia;
     }
 }
-
+````
 ---
 
 ## 📊 Examples
