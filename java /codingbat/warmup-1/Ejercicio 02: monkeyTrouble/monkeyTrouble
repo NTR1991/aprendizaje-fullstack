@@ -1,7 +1,0 @@
-// CodingBat - Warmup-1: monkeyTrouble
-
-public class MonkeyTrouble {
-    public static boolean monkeyTrouble(boolean aSmile, boolean bSmile) {
-        return aSmile == bSmile;
-    }
-}
