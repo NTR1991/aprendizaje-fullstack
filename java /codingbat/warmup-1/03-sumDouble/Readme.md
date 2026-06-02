@@ -28,13 +28,18 @@ public class SumDouble {
     }
 }
 ````
-📊 Examples
-a	b	Result
-1	2	3
-3	3	12
-2	2	8
-👨‍💻 Author
-NTR1991 - Fullstack Development Student
+## 📊 Examples
 
-📅 Date
+| a | b | Result |
+|---|---|--------|
+| 1 | 2 | 3 |
+| 3 | 3 | 12 |
+| 2 | 2 | 8 |
+
+## 👨‍💻 Author
+
+**NTR1991** - Fullstack Development Student
+
+## 📅 Date
+
 June 2026
