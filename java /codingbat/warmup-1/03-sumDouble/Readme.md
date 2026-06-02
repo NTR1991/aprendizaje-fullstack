@@ -26,6 +26,8 @@ public class SumDouble {
         return a + b;
     }
 }
+````
+
 📊 Examples
 a	b	Result
 1	2	3
@@ -35,4 +37,4 @@ a	b	Result
 NTR1991 - Fullstack Development Student
 
 📅 Date
-May 2026
+June 2026
