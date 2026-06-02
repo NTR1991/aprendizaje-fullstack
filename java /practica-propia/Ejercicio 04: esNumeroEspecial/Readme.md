@@ -22,7 +22,7 @@ README.md
 
 ## 🧮 Code
 
-public class EsNumeroEspecial {
+````public class EsNumeroEspecial {
     public static boolean esNumeroEspecial(int numero) {
         if (numero == 7) {
             return false;
@@ -30,7 +30,7 @@ public class EsNumeroEspecial {
         return numero >= 5 && numero <= 10;
     }
 }
-
+````
 ---
 
 ## 📊 Examples
