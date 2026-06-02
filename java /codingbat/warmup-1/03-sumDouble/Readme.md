@@ -11,6 +11,7 @@ Return the sum of two integers. If they are the same, return double their sum.
 - Java
 
 ## 📁 Project Structure
+
 03-sumDouble/
 ├── SumDouble.java
 └── README.md
@@ -27,7 +28,6 @@ public class SumDouble {
     }
 }
 ````
-
 📊 Examples
 a	b	Result
 1	2	3
