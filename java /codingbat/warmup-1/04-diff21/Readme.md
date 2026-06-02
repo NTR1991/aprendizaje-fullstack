@@ -1,22 +1,27 @@
-# Diff21
+# Diff21 🎯
 
-## Description
+## 📋 Description
 
-Return the absolute difference between n and 21. If n is greater than 21, return double the absolute difference.
+Return the absolute difference between n and 21.  
+If n is greater than 21, return double the absolute difference.
 
 **Problem:** CodingBat - diff21
 
-## Technologies Used
+---
 
-- Java
+## 🛠️ Technologies Used
 
-## Project Structure
+- ☕ Java
+
+---
+
+## 📁 Project Structure
 
 04-diff21/
 ├── Diff21.java
 └── README.md
 
-## Code
+## 🧮 Code
 
 ```java
 public class Diff21 {
@@ -29,11 +34,14 @@ public class Diff21 {
 }
 ````
 
-📊 Examples
-n	Result
-19	2
-21	0
-25	8
+## 📊 Examples
+
+| n | Result |
+|---|---|
+| 19 | 2 |
+| 21 | 0 |
+| 25 | 8 |
+
 👨‍💻 Author
 NTR1991 - Fullstack Development Student
 
