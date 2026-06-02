@@ -22,12 +22,12 @@ README.md
 
 ## 🧮 Code
 
-public class TieneDescuento {
+````public class TieneDescuento {
     public static boolean tieneDescuento(int monto, boolean esEmpleado) {
         return monto > 100 || esEmpleado;
     }
 }
-
+````
 ---
 
 ## 📊 Examples
