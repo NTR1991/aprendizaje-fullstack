@@ -26,11 +26,15 @@ public class MonkeyTrouble {
 }
 ````
 
-📊 Examples
-aSmile	bSmile	Result
-true	true	true
-false	false	true
-true	false	false
+## 📊 Examples
+
+| aSmile | bSmile | Result |
+|--------|--------|--------|
+| true   | true   | true   |
+| false  | false  | true   |
+| true   | false  | false  |
+
+
 👨‍💻 Author
 NTR1991 - Fullstack Development Student
 
