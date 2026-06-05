@@ -92,9 +92,10 @@ Value of (10 > 5) && (3 < 1)? → false
 Logical operator for "OR"? → ||
 
 Value of !(10 === 10)? → false
+---
 
-👨‍💻 Author
+## 👨‍💻 Author
 NTRJ1991 – Full Stack Development (in training)
 
-📅 Date
+## 📅 Date
 June 2026
