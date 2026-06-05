@@ -24,7 +24,7 @@ Practice with let (reassign), const (reassign error), const with objects (modify
 ## 📊 Exercises & Results
 
 ```javascript
-**Exercise 1 (let and reassign):**
+# Exercise 1 (let and reassign):**
 
 let edad = 25;
 console.log(edad);
@@ -33,7 +33,7 @@ console.log(edad);
 
 Output: 25, 30
 
-**Exercise 2 (const error):**
+# Exercise 2 (const error):**
 
 const nacimiento = 1991;
 console.log(nacimiento);
