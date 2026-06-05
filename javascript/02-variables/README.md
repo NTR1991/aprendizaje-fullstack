@@ -9,7 +9,7 @@ Practice with let (reassign), const (reassign error), const with objects (modify
 ---
 
 ## 📁 Folder Structure
-
+````
 02-variables/
 ├── index.html
 ├── css/
@@ -17,6 +17,7 @@ Practice with let (reassign), const (reassign error), const with objects (modify
 ├── js/
 │   └── main.js
 └── README.md
+````
 
 ---
 
