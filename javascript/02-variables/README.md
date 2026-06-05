@@ -22,8 +22,9 @@ Practice with let (reassign), const (reassign error), const with objects (modify
 
 ## 📊 Exercises & Results
 
-**Exercise 1 (let and reassign):**
 ```javascript
+**Exercise 1 (let and reassign):**
+
 let edad = 25;
 console.log(edad);
 edad = 30;
