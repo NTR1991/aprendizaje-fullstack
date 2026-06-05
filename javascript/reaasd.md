@@ -1,22 +1,3 @@
-# Topic 2: Variables in JavaScript
-
----
-
-## 📋 Description
-
-Practice with let (reassign), const (reassign error), const with objects (modify properties), undefined, and naming rules.
-
----
-
-## 📁 Folder Structure
-
-02-variables/
-├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── main.js
-└── README.md
 
 ---
 
@@ -50,33 +31,4 @@ Output: Luis, Ana
 
 ---
 
-## 🧪 Key Learnings
-
-- let allows reassignment.
-- const does NOT allow reassignment.
-- const with objects allows modifying properties.
-- Variable without value is undefined.
-- Strings need quotes: "rojo".
-- Comments: // and /* */.
-
----
-
-## ✅ Test Answers
-
-1. let allows reassign; const does not.
-2. Error: Assignment to constant variable.
-3. let color = "rojo";
-4. Yes, because const protects the variable, not the object content.
-5. undefined
-
----
-
-## 👨‍💻 Author
-
-NTRJ1991 – Full Stack Development (in training)
-
----
-
-## 📅 Date
-
-June 2026
+J
