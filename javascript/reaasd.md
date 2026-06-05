@@ -4,7 +4,7 @@
 ## 📊 Exercises & Results
 
 **Exercise 1 (let and reassign):**
-
+```javascript
 let edad = 25;
 console.log(edad);
 edad = 30;
@@ -28,7 +28,7 @@ persona.nombre = "Ana";
 console.log(persona.nombre);
 
 Output: Luis, Ana
-
+```
 ---
 
 J
