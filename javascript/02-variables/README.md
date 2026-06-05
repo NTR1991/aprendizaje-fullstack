@@ -10,6 +10,8 @@
 ├── js/
 │   └── main.js
 └── README.md
+
+
 📊 Exercises & Results
 | Exercise | Code | Console Output / Effect |
 |----------|------|--------------------------|
