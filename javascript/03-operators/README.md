@@ -69,7 +69,7 @@ console.log(!falso);
 Output: true, false, true, false, false, true
 ````
 
-🧪 Key Learnings
+##🧪 Key Learnings
 % returns the remainder of a division.
 
 == compares only value (converts types).
@@ -82,10 +82,11 @@ Output: true, false, true, false, false, true
 
 ! inverts the value: !true → false, !false → true.
 
-✅ Test Answers
+##✅ Test Answers
 %
 
-== compares only value; === compares value and type.
+== compares only value;
+=== compares value and type.
 
 false
 
