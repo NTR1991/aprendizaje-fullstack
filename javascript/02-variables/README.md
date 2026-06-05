@@ -41,7 +41,7 @@ console.log(nacimiento);
 
 Output: 1991
 
-**Exercise 3 (const with object):**
+# Exercise 3 (const with object):**
 
 const persona = { nombre: "Luis" };
 console.log(persona.nombre);
