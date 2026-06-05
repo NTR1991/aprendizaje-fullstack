@@ -82,17 +82,16 @@ Output: true, false, true, false, false, true
 
 ! inverts the value: !true → false, !false → true.
 
-## ✅ Test Answers
-%
+## ✅ Self‑Assessment Test (Answers)
+What operator returns the remainder of a division? → %
 
-== compares only value;
-=== compares value and type.
+Difference between == and ===? → == compares only value; === compares value and type.
 
-false
+Value of (10 > 5) && (3 < 1)? → false
 
-||
+Logical operator for "OR"? → ||
 
-false
+Value of !(10 === 10)? → false
 
 👨‍💻 Author
 NTRJ1991 – Full Stack Development (in training)
