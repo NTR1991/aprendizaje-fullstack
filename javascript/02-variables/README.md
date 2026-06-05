@@ -1,5 +1,7 @@
 # Topic 2: Variables in JavaScript
 📋 Practice with let (reassign), const (error), const with objects (modify properties), undefined, and naming rules.
+
+
 📁 Folder Structure
 02-variables/
 ├── index.html
