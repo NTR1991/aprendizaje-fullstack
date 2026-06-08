@@ -39,10 +39,12 @@ Declare a function doble(numero) that returns the double of the number. Call it 
 
 
 Exercise 4 (function with two parameters and return):
-Declare a function multiplicar(a, b) that returns the product of a and b. Call it with (6, 7) and show the result.
+Declare a function multiplicar(a, b) that returns the product of a and b. 
+Call it with (6, 7) and show the result.
 
 Exercise 5 (function with conditional):
-Declare a function esMayor(edad) that returns "Mayor de edad" if edad >= 18, otherwise returns "Menor de edad". Call it with 20 and show the result.
+Declare a function esMayor(edad) that returns "Mayor de edad" if edad >= 18, otherwise returns "Menor de edad". 
+Call it with 20 and show the result.
 
 
 Exercise 6 (function with multiple conditionals):
@@ -63,7 +65,8 @@ Declare a function esPar(numero) that returns true if the number is even, false 
 
 
 Exercise 8 (function with logical conditions):
-Declare a function puedeConducir(edad, tieneCarnet) that returns "Puede conducir" if edad >= 18 and tieneCarnet === true, otherwise returns "No puede conducir". Call it with (20, true) and show the result.
+Declare a function puedeConducir(edad, tieneCarnet) that returns "Puede conducir" if edad >= 18 and tieneCarnet === true, 
+otherwise returns "No puede conducir". Call it with (20, true) and show the result.
 
 
 Exercise 9 (function with multiple operations):
