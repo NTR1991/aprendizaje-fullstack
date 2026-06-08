@@ -85,7 +85,8 @@ Call it with ("multiplicacion", 5, 3) and show the result.
 
 
 Exercise 10 (function with string transformation):
-Declare a function formatearNombre(nombre, apellido) that returns the full name with the first letter uppercase and the rest lowercase. Example: formatearNombre("jUAn", "pERez") → "Juan Perez". Call it with ("ElvIRA", "REyES") and show the result.
+Declare a function formatearNombre(nombre, apellido) that returns the full name with the first letter uppercase and the rest lowercase. 
+Example: formatearNombre("jUAn", "pERez") → "Juan Perez". Call it with ("ElvIRA", "REyES") and show the result.
 
 
 
