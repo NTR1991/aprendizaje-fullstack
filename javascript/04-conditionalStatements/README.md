@@ -444,5 +444,40 @@ Output: "Cine"
 
 ````
 
+🧪 Key Learnings
+if ejecuta código si la condición es true.
+
+else ejecuta código si la condición anterior fue false.
+
+else if permite probar múltiples condiciones en orden.
+
+switch es más limpio para comparar una variable con muchos valores fijos.
+
+Usa break en switch para evitar que siga ejecutando los siguientes case.
+
+Los if anidados son condicionales dentro de otros condicionales.
+
+Usa && (AND) y || (OR) para combinar condiciones.
+
+ ## ✅ Test Answers
+else if prueba otra condición si la anterior fue false. else se ejecuta si todas fueron false (no lleva condición).
+
+El código sigue ejecutando los siguientes case (efecto "caída").
+
+if (numero > 10 && numero < 20) { }
+
+Cuando comparas una misma variable con muchos valores fijos.
+
+if anidado (condicionales anidadas).
 
 
+---
+
+## 👨‍💻 Author
+NTRJ1991 – Full Stack Development (in training)
+
+---
+
+## 📅 Date
+June 2026
+---
