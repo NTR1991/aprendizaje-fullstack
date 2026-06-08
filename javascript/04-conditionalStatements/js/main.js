@@ -408,23 +408,55 @@ if(puntajex > 100){
 let codigo = 403;
 
 switch(codigo){
-    case (200):
+    case 200:
         console.log("OK");
         break;
 
-    case (201):
+    case 201:
         console.log("Creado");
         break;
 
-    case (400):
+    case 400:
         console.log("Solicitud incorrecta");
         break;
 
-    case (201):
-        console.log("Creado");
+    case 401:
+        console.log("No autorizado");
         break;
 
 
+    case 403:
+        console.log("Prohibido");
+        break;
+
+   case 404:
+        console.log("No encontrado");
+        break;    
+
+   case 500:
+        console.log("Errpr interno del servidor");
+        break;  
+
+   default :
+        console.log("Codigo desconocido");
 }
 
+
+
+//Ejercicio 10 (if con múltiples condiciones lógicas)
+let temp = 28;
+let lloviendo = true;
+let diaFestivo = false;
+
+if(temp > 25 && lloviendo === false){
+    console.log("Piscina");
+} else if(temp > 25 && lloviendo === true){
+    console.log("Cine");
+} else if(temp <= 25 && lloviendo === false && diaFestivo === true){
+    console.log("Parque");
+} else if(temp <= 25 && !lloviendo && diaFestivo === false){
+    console.log("Trabajo/estudio");
+} else if(temp <= 25 && lloviendo === true){
+    console.log("Casa")
+}
 
