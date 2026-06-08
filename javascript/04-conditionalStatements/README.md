@@ -124,7 +124,7 @@ if (temp > 20) {
 Output: "Hace frio o templado"
 
 
----
+
 
 
 Ejercicios else if (5 ejercicios)
@@ -206,7 +206,7 @@ if (num < 0) {
 }
 Output: "Cero"
 
----
+
 
 Ejercicios switch (5 ejercicios)
 
@@ -337,7 +337,7 @@ switch (operacion) {
 Output: 15
 
 
----
+
 Ejercicios adicionales (5 ejercicios)
 
 Ejercicio 6 (if + operadores lógicos): conducir según edad y carnet
@@ -441,6 +441,8 @@ if (temp > 25 && lloviendo === false) {
     console.log("Casa");
 }
 Output: "Cine"
+
+````
 
 
 
