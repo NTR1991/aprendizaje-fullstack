@@ -33,7 +33,6 @@ Output: "Hace calor"
 
 Ejercicio 2: Si totalCompra >= 100, muestra "Tienes descuento"
 
-javascript
 let totalCompra = 120;
 if (totalCompra >= 100) {
     console.log("Tienes descuento");
@@ -42,16 +41,15 @@ Output: "Tienes descuento"
 
 Ejercicio 3: Si número es par (módulo 2 === 0), muestra "Es par"
 
-javascript
 let numero = 8;
 if (numero % 2 === 0) {
     console.log("Es par");
 }
 Output: "Es par"
 
+
 Ejercicio 4: Si usuario está logueado, muestra "Bienvenido"
 
-javascript
 let logueado = true;
 if (logueado === true) {
     console.log("Bienvenido");
@@ -60,18 +58,19 @@ Output: "Bienvenido"
 
 Ejercicio 5: Si stock es 0, muestra "Producto agotado"
 
-javascript
 let stock = 0;
 if (stock === 0) {
     console.log("Producto agotado");
 }
 Output: "Producto agotado"
 
+---
+
 Ejercicios if/else (5 ejercicios)
 
 Ejercicio 1: Si edad >= 18 → "Eres mayor de edad", sino → "Eres menor de edad"
 
-javascript
+
 let edad = 16;
 if (edad >= 18) {
     console.log("Eres mayor de edad");
@@ -82,7 +81,7 @@ Output: "Eres menor de edad"
 
 Ejercicio 2: Si nota >= 60 → "Aprobado", sino → "Suspenso"
 
-javascript
+
 let nota = 65;
 if (nota >= 60) {
     console.log("Aprobado");
@@ -93,7 +92,7 @@ Output: "Aprobado"
 
 Ejercicio 3: Si número >= 0 → "Positivo a cero", sino → "Negativo"
 
-javascript
+
 let numerox = -5;
 if (numerox >= 0) {
     console.log("Positivo a cero");
@@ -104,7 +103,7 @@ Output: "Negativo"
 
 Ejercicio 4: Si dinero >= 12 → "Puedes entrar al cine", sino → "No tienes suficiente dinero"
 
-javascript
+
 let dinero = 15;
 if (dinero >= 12) {
     console.log("Puedes entrar al cine");
@@ -115,7 +114,7 @@ Output: "Puedes entrar al cine"
 
 Ejercicio 5: Si temp > 20 → "Hace calor", sino → "Hace frío o templado"
 
-javascript
+
 let temp = 15;
 if (temp > 20) {
     console.log("Hace calor");
@@ -124,11 +123,15 @@ if (temp > 20) {
 }
 Output: "Hace frio o templado"
 
+
+---
+
+
 Ejercicios else if (5 ejercicios)
 
 Ejercicio 1 (Rango de edad): edad < 13 → "Niño", < 20 → "Adolescente", < 65 → "Adulto", sino → "Adulto mayor"
 
-javascript
+
 let edad = 25;
 if (edad < 13) {
     console.log("Niño");
@@ -143,7 +146,7 @@ Output: "Adulto"
 
 Ejercicio 2 (Calificación con letras): puntaje >= 90 → "A", >= 80 → "B", >= 70 → "C", >= 60 → "D", sino → "F"
 
-javascript
+
 let puntaje = 85;
 if (puntaje >= 90) {
     console.log("A");
@@ -160,7 +163,7 @@ Output: "B"
 
 Ejercicio 3 (IMC): imc < 18.5 → "Bajo peso", < 25 → "Normal", < 30 → "Sobrepeso", sino → "Obesidad"
 
-javascript
+
 let imc = 26;
 if (imc < 18.5) {
     console.log("Bajo peso");
@@ -175,7 +178,7 @@ Output: "Sobrepeso"
 
 Ejercicio 4 (Rango de precio): precio < 50 → "Económico", < 100 → "Normal", < 200 → "Caro", sino → "Muy caro"
 
-javascript
+
 let precio = 75;
 if (precio < 50) {
     console.log("Economico");
@@ -190,7 +193,7 @@ Output: "Normal"
 
 Ejercicio 5 (Número negativo, cero o positivo): num < 0 → "Negativo", === 0 → "Cero", > 0 → "Positivo"
 
-javascript
+
 let num = 0;
 if (num < 0) {
     console.log("Negativo");
@@ -202,6 +205,8 @@ if (num < 0) {
     console.log("Error");
 }
 Output: "Cero"
+
+---
 
 Ejercicios switch (5 ejercicios)
 
@@ -229,9 +234,11 @@ switch (dia) {
 }
 Output: "Mitad de semana"
 
+
+
 Ejercicio 2 (Meses del año): trimestres según el mes
 
-javascript
+
 let mes = "abril";
 switch (mes) {
     case "enero":
@@ -259,9 +266,11 @@ switch (mes) {
 }
 Output: "Trimestre 2"
 
+
+
 Ejercicio 3 (Nivel de acceso): admin → "Acceso total", editor → "Puede editar", visitante → "Solo lectura"
 
-javascript
+
 let rol = "admin";
 switch (rol) {
     case "admin":
@@ -280,7 +289,7 @@ Output: "Acceso total"
 
 Ejercicio 4 (Talla de camisa): XS → "Extra pequeño", S → "Pequeño", M → "Mediano", L → "Grande", XL → "Extra grande"
 
-javascript
+
 let talla = "M";
 switch (talla) {
     case "XS":
@@ -305,7 +314,7 @@ Output: "Mediano"
 
 Ejercicio 5 (Calculadora básica): suma, resta, multiplicación, división
 
-javascript
+
 let operacion = "suma";
 let a = 10;
 let b = 5;
@@ -327,11 +336,13 @@ switch (operacion) {
 }
 Output: 15
 
+
+---
 Ejercicios adicionales (5 ejercicios)
 
 Ejercicio 6 (if + operadores lógicos): conducir según edad y carnet
 
-javascript
+
 let edadn = 25;
 let tieneCarnet = true;
 if (edadn >= 18 && tieneCarnet === true) {
@@ -345,7 +356,7 @@ Output: "Puede conducir"
 
 Ejercicio 7 (if anidado): acceso según registro, email y pago
 
-javascript
+
 let usuarioRegistrado = true;
 let emailVerificado = false;
 let tienePago = true;
