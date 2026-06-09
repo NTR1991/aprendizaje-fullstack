@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #894afc;
+    color: #0f172a;
+    line-height: 1.5;
+    padding: 2rem;
+}
+
+main.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    max-width: 1000px;
+    margin: 0 auto 2rem auto;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #e2e8f0;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+}
+
+header p {
+    color: #363636;
+}
+
+section.exercises-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+section.exercises-card h2 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: #1e293b;
+}
+
+section.exercises-card ul {
+    list-style: none;
+}
+
+section.exercises-card li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #f1f5f9;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+section.exercises-card li:last-child {
+    border-bottom: none;
+}
+
+section.exercises-card li::before {
+    content: "✓";
+    color: #10b981;
+    font-weight: bold;
+}
+
+footer {
+    max-width: 1000px;
+    margin: 3rem auto 0 auto;
+    padding-top: 1.5rem;
+    text-align: center;
+    border-top: 1px solid #e2e8f0;
+    color: #363636;
+    font-size: 0.85rem;
+}
+
+footer p:first-child {
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+footer p:last-child {
+    font-size: 0.75rem;
+}
