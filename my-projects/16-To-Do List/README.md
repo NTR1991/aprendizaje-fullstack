@@ -1,4 +1,4 @@
-# To-Do List en Consola
+# Terminal To-Do App
 
 ---
 
