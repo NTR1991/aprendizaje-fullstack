@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background: linear-gradient(200deg, #1a42f3 0%, #360b61 100%);
+    min-height: 100vh;
+    padding: 2rem;
+    color: #0f172a;
+}
+
+header {
+    max-width: 800px;
+    margin: 0 auto 2rem auto;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    color: rgba(255,255,255,0.9);
+    font-size: 1.1rem;
+}
+
+main.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section.info-card {
+    background: white;
+    border-radius: 16px;
+    padding: 1.5rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+section.info-card h2 {
+    color: #667eea;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+section.info-card ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+section.info-card li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #e2e8f0;
+    color: #334155;
+}
+
+section.info-card li:last-child {
+    border-bottom: none;
+}
+
+section.info-card li::before {
+    content: "📌 ";
+    color: #764ba2;
+    font-weight: bold;
+}
+
+footer {
+    max-width: 800px;
+    margin: 3rem auto 0 auto;
+    padding-top: 1.5rem;
+    text-align: center;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    color: rgba(255,255,255,0.8);
+    font-size: 0.85rem;
+}
+
+footer p:first-child {
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
