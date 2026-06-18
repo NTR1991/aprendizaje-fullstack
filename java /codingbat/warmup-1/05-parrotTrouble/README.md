@@ -54,7 +54,6 @@ public static boolean parrotTrouble(boolean talking, int hour) {
 | `false` | `6` | `false` | ❌ `false` |
 | `false` | `21` | `false` | ❌ `false` |
 
-````
 
 ## 🎯 Learning Objectives
 
