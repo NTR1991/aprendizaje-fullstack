@@ -44,7 +44,7 @@ public static boolean parrotTrouble(boolean talking, int hour) {
 
 ## 📊 Examples
 
-| talking | hour | talking && (hour < 7 || hour > 20) | In trouble? |
+| talking | hour | `talking && (hour < 7 || hour > 20)` | In trouble? |
 | :--- | :--- | :--- | :--- |
 | `true` | `6` | `true` | ✅ `true` |
 | `true` | `7` | `false` | ❌ `false` |
