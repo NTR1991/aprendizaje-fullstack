@@ -44,14 +44,14 @@ public static boolean posNeg(int a, int b, boolean negative) {
 
 ## 📊 Examples
 
-| a | b | negative | `negative ? (a < 0 && b < 0) : ((a < 0 && b > 0) || (a > 0 && b < 0))` | Result |
-| :--- | :--- | :--- | :--- | :--- |
-| `1` | `-1` | `false` | `true` | ✅ `true` |
-| `-1` | `1` | `false` | `true` | ✅ `true` |
-| `-4` | `-5` | `true` | `true` | ✅ `true` |
-| `-4` | `5` | `true` | `false` | ❌ `false` |
-| `1` | `2` | `false` | `false` | ❌ `false` |
-| `-1` | `-2` | `false` | `false` | ❌ `false` |
+| a | b | One Negative? | Result |
+| :--- | :--- | :--- | :--- |
+| `1` | `-1` | `true` | ✅ `true` |
+| `-4` | `-5` | `false` | ❌ `false` |
+| `1` | `2` | `false` | ❌ `false` |
+| `-1` | `1` | `true` | ✅ `true` |
+| `-4` | `5` | `true` | ✅ `true` |
+| `1` | `-2` | `true` | ✅ `true` |
 
 ---
 
