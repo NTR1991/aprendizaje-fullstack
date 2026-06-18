@@ -41,16 +41,15 @@ public static boolean rangoEspecial(int n) {
 
 ## 📊 Examples
 
-| n | `n >= 0 && n <= 10` | `n == 20` | `(n >= 0 && n <= 10) || n == 20` | Result |
-| :--- | :--- | :--- | :--- | :--- |
-| `0` | `true` | `false` | `true` | ✅ `true` |
-| `5` | `true` | `false` | `true` | ✅ `true` |
-| `10` | `true` | `false` | `true` | ✅ `true` |
-| `20` | `false` | `true` | `true` | ✅ `true` |
-| `11` | `false` | `false` | `false` | ❌ `false` |
-| `21` | `false` | `false` | `false` | ❌ `false` |
-| `-1` | `false` | `false` | `false` | ❌ `false` |
-
+| n  | n >= 0 && n <= 10 | n == 20 | (n >= 0 && n <= 10) \|\| n == 20 | Result |
+|:--|:--|:--|:--|:--|
+| 0  | true  | false | true  | ✅ true |
+| 5  | true  | false | true  | ✅ true |
+| 10 | true  | false | true  | ✅ true |
+| 20 | false | true  | true  | ✅ true |
+| 11 | false | false | false | ❌ false |
+| 21 | false | false | false | ❌ false |
+| -1 | false | false | false | ❌ false |
 ---
 
 ## 🎯 Learning Objectives
