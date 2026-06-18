@@ -41,13 +41,13 @@ public static boolean fueraDeRango5a15(int n) {
 
 ## 📊 Examples
 
-| n | `n < 5` | `n > 15` | `n < 5 || n > 15` | Result |
-| :--- | :--- | :--- | :--- | :--- |
-| `4` | `true` | `false` | `true` | ✅ `true` |
-| `5` | `false` | `false` | `false` | ❌ `false` |
-| `10` | `false` | `false` | `false` | ❌ `false` |
-| `15` | `false` | `false` | `false` | ❌ `false` |
-| `16` | `false` | `true` | `true` | ✅ `true` |
+| n  | n < 5 | n > 15 | n < 5 \|\| n > 15 | Result |
+|:--|:--|:--|:--|:--|
+| 4  | true  | false | true  | ✅ true |
+| 5  | false | false | false | ❌ false |
+| 10 | false | false | false | ❌ false |
+| 15 | false | false | false | ❌ false |
+| 16 | false | true  | true  | ✅ true |
 
 ---
 
