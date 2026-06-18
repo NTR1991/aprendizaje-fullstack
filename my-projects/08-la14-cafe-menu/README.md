@@ -1,32 +1,41 @@
-# LA 14 CAFE - Menu
+# ☕ LA 14 CAFE - Menu
 
-## 📋 Descripción
+## 📋 Description
 
-Menú digital de la cafetería "LA 14 CAFE" que muestra los productos disponibles (cafés y postres) con sus respectivos precios. Diseño tipo tarjeta con temática acogedora.
+Digital menu for "LA 14 CAFE" displaying available products (coffees and desserts) with their respective prices. Card-style design with a cozy theme.
 
-## 🛠️ Tecnologías utilizadas
+---
 
-- **HTML5 semántico** (estructura clara y accesible)
-- **CSS3** (Flexbox, diseño responsivo, fondos con imagen)
-- **Diseño centrado** con sombras y bordes redondeados
+## 🎯 Project Objective
 
-## 📁 Estructura del proyecto
+Create a visually appealing digital menu using semantic HTML and modern CSS styling with a warm, coffee-themed design.
 
-08-la14-cafe-menu/
-├── index.html
-├── css/
-│ └── styles.css
-├── images/
-│ ├── cafe.webp
-│ ├── taza-de-cafe.png
-│ └── pastel.png
-└── README.md
+---
 
-## ☕ Productos incluidos
+## 📝 Project Content
+
+### HTML Structure
+- **Header**: Café name and title
+- **Menu sections**: Coffee and Desserts
+- **Card layout**: Each product displayed with icon, name, and price
+- **Footer**: Contact information
+
+### CSS Styles (styles.css)
+- **Background**: Coffee-themed image (`background-image`, `cover`, `no-repeat`)
+- **Card**: Semi-transparent background (`rgba()`), rounded borders
+- **Icons**: Small (50px), centered
+- **Prices**: Right-aligned
+- **Products**: Left-aligned
+- **Links**: Hover with color change
+
+---
+
+## ☕ Products Included
 
 ### Coffee
-| Producto | Precio |
-|----------|--------|
+
+| Product | Price |
+| :--- | :--- |
 | French Vanilla | 3.00€ |
 | Caramel Macchiato | 3.75€ |
 | Pumpkin Spice | 3.50€ |
@@ -34,42 +43,63 @@ Menú digital de la cafetería "LA 14 CAFE" que muestra los productos disponible
 | Mocha | 4.50€ |
 
 ### Desserts
-| Producto | Precio |
-|----------|--------|
+
+| Product | Price |
+| :--- | :--- |
 | Donut | 1.50€ |
 | Cherry Pie | 2.75€ |
 | Cheesecake | 3.00€ |
 | Cinnamon Roll | 2.50€ |
 
-## 🎨 Estilos implementados
+---
 
-| Elemento | Estilo |
-|----------|--------|
-| Fondo | Imagen tipo café (cover) |
-| Tarjeta | Fondo semi-transparente, bordes redondeados |
-| Iconos | Pequeños (50px), centrados |
-| Precios | Alineados a la derecha |
-| Productos | Alineados a la izquierda |
-| Enlaces | Hover con cambio de color |
+## 🛠️ Technologies Used
 
-## 📱 Responsive
+- **HTML5** – Semantic structure, accessible
+- **CSS3** – Flexbox, responsive design, background images
 
-- El menú se adapta automáticamente con `width: 80%` y `max-width: 500px`
-- Se ve correctamente en móviles, tablets y escritorio
+---
 
-## 📚 Aprendizajes aplicados
+## 📂 Folder Structure
 
-- ✅ Fondo con imagen (`background-image`, `cover`, `no-repeat`)
-- ✅ Transparencias con `rgba()`
-- ✅ `display: inline-block` para alinear productos y precios
-- ✅ `box-shadow` para efecto de elevación
-- ✅ Pseudo-clases para enlaces (`hover`, `visited`, `active`)
-- ✅ Uso de `<address>` para información de contacto
+```
+08-la14-cafe-menu/
+├── index.html
+├── css/
+│   └── styles.css
+├── images/
+│   ├── cafe.webp
+│   ├── taza-de-cafe.png
+│   └── pastel.png
+└── README.md
+```
 
-## 👨‍💻 Autor
+---
 
-**NTR1991** - Estudiante de Desarrollo Fullstack
+## 🎨 Key Features
 
-## 📅 Fecha
+| Feature | Description |
+| :--- | :--- |
+| **Background image** | Coffee-themed background with `cover` positioning |
+| **Semi-transparent card** | `rgba()` for readability over background |
+| **Inline-block layout** | Products and prices aligned with `display: inline-block` |
+| **Elevation effect** | `box-shadow` for card depth |
+| **Link pseudo-classes** | `hover`, `visited`, `active` for interactivity |
+| **Contact info** | `<address>` for professional contact display |
 
-Mayo 2026
+---
+
+## 📱 Responsive Design
+
+- Menu adapts automatically with `width: 80%` and `max-width: 500px`
+- Displays correctly on mobile, tablet, and desktop
+
+---
+
+## 👤 Author
+
+*NTR1991 – Full Stack in training | FP DAW Student*
+
+## 📅 Date
+
+May 2026
