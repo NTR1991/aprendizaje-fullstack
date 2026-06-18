@@ -19,10 +19,31 @@ javascript/
 
 ---
 
-# 🟨 JavaScript Practice
+---
 
-Fundamentals of JavaScript practiced step by step, from introduction to arrays and functions. This folder contains the core exercises that build the foundation for my web development projects.
+## 🧠 Topics Covered
+
+| Folder | Content |
+| :--- | :--- |
+| `01-introduction` | `console.log`, `alert`, `document.write`, comments |
+| `02-variables` | `let`, `const`, data types, best practices |
+| `03-operators` | Arithmetic, comparison (`==`, `===`), logical (`&&`, `||`, `!`) |
+| `04-conditionalStatements` | `if/else`, `else if`, `switch`, ternary operator |
+| `05-functions` | Declaration, parameters, `return`, arrow functions |
+| `06-arrays` | `push`, `pop`, `map`, `filter`, `reduce`, `splice`, `slice`, etc. |
 
 ---
 
-## 📂 Folder Structure
+## 🚀 Usage
+
+Each subfolder contains its own `README.md` with specific exercises. This folder is the foundation for my practical projects.
+
+---
+
+## 👤 Author
+
+**NTR1991** – Full Stack in training
+
+## 📅 Date
+
+June 2026
