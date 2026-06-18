@@ -1,35 +1,45 @@
-# 👻 Aparecer / Desaparecer con JavaScript
+# 👻 Appear / Disappear with JavaScript
 
-Ejercicio simple para practicar **JavaScript básico** manipulando el DOM.
+Simple exercise to practice **basic JavaScript** DOM manipulation.
 
-## 🎯 Objetivo
+---
 
-Demostrar cómo se puede ocultar y mostrar un elemento HTML usando JavaScript puro.
+## 🎯 Objective
 
-## 🛠️ Tecnologías utilizadas
+Demonstrate how to hide and show an HTML element using pure JavaScript.
+
+---
+
+## 🛠️ Technologies Used
 
 - HTML5
-- JavaScript (DOM manipulation, eventos `onclick`)
+- JavaScript (DOM manipulation, `onclick` events)
 
-## 📚 Conceptos aplicados
+---
 
-| Concepto | Uso |
-| --- | --- |
-| `getElementById()` | Selecciona un elemento por su `id` |
-| `.style.display` | Cambia la visibilidad del elemento |
-| `display='none'` | Oculta el elemento |
-| `display='block'` | Muestra el elemento como bloque |
-| `onclick` | Evento que se ejecuta al hacer clic |
+## 📚 Concepts Applied
 
-## 🎮 Cómo funciona
+| Concept | Usage |
+| :--- | :--- |
+| `getElementById()` | Selects an element by its `id` |
+| `.style.display` | Changes the element's visibility |
+| `display='none'` | Hides the element |
+| `display='block'` | Shows the element as a block |
+| `onclick` | Event triggered on click |
 
-1. Al hacer clic en **"Desaparecer!"** → el párrafo se oculta
-2. Al hacer clic en **"Aparecer!"** → el párrafo vuelve a aparecer
+---
 
-## 👤 Autor
+## 🎮 How It Works
 
-**NTR1991** - Estudiante de FP DAW
+1. Click on **"Desaparecer!" (Disappear!)** → the paragraph hides
+2. Click on **"Aparecer!" (Appear!)** → the paragraph appears again
 
-## 📅 Fecha
+---
 
-Mayo 2026
+## 👤 Author
+
+*NTR1991 – Full Stack in training | FP DAW Student*
+
+## 📅 Date
+
+May 2026
