@@ -42,6 +42,7 @@ public static boolean parrotTrouble(boolean talking, int hour) {
 ---
 
 ## 📊 Examples
+````
 | talking | hour | `talking && (hour < 7 || hour > 20)` | In trouble? |
 | :--- | :--- | :--- | :--- |
 | `true` | `6` | `true` | ✅ `true` |
@@ -49,6 +50,48 @@ public static boolean parrotTrouble(boolean talking, int hour) {
 | `true` | `21` | `true` | ✅ `true` |
 | `false` | `6` | `false` | ❌ `false` |
 | `false` | `21` | `false` | ❌ `false` |
+````
 
 ---
+
+## 🎯 Learning Objectives
+
+- Working with logical operators (`&&`, `||`)
+- Combining multiple conditions in an `if` statement
+- Returning boolean values directly (without `if` when not needed)
+- Understanding operator precedence (`&&` before `||`)
+
+---
+
+## ⚠️ Common Mistakes
+
+- Using `||` instead of `&&` (the parrot must be talking AND it must be outside the allowed hours)
+- Forgetting the parentheses: `(hour < 7 || hour > 20)` is mandatory for correct evaluation
+- Returning `true` only for `hour < 7` or only for `hour > 20` instead of both
+
+---
+
+## 🛠️ Technologies Used
+
+- **Java** – Boolean logic, conditionals, return statements, operator precedence
+
+---
+
+## 📂 Folder Structure
+````
+05-parrotTrouble/
+├── ParrotTrouble.java
+└── README.md
+````
+
+---
+
+
+## 👤 Author
+
+*NTR1991 – Full Stack in training | FP DAW Student*
+
+## 📅 Date
+
+June 2026
 
