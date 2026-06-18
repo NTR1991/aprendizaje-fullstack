@@ -44,13 +44,13 @@ public static boolean parrotTrouble(boolean talking, int hour) {
 
 ## 📊 Examples
 
-| n | `Math.abs(n - 21)` | `n > 21` | Result |
+| talking | hour | `talking && (hour < 7 || hour > 20)` | In trouble? |
 | :--- | :--- | :--- | :--- |
-| `19` | `2` | `false` | `2` |
-| `21` | `0` | `false` | `0` |
-| `22` | `1` | `true` | `2` |
-| `25` | `4` | `true` | `8` |
-| `0` | `21` | `false` | `21` |
+| `true` | `6` | `true` | ✅ `true` |
+| `true` | `7` | `false` | ❌ `false` |
+| `true` | `21` | `true` | ✅ `true` |
+| `false` | `6` | `false` | ❌ `false` |
+| `false` | `21` | `false` | ❌ `false` |
 
 
 ---
