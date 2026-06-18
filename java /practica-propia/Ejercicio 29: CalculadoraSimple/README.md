@@ -1,8 +1,8 @@
-# CalculadoraSimple 🧮
+# 2️⃣9️⃣ CalculadoraSimple
 
 ## 📋 Description
 
-Crea una calculadora que pida dos números y una operación (+, -, *, /). Usa `switch` para realizar la operación y mostrar el resultado. Controla la división entre cero.
+Creates a simple calculator that takes two numbers and an operation (+, -, *, /). Uses `switch` to perform the calculation and display the result. Handles division by zero.
 
 **Example input:**
 ```
@@ -15,22 +15,28 @@ Segundo número: 5
 
 ---
 
-## 🛠️ Technologies Used
+## 🧠 Logic Breakdown
 
-- ☕ Java
-- `java.util.Scanner`
+The problem asks us to:
+1. Import `Scanner` for user input.
+2. Prompt the user for two numbers and an operation.
+3. Use a `switch` statement to perform the selected operation.
+4. Handle division by zero.
+5. Display the result.
+
+**Translation to Java:**
+1. `import java.util.Scanner;`
+2. `Scanner sc = new Scanner(System.in);`
+3. `double a = sc.nextDouble();`
+4. `char op = sc.next().charAt(0);`
+5. `double b = sc.nextDouble();`
+6. `switch (op) { case '+': resultado = a + b; break; ... }`
+7. `System.out.println(a + " " + op + " " + b + " = " + resultado);`
+8. `sc.close();`
 
 ---
 
-## 📁 Project Structure
-
-29-calculadoraSimple/  
-CalculadoraSimple.java  
-README.md
-
----
-
-## 🧮 Code
+## 📝 Code
 
 ```java
 import java.util.Scanner;
@@ -75,15 +81,60 @@ public class CalculadoraSimple {
 }
 ```
 
-## 📊 Example Output
+---
+
+## 📊 Examples
 
 | Input | Output |
-|-------|--------|
-| 10, *, 5 | 10.0 * 5.0 = 50.0 |
+| :--- | :--- |
+| `10, *, 5` | `10.0 * 5.0 = 50.0` |
+| `20, /, 4` | `20.0 / 4.0 = 5.0` |
+| `7, +, 3` | `7.0 + 3.0 = 10.0` |
+| `15, -, 8` | `15.0 - 8.0 = 7.0` |
+| `10, /, 0` | `Error: División entre cero` |
+| `5, %, 2` | `Operación no válida` |
 
-## 👨‍💻 Author
+---
 
-NTR1991 - Fullstack Development Student
+## 🎯 Learning Objectives
+
+- Using `Scanner` for user input
+- Using `switch` for control flow
+- Handling division by zero
+- Working with `char` for operation selection
+- Using `double` for decimal numbers
+- Closing `Scanner` resources
+- Using `return` to exit the program
+
+---
+
+## ⚠️ Common Mistakes
+
+- Not handling division by zero – The program would throw an `ArithmeticException`.
+- Not closing the `Scanner` – Could cause resource leaks.
+- Using `int` instead of `double` – Would truncate decimal results.
+- Forgetting the `break` statement in `switch` – Would cause fall-through.
+- Using `String` instead of `char` for the operation – Would require different handling.
+
+---
+
+## 🛠️ Technologies Used
+
+- **Java** – `Scanner`, `switch`, `double` arithmetic, error handling, `main` method
+
+---
+
+## 📂 Folder Structure
+
+```
+29-CalculadoraSimple/
+├── CalculadoraSimple.java
+└── README.md
+```
+
+## 👤 Author
+
+*NTR1991 – Full Stack in training | FP DAW Student*
 
 ## 📅 Date
 
