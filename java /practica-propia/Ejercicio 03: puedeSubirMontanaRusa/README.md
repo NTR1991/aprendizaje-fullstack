@@ -43,7 +43,7 @@ public static boolean puedeSubirMontanaRusa(int altura, boolean tieneAcompanante
 
 ## 📊 Examples
 
-| altura | tieneAcompanante | `altura >= 120` | `tieneAcompanante || altura >= 140` | `altura >= 120 && (tieneAcompanante || altura >= 140)` | Result |
+| Height | Companion | Height ≥ 120 | Companion OR Height ≥ 140 | Final Condition | Result |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | `150` | `false` | `true` | `true` | `true` | ✅ `true` |
 | `130` | `true` | `true` | `true` | `true` | ✅ `true` |
