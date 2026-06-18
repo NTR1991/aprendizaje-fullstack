@@ -1,10 +1,10 @@
 # ☕ Java Practice
 
-Ejercicios y prácticas de Java realizados durante mi formación en el **FP DAW** y en plataformas de práctica como **CodingBat**.
+Java exercises and practice problems completed during my **FP DAW** training and on platforms like **CodingBat**.
 
 ---
 
-## 📂 Estructura de carpetas
+## 📂 Folder Structure
 ````
 java/
 ├── codingbat/
@@ -43,36 +43,38 @@ java/
 
 ---
 
-## 🧠 Temas cubiertos
+---
 
-| Área | Ejercicios |
+## 🧠 Topics Covered
+
+| Area | Exercises |
 | :--- | :--- |
-| **Condicionales y lógica** | 01 a 14 (puedeVotar, tieneDescuento, maxTres, medioTres, etc.) |
-| **Arrays** | 15 a 21 (crearArray, sumarArray, maximoArray, contarPares, etc.) |
-| **ArrayList** | 22 y 23 (ArrayListBasico, ArrayListConEnteros) |
-| **Programación Orientada a Objetos (POO)** | 24 y 25 (ClasePerro, ClaseGato) |
-| **Bucles y estructuras de control** | 27 (BucleDoWhile), 28 (SwitchDias) |
-| **Proyecto integrador** | 29 (CalculadoraSimple) |
+| **Conditionals & Logic** | 01 to 14 (puedeVotar, tieneDescuento, maxTres, medioTres, etc.) |
+| **Arrays** | 15 to 21 (crearArray, sumarArray, maximoArray, contarPares, etc.) |
+| **ArrayList** | 22 and 23 (ArrayListBasico, ArrayListConEnteros) |
+| **OOP** | 24 and 25 (ClasePerro, ClaseGato) |
+| **Loops & Control Structures** | 27 (BucleDoWhile), 28 (SwitchDias) |
+| **Integrated Project** | 29 (CalculadoraSimple) |
 
 ---
 
-## 📚 Prácticas adicionales
+## 📚 Additional Practice
 
-- **CodingBat Warmup-1:** 8 ejercicios iniciales para afianzar sintaxis y lógica básica.
-
----
-
-## 🚀 Uso
-
-Cada ejercicio está en su propia carpeta con su código fuente y un `README.md` específico que describe su enunciado y solución.
+- **CodingBat Warmup-1:** 8 introductory exercises to solidify syntax and basic logic.
 
 ---
 
-## 👤 Autor
+## 🚀 Usage
 
-**NTR1991** – Full Stack en formación
+Each exercise is in its own folder with source code and a specific `README.md` describing the problem and solution.
 
-## 📅 Fecha
+---
 
-Junio 2026
+## 👤 Author
+
+**NTR1991** – Full Stack in training
+
+## 📅 Date
+
+June 2026
 
