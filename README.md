@@ -8,13 +8,15 @@
 
 Este espacio contiene **todos mis ejercicios, prácticas y proyectos personales** mientras aprendo desarrollo web y programación. Cada carpeta representa un paso más en mi formación como **Desarrollador Full Stack**.
 
+<div align="center">
+
 | 📌 Lo encontrarás aquí |
 |-----------------------|
 | ✅ Ejercicios de **freeCodeCamp** (Responsive Web Design) |
 | ✅ Proyectos **personales** (blog de Mr. Miau, recetas, películas) |
 | ✅ Prácticas de **Java** (FP DAW) |
 | ✅ Código **limpio, ordenado y documentado** |
-
+</div>
 ---
 
 ## 🛠️ Tecnologías que estoy utilizando
