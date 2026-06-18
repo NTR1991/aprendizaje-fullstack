@@ -117,14 +117,15 @@ Este repositorio es de uso educativo. Los ejercicios de freeCodeCamp son propied
 
 This space contains **all my exercises, practices, and personal projects** while learning web development and programming. Each folder represents a step forward in my journey to become a **Full Stack Developer**.
 
+<div align="center">
 | 📌 What You'll Find Here |
 |--------------------------|
 | ✅ **freeCodeCamp** exercises (Responsive Web Design) |
 | ✅ **Personal projects** (Mr. Miau Blog, recipes, movies) |
 | ✅ **Java** practice (FP DAW) |
 | ✅ **Clean, organized, and documented** code |
+</div>
 
----
 
 ## 🛠️ Technologies I'm Using
 
