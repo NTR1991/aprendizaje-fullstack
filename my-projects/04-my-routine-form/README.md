@@ -1,76 +1,100 @@
-# My Routine Form
+# 📋 My Routine Form
 
-## 📋 Descripción
+## 📋 Description
 
-Formulario interactivo para conocer la rutina diaria de los usuarios. Incluye campos de información personal, preferencias de horario, género, hobbies y comentarios adicionales.
-
-## 🛠️ Tecnologías utilizadas
-
-- **HTML5 semántico** (formularios con validación nativa)
-- **CSS3** (Flexbox, diseño responsivo, sombras y efectos visuales)
-- **Diseño centrado** con estilos personalizados
-
-## 📁 Estructura del proyecto
-
-my-routine-form/
-├── index.html
-├── css/
-│ └── styles.css
-└── README.md
-
-## ✨ Características
-
-### 📝 Información personal
-- **Nombre** (requerido)
-- **Email** (requerido, validación HTML5)
-- **Edad** (opcional, rango de 3 a 100 años)
-
-### ⏰ Preferencias
-- **Horario favorito del día** (desplegable: Mañana, Tarde, Noche)
-
-### 👤 Datos adicionales
-- **Género** (botones radio: Masculino, Femenino, Otro)
-
-### 🎯 Intereses
-- **Hobbies** (checkboxes: Lectura, Deportes, Música)
-
-### 💬 Comentarios
-- **Área de texto** para comentarios adicionales
-
-### 🚀 Envío
-- **Botón de envío** estilizado con efectos hover
-
-## 🎨 Estilos implementados
-
-| Elemento | Estilo |
-|----------|--------|
-| Fondo | Azul degradado |
-| Formulario | Fondo semi-transparente, bordes redondeados |
-| Campos | Bordes redondeados, padding uniforme |
-| Botón | Fondo negro, texto blanco, centrado |
-| Sombras | Texto con sombra difuminada |
-
-## 📚 Aprendizajes aplicados
-
-- ✅ Formularios HTML con validación nativa (`required`, `min`, `max`, `type="email"`, `type="number"`)
-- ✅ CSS Flexbox para estructura interna
-- ✅ Atributos `placeholder` para mejorar UX
-- ✅ Estilización de inputs, selects, textarea y botones
-- ✅ Uso de `rgba()` para fondos semi-transparentes
-- ✅ Efectos `text-shadow` y `border-radius`
-
-## 📱 Responsive
-
-El formulario está diseñado con un ancho fijo de `350px` y `margin: 0 auto` para centrarse correctamente en pantallas de escritorio y dispositivos móviles.
-
-## 👨‍💻 Autor
-
-**NTR1991** - Estudiante de Desarrollo Fullstack
-
-## 📅 Fecha
-
-Mayo 2026
+Interactive form to learn about users' daily routines. Includes fields for personal information, schedule preferences, gender, hobbies, and additional comments.
 
 ---
 
-*Formulario creado como parte de práctica personal de HTML5 y CSS3*
+## 🎯 Project Objective
+
+Create a user-friendly interactive form with native HTML5 validation, modern CSS styling, and responsive design.
+
+---
+
+## 📝 Project Content
+
+### HTML Structure
+- **Personal Information**
+  - Name (required)
+  - Email (required, HTML5 validation)
+  - Age (optional, range 3-100 years)
+- **Schedule Preferences**
+  - Favorite time of day (dropdown: Morning, Afternoon, Night)
+- **Additional Data**
+  - Gender (radio buttons: Male, Female, Other)
+- **Interests**
+  - Hobbies (checkboxes: Reading, Sports, Music)
+- **Comments**
+  - Text area for additional comments
+- **Submit Button**
+  - Styled with hover effects
+
+---
+
+## 🎨 CSS Styles
+
+| Element | Style |
+| :--- | :--- |
+| Background | Gradient blue |
+| Form | Semi-transparent background, rounded borders |
+| Fields | Rounded borders, uniform padding |
+| Button | Black background, white text, centered |
+| Shadows | Text shadow with blur effect |
+
+---
+
+## 📚 Learning Objectives
+
+- HTML forms with native validation (`required`, `min`, `max`, `type="email"`, `type="number"`)
+- CSS Flexbox for internal structure
+- `placeholder` attributes for improved UX
+- Styling inputs, selects, textareas, and buttons
+- Use of `rgba()` for semi-transparent backgrounds
+- `text-shadow` and `border-radius` effects
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5** – Semantic forms with native validation
+- **CSS3** – Flexbox, responsive design, shadows, and visual effects
+
+---
+
+## 📂 Folder Structure
+
+```
+my-routine-form/
+├── index.html
+├── css/
+│   └── styles.css
+└── README.md
+```
+
+---
+
+## 📱 Responsive Design
+
+The form is designed with a fixed width of `350px` and `margin: 0 auto` for proper centering on both desktop and mobile devices.
+
+---
+
+## 🎯 Key Features
+
+- Centered design with `margin: 0 auto`
+- Gradient blue background
+- Semi-transparent form with rounded borders
+- Native HTML5 validation
+- Styled submit button with hover effects
+- Responsive for desktop and mobile screens
+
+---
+
+## 👤 Author
+
+*NTR1991 – Full Stack in training | FP DAW Student*
+
+## 📅 Date
+
+May 2026
