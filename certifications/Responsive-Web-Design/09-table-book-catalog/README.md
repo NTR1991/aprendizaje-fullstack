@@ -1,27 +1,37 @@
-# Book Catalog
+# 📚 Book Catalog Table
 
-## 📋 Descripción
+## 📋 Description
 
-Tabla HTML que muestra un catálogo de libros con información básica como título, autor, género y año de publicación.
+An HTML table displaying a catalog of books with details such as title, author, genre, and publication year. It demonstrates the use of full table structure with `<thead>`, `<tbody>`, and `<tfoot>`.
 
-## 🛠️ Tecnologías utilizadas
+---
 
-- **HTML5 semántico** (`<table>`, `<thead>`, `<tbody>`, `<tfoot>`)
-- **Tablas HTML** con estructura completa
+## 🎯 Learning Objectives
 
-## 📁 Estructura del proyecto
-09-table-book-catalog/
-├── index.html
-└── README.md
+- Structuring data tables with `<table>`, `<thead>`, `<tbody>`, `<tfoot>`
+- Using `colspan` for merged cells
+- Adding a caption to describe the table
+- Organizing and presenting tabular data clearly
 
-| Columna | Descripción |
-|---------|-------------|
-| Title | Título del libro |
-| Author | Autor del libro |
-| Genre | Género literario |
-| Publication Year | Año de publicación |
+---
 
-## 📚 Libros incluidos
+## 📝 Code Content
+
+### Table Structure
+
+| Element | Purpose |
+| :--- | :--- |
+| `<table>` | Main table container |
+| `<caption>` | Table title |
+| `<thead>` | Header row (column names) |
+| `<tbody>` | Body rows (book data) |
+| `<tfoot>` | Footer row (total count) |
+| `<tr>` | Table row |
+| `<th>` | Header cell |
+| `<td>` | Data cell |
+| `colspan` | Merges multiple columns |
+
+### Data Included
 
 | Title | Author | Genre | Year |
 |-------|--------|-------|------|
@@ -31,25 +41,30 @@ Tabla HTML que muestra un catálogo de libros con información básica como tít
 | The Hobbit | J.R.R. Tolkien | Fantasy | 1937 |
 | Pride and Prejudice | Jane Austen | Romance | 1813 |
 
-**Total de libros:** 5
-
-## 📚 Aprendizajes aplicados
-
-- ✅ Uso de `<table>` para datos tabulares
-- ✅ `<thead>` para encabezado de la tabla
-- ✅ `<tbody>` para cuerpo de datos
-- ✅ `<tfoot>` para pie de tabla con total
-- ✅ `colspan` para combinar celdas
-- ✅ Mínimo 5 filas de datos
-
-## 👨‍💻 Autor
-
-**NTR1991** - Estudiante de Desarrollo Fullstack
-
-## 📅 Fecha
-
-Mayo 2026
+**Total Books:** 5
 
 ---
 
-*Tabla creada como parte de ejercicios de freeCodeCamp*
+## 🛠️ Technologies Used
+
+- **HTML5** – Semantic table structure with `<thead>`, `<tbody>`, `<tfoot>`, `<caption>`, `colspan`
+
+---
+
+## 📂 Folder Structure
+````
+09-table-book-catalog/
+├── index.html
+└── README.md
+````
+
+
+---
+
+## 👤 Author
+
+**NTR1991** – Full Stack in training | FP DAW Student
+
+## 📅 Date
+
+May 2026
