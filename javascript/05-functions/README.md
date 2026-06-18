@@ -1,6 +1,4 @@
-# Topic 5: Functions
-
----
+# 5️⃣ Functions in JavaScript
 
 ## 📋 Description
 
@@ -8,127 +6,63 @@ Practice with functions: declaration, parameters, return, conditional logic insi
 
 ---
 
-## 📁 Folder Structure
-````
+## 📂 Folder Structure
+
+```
 05-functions/
 ├── index.html
 ├── css/
-│ └── style.css
+│   └── style.css
 ├── js/
-│ └── main.js
+│   └── main.js
 └── README.md
-
-````
+```
 
 ---
 
 ## 📊 Exercises & Results
 
-````
-**Exercise 1 (function without parameters):**  
-Declare a function `mostrarMensaje` that shows in console `"Bienvenido al tema 5"`. Then call the function.
-
-
-Exercise 2 (function with one parameter):
-Declare a function saludar(nombre) that returns "Hola " + nombre. Call it with "Pepe" and show the result in console.
-
-
-
-Exercise 3 (function with return):
-Declare a function doble(numero) that returns the double of the number. Call it with 8 and show the result.
-
-
-Exercise 4 (function with two parameters and return):
-Declare a function multiplicar(a, b) that returns the product of a and b. 
-Call it with (6, 7) and show the result.
-
-Exercise 5 (function with conditional):
-Declare a function esMayor(edad) that returns "Mayor de edad" if edad >= 18, otherwise returns "Menor de edad". 
-Call it with 20 and show the result.
-
-
-Exercise 6 (function with multiple conditionals):
-Declare a function calificarNota(nota) that returns:
-
-"Excelente" if nota >= 90
-
-"Notable" if nota >= 70
-
-"Aprobado" if nota >= 50
-
-"Suspenso" if nota < 50
-Call it with 85 and show the result.
-
-
-Exercise 7 (function with modulus operator):
-Declare a function esPar(numero) that returns true if the number is even, false if it is odd. Call it with 7 and show the result.
-
-
-Exercise 8 (function with logical conditions):
-Declare a function puedeConducir(edad, tieneCarnet) that returns "Puede conducir" if edad >= 18 and tieneCarnet === true, 
-otherwise returns "No puede conducir". Call it with (20, true) and show the result.
-
-
-Exercise 9 (function with multiple operations):
-Declare a function calcular(operacion, a, b) that returns:
-
-a + b if operacion === "suma"
-
-a - b if operacion === "resta"
-
-a * b if operacion === "multiplicacion"
-
-a / b if operacion === "division"
-
-"Operacion no valida" otherwise
-Call it with ("multiplicacion", 5, 3) and show the result.
-
-
-Exercise 10 (function with string transformation):
-Declare a function formatearNombre(nombre, apellido) that returns the full name with the first letter uppercase and the rest lowercase. 
-Example: formatearNombre("jUAn", "pERez") → "Juan Perez". Call it with ("ElvIRA", "REyES") and show the result.
-
-
-
-
-````
+| Exercise | Description | Code | Output |
+| :--- | :--- | :--- | :--- |
+| 1 | Function without parameters | `function mostrarMensaje() { console.log("Bienvenido al tema 5"); }`<br>`mostrarMensaje();` | `Bienvenido al tema 5` |
+| 2 | Function with one parameter | `function saludar(nombre) { return "Hola " + nombre; }`<br>`console.log(saludar("Pepe"));` | `Hola Pepe` |
+| 3 | Function with return | `function doble(numero) { return numero * 2; }`<br>`console.log(doble(8));` | `16` |
+| 4 | Function with two parameters and return | `function multiplicar(a, b) { return a * b; }`<br>`console.log(multiplicar(6, 7));` | `42` |
+| 5 | Function with conditional | `function esMayor(edad) { return edad >= 18 ? "Mayor de edad" : "Menor de edad"; }`<br>`console.log(esMayor(20));` | `Mayor de edad` |
+| 6 | Function with multiple conditionals | `function calificarNota(nota) {`<br>`if (nota >= 90) return "Excelente";`<br>`if (nota >= 70) return "Notable";`<br>`if (nota >= 50) return "Aprobado";`<br>`return "Suspenso"; }`<br>`console.log(calificarNota(85));` | `Notable` |
+| 7 | Function with modulus operator | `function esPar(numero) { return numero % 2 === 0; }`<br>`console.log(esPar(7));` | `false` |
+| 8 | Function with logical conditions | `function puedeConducir(edad, tieneCarnet) {`<br>`return edad >= 18 && tieneCarnet ? "Puede conducir" : "No puede conducir"; }`<br>`console.log(puedeConducir(20, true));` | `Puede conducir` |
+| 9 | Function with multiple operations | `function calcular(operacion, a, b) {`<br>`switch(operacion) {`<br>`case "suma": return a + b;`<br>`case "resta": return a - b;`<br>`case "multiplicacion": return a * b;`<br>`case "division": return a / b;`<br>`default: return "Operacion no valida"; } }`<br>`console.log(calcular("multiplicacion", 5, 3));` | `15` |
+| 10 | Function with string transformation | `function formatearNombre(nombre, apellido) {`<br>`return nombre.charAt(0).toUpperCase() + nombre.slice(1).toLowerCase() + " " +`<br>`apellido.charAt(0).toUpperCase() + apellido.slice(1).toLowerCase(); }`<br>`console.log(formatearNombre("ElvIRA", "REyES"));` | `Elvira Reyes` |
 
 ---
-
 
 ## 🧪 Key Learnings
-function declares a function.
 
-Parameters are variables the function receives inside ().
-
-return sends a value out of the function and stops its execution.
-
-Without return, the function returns undefined.
-
-A function is called by its name followed by ().
-
+- `function` declares a function.
+- Parameters are variables the function receives inside `()`.
+- `return` sends a value out of the function and stops its execution.
+- Without `return`, the function returns `undefined`.
+- A function is called by its name followed by `()`.
 
 ---
 
-## ✅ Test Answers
-function
+## ✅ Self-Assessment Test (Answers)
 
-Parameters are variables that the function receives (e.g., function sumar(a, b)).
+| Question | Answer |
+| :--- | :--- |
+| 1. What keyword is used to declare a function? | `function` |
+| 2. What are parameters? | Parameters are variables that the function receives (e.g., `function sumar(a, b)`). |
+| 3. What does `return` do? | `return` sends a value out of the function and stops its execution. |
+| 4. What does a function return if there is no `return` statement? | The function returns `undefined`. |
+| 5. How do you call a function named `sumar` with arguments `5` and `3`? | By its name followed by `()`: `sumar(5, 3)`. |
 
-return sends a value out of the function and stops it.
+---
 
-The function returns undefined.
+## 👤 Author
 
-By its name followed by () (e.g., sumar(5, 3)).
+*NTR1991 – Full Stack in training | FP DAW Student*
 
+## 📅 Date
 
-----
-
-## 👨‍💻 Author
-NTRJ1991 – Full Stack Development (in training)
-
-
-----
-
-##  📅 Date
 June 2026
