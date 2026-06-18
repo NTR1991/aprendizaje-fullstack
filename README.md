@@ -16,6 +16,7 @@ Este espacio contiene **todos mis ejercicios, prácticas y proyectos personales*
 | ✅ Proyectos **personales** (blog de Mr. Miau, recetas, películas) |
 | ✅ Prácticas de **Java** (FP DAW) |
 | ✅ Código **limpio, ordenado y documentado** |
+
 </div>
 
 
