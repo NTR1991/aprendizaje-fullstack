@@ -1,62 +1,71 @@
 # 📅 Event Hub
 
-Ejercicio del curso **Responsive Web Design** de freeCodeCamp.
+## 📋 Description
 
-## 🎯 Objetivo del ejercicio
+An event management page built as part of the **Responsive Web Design** course on freeCodeCamp. It displays upcoming and past events using semantic HTML structure and internal navigation links.
 
-Crear una página de "Event Hub" (Centro de Eventos) que muestre eventos próximos y pasados, aplicando HTML semántico con `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`.
+---
 
-## 📝 Contenido del código
+## 🎯 Learning Objectives
 
-### Estructura HTML
-- `<header>`: Título "Event Hub" y navegación
-- `<nav>`: Enlaces de ancla a `#upcoming-events` y `#past-events`
-- `<main>`: Contenedor principal
-- `<section id="upcoming-events">`: Eventos próximos
-  - `<h2>`: "Upcoming Events"
-  - 2 `<article>` con `<h3>` (título) y `<p>` (descripción)
-- `<section id="past-events">`: Eventos pasados
-  - `<h2>`: "Past Events"
-  - 2 `<article>` con `<h3>` (título), `<p>` (descripción) y `<img>` (imagen)
+- Structuring content with semantic HTML (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`)
+- Using internal links with `id` and `href="#..."`
+- Creating a clean, organized event page
 
-## 🛠️ Tecnologías utilizadas
+---
 
-- ✅ HTML5 semántico (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`)
-- ✅ Enlaces internos con `id` y `href="#..."`
+## 📝 Code Content
 
-## 📚 Conceptos aplicados
+### HTML Structure
 
-| Concepto | Uso |
-| --- | --- |
-| Etiquetas semánticas | `<header>`, `<nav>`, `<main>`, `<section>`, `<article>` |
-| Enlaces internos (anclas) | `<a href="#upcoming-events">` |
-| Identificadores únicos | `id="upcoming-events"`, `id="past-events"` |
-| Listas de navegación | `<ul>` con `<li>` dentro de `<nav>` |
+| Element | Purpose |
+| :--- | :--- |
+| `<header>` | Title "Event Hub" and navigation |
+| `<nav>` | Anchor links to `#upcoming-events` and `#past-events` |
+| `<main>` | Main content container |
+| `<section id="upcoming-events">` | Upcoming events section |
+| `<article>` | Individual event card (title + description) |
+| `<section id="past-events">` | Past events section |
+| `<article>` | Individual event card (title + description + image) |
 
-## 📂 Estructura de archivos
+---
 
-06-event-hub/
-│
-└── index.html
+### Events Included
 
-## 🎯 Eventos incluidos
-
-### Upcoming Events (Próximos)
-| Título | Descripción |
-| --- | --- |
+#### Upcoming Events
+| Title | Description |
+| :--- | :--- |
 | ewrg | ewrg |
 | erfewfwr | ewrerwrgewrg |
 
-### Past Events (Pasados)
-| Título | Descripción |
-| --- | --- |
+#### Past Events
+| Title | Description |
+| :--- | :--- |
 | eveto | ewrrg |
 | evento | wfewfw |
 
-## 👤 Autor
+---
 
-**NTR1991** - Estudiante de FP DAW
+## 🛠️ Technologies Used
 
-## 📅 Fecha
+- **HTML5** – Semantic tags and internal links
 
-Mayo 2026
+---
+
+## 📂 Folder Structure
+````
+06-event-hub/
+├── README.md
+└── index.html
+````
+
+---
+
+## 👤 Author
+
+**NTR1991** – Full Stack in training | FP DAW Student
+
+## 📅 Date
+
+May 2026
+
