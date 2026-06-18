@@ -41,12 +41,11 @@ public static boolean tieneDescuento(int monto, boolean esEmpleado) {
 
 ## 📊 Examples
 
-| monto | esEmpleado | `monto > 100` | `esEmpleado` | `monto > 100 || esEmpleado` | Result |
+| Amount | Employee | Amount > 100 | Employee? | Condition | Result |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | `150` | `false` | `true` | `false` | `true` | ✅ `true` |
 | `50` | `true` | `false` | `true` | `true` | ✅ `true` |
 | `50` | `false` | `false` | `false` | `false` | ❌ `false` |
-
 ---
 
 ## 🎯 Learning Objectives
