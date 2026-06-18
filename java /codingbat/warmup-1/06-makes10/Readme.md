@@ -1,28 +1,25 @@
-# Makes10 🔟
+# 🔟 makes10
 
 ## 📋 Description
 
 Return true if one of the numbers is 10 or if their sum is 10.
 
-**Problem:** CodingBat - makes10
+**Problem:** [CodingBat - makes10](https://codingbat.com/prob/p157733)
 
 ---
 
-## 🛠️ Technologies Used
+## 🧠 Logic Breakdown
 
-- ☕ Java
+The problem asks us to return `true` if:
+- Either `a` is 10 (`a == 10`)
+- OR `b` is 10 (`b == 10`)
+- OR the sum of `a` and `b` is 10 (`a + b == 10`)
 
----
-
-## 📁 Project Structure
-
-06-makes10/
-├── Makes10.java
-└── README.md
+**Translation to Java:** `return a == 10 || b == 10 || a + b == 10;`
 
 ---
 
-## 🧮 Code
+## 📝 Code
 
 ```java
 public class Makes10 {
@@ -31,21 +28,13 @@ public class Makes10 {
     }
 }
 ````
+Alternative (with if):
 
-## 📊 Examples
-
-| a | b | Result |
-|---|---|--------|
-| 9 | 10 | true |
-| 9 | 9 | false |
-| 1 | 9 | true |
-
----
-
-## 👨‍💻 Author
-
-NTR1991 - Fullstack Development Student
-
-## 📅 Date
-
-June 2026
+````java
+public static boolean makes10(int a, int b) {
+    if (a == 10 || b == 10 || a + b == 10) {
+        return true;
+    }
+    return false;
+}
+````
