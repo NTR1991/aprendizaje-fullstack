@@ -1,85 +1,101 @@
 # 🍽️ Lomo Saltado Recipe Page
 
-Página web de receta casera del tradicional plato peruano **Lomo Saltado**.
+Personal project: a recipe webpage for the traditional Peruvian dish **Lomo Saltado**.
 
-## 🎯 Objetivo del proyecto
+---
 
-Crear una página web de receta de cocina con diseño limpio y centrado, mostrando una imagen del plato, lista de ingredientes e instrucciones de preparación.
+## 🎯 Project Objective
 
-## 📝 Contenido del proyecto
+Create a clean, centered recipe webpage displaying an image of the dish, ingredient list, and preparation instructions.
 
-### Estructura HTML
-- `<header>`: Título principal "HOME-COOKED RECIPES"
-- `<section>`: Imagen del plato (`lomo.jpg`)
-- `<article class="recipe-card">`: Tarjeta contenedora de la receta
-  - `<section>`: Título "Lomo Saltado"
-  - `<section class="section-ingredients">`: Lista de ingredientes
-  - `<section class="section-instructions">`: Lista de instrucciones ordenadas
+---
 
-### Estilos CSS (styles.css)
-- **Fondo general**: Gris claro (`rgb(214, 214, 214)`)
-- **Tarjeta de receta** (`.recipe-card`):
-  - Fondo blanco, centrada con `margin: auto`
-  - Sombra (`box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.418)`)
-  - Bordes redondeados (`border-radius: 10px`)
-  - Ancho máximo `400px`, responsivo
-- **Imagen** (`.photo`):
-  - Centrada con `margin: auto`
-  - Tamaño máximo `500px x 300px`
-  - Sombra y bordes redondeados
-  - Responsiva (`width: 100%; height: auto`)
-- **Tipografía**:
-  - `h1` con estilo `oblique`
-  - `h2` y `.ingredients` con fuente `Franklin Gothic Medium`
+## 📝 Project Content
 
-## 🛠️ Tecnologías utilizadas
+### HTML Structure
+- `<header>`: Main title "HOME-COOKED RECIPES"
+- `<section>`: Dish image (`lomo.jpg`)
+- `<article class="recipe-card">`: Recipe container card
+  - `<section>`: Title "Lomo Saltado"
+  - `<section class="section-ingredients">`: Ingredient list
+  - `<section class="section-instructions">`: Ordered instruction list
 
-| Tecnología | Uso |
-| --- | --- |
-| **HTML5** | Estructura semántica (`<header>`, `<section>`, `<article>`, listas `<ul>`, `<ol>`) |
-| **CSS3** | Centrado con `margin: auto`, `box-shadow`, `border-radius`, diseño responsivo |
+### CSS Styles (styles.css)
+- **General background**: Light gray (`rgb(214, 214, 214)`)
+- **Recipe card** (`.recipe-card`):
+  - White background, centered with `margin: auto`
+  - Shadow (`box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.418)`)
+  - Rounded borders (`border-radius: 10px`)
+  - Max width `400px`, responsive
+- **Image** (`.photo`):
+  - Centered with `margin: auto`
+  - Max size `500px x 300px`
+  - Shadow and rounded borders
+  - Responsive (`width: 100%; height: auto`)
+- **Typography**:
+  - `h1` with `oblique` style
+  - `h2` and `.ingredients` with `Franklin Gothic Medium` font
 
-## 📂 Estructura de archivos
+---
 
+## 🛠️ Technologies Used
+
+| Technology | Usage |
+| :--- | :--- |
+| **HTML5** | Semantic structure (`<header>`, `<section>`, `<article>`, `<ul>`, `<ol>`) |
+| **CSS3** | Centering with `margin: auto`, `box-shadow`, `border-radius`, responsive design |
+
+---
+
+## 📂 Folder Structure
+
+```
 recipe-lomo-saltado/
 │
 ├── index.html
 ├── css/
-│ └── styles.css
+│   └── styles.css
 └── images/
-└── lomo.jpg
+    └── lomo.jpg
+```
 
-## 🎨 Características destacadas
+---
 
-| Característica | Descripción |
-| --- | --- |
-| **Diseño centrado** | Todo el contenido centrado con `margin: auto` |
-| **Tarjeta de receta** | Contenedor blanco con sombra y bordes redondeados |
-| **Imagen responsiva** | `width: 100%; height: auto` para adaptarse a cualquier pantalla |
-| **Listas organizadas** | Ingredientes (`<ul>`) e instrucciones (`<ol>`) |
+## 🎨 Key Features
 
-## 🍲 Contenido de la receta
+| Feature | Description |
+| :--- | :--- |
+| **Centered design** | All content centered with `margin: auto` |
+| **Recipe card** | White container with shadow and rounded borders |
+| **Responsive image** | `width: 100%; height: auto` adapts to any screen |
+| **Organized lists** | Ingredients (`<ul>`) and instructions (`<ol>`) |
 
-### Ingredientes
-- papa (potato)
-- cebolla (onion)
-- tomate (tomato)
-- carne (meat)
-- cilantro (cilantro)
-- ajo (garlic)
-- salsa de soya (soy sauce)
-- sal, pimienta, MSG
+---
 
-### Instrucciones
-1. Sellar la carne (sear the meat)
-2. Sazonar con sal, pimienta y añadir ajo
-3. Añadir y saltear tomate con cebolla
-4. Añadir salsa de soya, ajustar sazón y añadir cilantro
+## 🍲 Recipe Content
 
-## 👤 Autor
+### Ingredients
+- potato
+- onion
+- tomato
+- meat
+- cilantro
+- garlic
+- soy sauce
+- salt, pepper, MSG
 
-**NTR1991** - Estudiante de FP DAW
+### Instructions
+1. Sear the meat
+2. Season with salt and pepper, add garlic
+3. Add and sauté tomato with onion
+4. Add soy sauce, adjust seasoning, add cilantro
 
-## 📅 Fecha
+---
 
-Mayo 2026
+## 👤 Author
+
+*NTR1991 – Full Stack in training | FP DAW Student*
+
+## 📅 Date
+
+May 2026
