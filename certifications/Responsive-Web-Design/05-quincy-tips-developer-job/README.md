@@ -46,5 +46,5 @@ This exercise demonstrates the use of semantic HTML tags like `<blockquote>`, `<
 
 ## 📅 Date
 
-June 2026
+May 2026
 
