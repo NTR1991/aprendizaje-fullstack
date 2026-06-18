@@ -1,26 +1,50 @@
 # 📄 Curriculum Outline
 
-Ejercicio del curso **Responsive Web Design** de freeCodeCamp.
+## 📋 Description
 
-## 🎯 Objetivo
+A basic HTML exercise from the **Responsive Web Design** course on freeCodeCamp. It presents a simple outline of the freeCodeCamp Full-Stack curriculum using semantic HTML tags.
 
-Presentar un esquema básico del plan de estudios Full-Stack de freeCodeCamp.
+---
 
-## 📝 Contenido del código
+## 🎯 Learning Objectives
 
-- `<h1>` Título principal: "Welcome to freeCodeCamp"
-- `<h2>` Subtítulo: "Full-Stack Curriculum"  
-- `<h3>` Secciones: "Introduction to HTML", "Introduction to CSS", "Introduction to JavaScript"
-- `<p>` Descripciones de cada tecnología
+- Structuring content with HTML heading tags (`<h1>` to `<h3>`)
+- Using paragraphs (`<p>`) for descriptions
+- Understanding basic document structure
 
-## 🛠️ Tecnologías
+---
 
-- HTML5 (etiquetas semánticas de título y párrafo)
+## 📝 Code Content
 
-## 📂 Archivo
+| HTML Element | Content |
+| :--- | :--- |
+| `<h1>` | "Welcome to freeCodeCamp" |
+| `<h2>` | "Full-Stack Curriculum" |
+| `<h3>` | "Introduction to HTML", "Introduction to CSS", "Introduction to JavaScript" |
+| `<p>` | Descriptions for each technology |
 
-- `index.html` - Página principal del ejercicio
+---
 
-## 👤 Autor
+## 🛠️ Technologies Used
 
-**NTR1991** - Estudiante de FP DAW
+- **HTML5** – Semantic heading and paragraph tags
+
+---
+
+## 📂 Folder Structure
+````
+01-Curriculum-Outline/
+├── index.html
+└── README.md
+````
+
+---
+
+## 👤 Author
+
+**NTR1991** – Full Stack in training | FP DAW Student
+
+## 📅 Date
+
+June 2026
+
