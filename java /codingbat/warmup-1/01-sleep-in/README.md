@@ -47,6 +47,9 @@ public static boolean sleepIn(boolean weekday, boolean vacation) {
 }
 ````
 
+---
+
+## 📊 Examples
 | weekday | vacation | !weekday | !weekday \|\| vacation | Sleep in? |
 | :--- | :--- | :--- | :--- | :--- |
 | `true` | `false` | `false` | `false` | ❌ `false` |
