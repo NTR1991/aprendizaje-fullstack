@@ -17,7 +17,7 @@ Este espacio contiene **todos mis ejercicios, prácticas y proyectos personales*
 | ✅ Prácticas de **Java** (FP DAW) |
 | ✅ Código **limpio, ordenado y documentado** |
 </div>
----
+
 
 ## 🛠️ Tecnologías que estoy utilizando
 
