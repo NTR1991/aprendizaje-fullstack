@@ -48,7 +48,7 @@ public static int diff21(int n) {
 ---
 
 ## 📊 Examples
-````
+
 | n | `Math.abs(n - 21)` | `n > 21` | Result |
 | :--- | :--- | :--- | :--- |
 | `19` | `2` | `false` | `2` |
@@ -56,7 +56,7 @@ public static int diff21(int n) {
 | `22` | `1` | `true` | `2` |
 | `25` | `4` | `true` | `8` |
 | `0` | `21` | `false` | `21` |
-````
+
 
 ---
 
