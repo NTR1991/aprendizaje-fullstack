@@ -45,13 +45,12 @@ public static boolean descuentoPorVolumen(int cantidad, boolean esClienteFrecuen
 
 ## 📊 Examples
 
-| cantidad | esClienteFrecuente | `cantidad != 0` | `cantidad >= 10 || esClienteFrecuente` | Result |
-| :--- | :--- | :--- | :--- | :--- |
-| `15` | `false` | `true` | `true` | ✅ `true` |
-| `5` | `true` | `true` | `true` | ✅ `true` |
-| `5` | `false` | `true` | `false` | ❌ `false` |
-| `0` | `true` | `false` | `true` | ❌ `false` |
-
+| cantidad | esClienteFrecuente | cantidad != 0 | cantidad >= 10 \|\| esClienteFrecuente | Resultado |
+|:--|:--|:--|:--|:--|
+| 15 | false | true | true | ✅ true |
+| 5  | true  | true | true | ✅ true |
+| 5  | false | true | false | ❌ false |
+| 0  | true  | false | true | ❌ false |
 ---
 
 ## 🎯 Learning Objectives
