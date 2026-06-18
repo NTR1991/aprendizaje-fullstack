@@ -2,9 +2,13 @@
 
 Proyecto personal: página web dedicada a la música urbana y artistas como Eminem, D12 y Héctor Lavoe.
 
+---
+
 ## 🎯 Objetivo del proyecto
 
 Crear una página web temática de música urbana con menú de navegación, imagen destacada y diseño responsive, aplicando estilos CSS modernos.
+
+---
 
 ## 📝 Contenido del proyecto
 
@@ -28,12 +32,18 @@ Crear una página web temática de música urbana con menú de navegación, imag
 - Eliminación de viñetas de lista (`list-style: none`)
 - Menú horizontal con `inline-block`
 
+---
+
+
 ## 🛠️ Tecnologías utilizadas
 
 - ✅ HTML5 (estructura semántica)
 - ✅ CSS3 (Flexbox, `inline-block`, sombras, bordes redondeados)
 
+---
+
 ## 📂 Estructura de archivos
+````
 ejercicio bandas musicales/
 │
 ├── index.html
@@ -47,6 +57,9 @@ ejercicio bandas musicales/
 ├── eminem.html
 ├── d12.html
 └── hector.html
+````
+
+---
 
 ## 🎨 Características destacadas
 
@@ -54,6 +67,8 @@ ejercicio bandas musicales/
 - Imagen con sombra (`box-shadow`) y bordes redondeados (`border-radius: 8%`)
 - Menú de navegación horizontal sin viñetas
 - Paleta de colores: negro, rojo, gris
+
+---
 
 ## 👤 Autor
 
