@@ -1,79 +1,79 @@
-# 🎵 Sin Música No Hay Vida
+# 🎵 Without Music There Is No Life
 
-Proyecto personal: página web dedicada a la música urbana y artistas como Eminem, D12 y Héctor Lavoe.
-
----
-
-## 🎯 Objetivo del proyecto
-
-Crear una página web temática de música urbana con menú de navegación, imagen destacada y diseño responsive, aplicando estilos CSS modernos.
+Personal project: a webpage dedicated to urban music and artists like Eminem, D12, and Héctor Lavoe.
 
 ---
 
-## 📝 Contenido del proyecto
+## 🎯 Project Objective
 
-### Estructura HTML
-- `<header>` con banner y título principal
-- `<div class="menu">` con navegación a:
+Create a thematic urban music webpage with a navigation menu, featured image, and responsive design, applying modern CSS styles.
+
+---
+
+## 📝 Project Content
+
+### HTML Structure
+- `<header>` with banner and main title
+- `<div class="menu">` with navigation to:
   - HOME
   - EMINEM
   - D12
   - HECTOR LAVOE
-- `<div class="contenido">` con:
-  - Título "Descubre lo mejor de la MUSICA URBANA"
-  - Imagen central (`bboy.jpg`) de un breakdancer
-- `<footer>` con mensaje "SIN VIDA NO HAY MUSICA"
+- `<div class="contenido">` with:
+  - Title "Discover the best of URBAN MUSIC"
+  - Central image (`bboy.jpg`) of a breakdancer
+- `<footer>` with message "WITHOUT LIFE THERE IS NO MUSIC"
 
-### Estilos CSS (styles.css)
-- Fondo general gris (`rgb(116, 116, 116)`)
-- Banner negro con texto rojo
-- Menú negro con enlaces blancos
-- Imagen centrada con sombra y bordes redondeados
-- Eliminación de viñetas de lista (`list-style: none`)
-- Menú horizontal con `inline-block`
-
----
-
-
-## 🛠️ Tecnologías utilizadas
-
-- ✅ HTML5 (estructura semántica)
-- ✅ CSS3 (Flexbox, `inline-block`, sombras, bordes redondeados)
+### CSS Styles (styles.css)
+- Gray background (`rgb(116, 116, 116)`)
+- Black banner with red text
+- Black menu with white links
+- Centered image with shadow and rounded borders
+- List bullets removed (`list-style: none`)
+- Horizontal menu with `inline-block`
 
 ---
 
-## 📂 Estructura de archivos
-````
+## 🛠️ Technologies Used
+
+- ✅ HTML5 (semantic structure)
+- ✅ CSS3 (Flexbox, `inline-block`, shadows, rounded borders)
+
+---
+
+## 📂 Folder Structure
+
+```
 ejercicio bandas musicales/
 │
 ├── index.html
 ├── css/
-│ └── styles.css
+│   └── styles.css
 ├── images/
-│ ├── bboy.jpg
-│ ├── d12.jpg
-│ ├── eminem.webp
-│ └── hector.jpg
+│   ├── bboy.jpg
+│   ├── d12.jpg
+│   ├── eminem.webp
+│   └── hector.jpg
 ├── eminem.html
 ├── d12.html
 └── hector.html
-````
+```
 
 ---
 
-## 🎨 Características destacadas
+## 🎨 Key Features
 
-- Diseño centrado con `margin: auto`
-- Imagen con sombra (`box-shadow`) y bordes redondeados (`border-radius: 8%`)
-- Menú de navegación horizontal sin viñetas
-- Paleta de colores: negro, rojo, gris
+- Centered design with `margin: auto`
+- Image with shadow (`box-shadow`) and rounded borders (`border-radius: 8%`)
+- Horizontal navigation menu without bullets
+- Color palette: black, red, gray
 
 ---
 
-## 👤 Autor
+## 👤 Author
 
-**NTR1991** - Estudiante de FP DAW
+*NTR1991 – Full Stack in training | FP DAW Student*
 
-## 📅 Fecha
+## 📅 Date
 
-Mayo 2026
+May 2026
