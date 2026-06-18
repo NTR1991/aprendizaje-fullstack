@@ -1,63 +1,79 @@
-# Business Card
+# 💼 Business Card
 
-## 📋 Descripción
+## 📋 Description
 
-Tarjeta de presentación profesional (business card) con información de contacto, perfil profesional y enlaces a redes sociales.
-
-## 🛠️ Tecnologías utilizadas
-
-- **HTML5 semántico**
-- **CSS3** (diseño centrado, bordes redondeados)
-- **Flexbox** para centrado
-
-## 📁 Estructura del proyecto
-
-09-business-card/
-├── index.html
-├── css/
-│ └── styles.css
-├── images/
-│ └── logo.webp
-└── README.md
-
-## 📇 Contenido
-
-| Elemento | Valor |
-|----------|-------|
-| Nombre | Nelson Guevara |
-| Designación | Programador FULLSTACK |
-| Empresa | FULL CODE |
-| Correo | tucorreo@email.com |
-| Teléfono | +34 65656565 |
-| Portfolio | Enlace a portfolio |
-| Redes sociales | Twitter, LinkedIn, GitHub |
-
-## 🎨 Estilos implementados
-
-| Elemento | Estilo |
-|----------|--------|
-| Fondo | Gris oscuro con imagen de fondo |
-| Tarjeta | Fondo blanco semi-transparente |
-| Bordes | Redondeados (20px) |
-| Imagen | 50% de ancho, centrada |
-| Enlaces | Sin subrayado |
-
-## 📚 Aprendizajes aplicados
-
-- ✅ Uso de `margin: auto` para centrar
-- ✅ `rgba()` para fondos semi-transparentes
-- ✅ `text-decoration: none` para quitar subrayado
-- ✅ `border-radius` para bordes redondeados
-- ✅ `background-image` con `no-repeat` y `center`
-
-## 👨‍💻 Autor
-
-**NTR1991** - Estudiante de Desarrollo Fullstack
-
-## 📅 Fecha
-
-Mayo 2026
+Professional business card with contact information, professional profile, and links to social networks.
 
 ---
 
-*Business card creado como proyecto personal*
+## 🎯 Project Objective
+
+Create a professional business card using semantic HTML and modern CSS styling with a centered, elegant design.
+
+---
+
+## 📝 Project Content
+
+### HTML Structure
+- **Name**: Nelson Guevara
+- **Designation**: Full Stack Programmer
+- **Company**: FULL CODE
+- **Email**: tucorreo@email.com
+- **Phone**: +34 65656565
+- **Portfolio**: Link to portfolio
+- **Social media**: Twitter, LinkedIn, GitHub
+
+### CSS Styles (styles.css)
+- **Background**: Dark gray with background image
+- **Card**: Semi-transparent white background
+- **Borders**: Rounded (20px)
+- **Image**: 50% width, centered
+- **Links**: No underline (`text-decoration: none`)
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5** – Semantic structure
+- **CSS3** – Centered design, rounded borders
+- **Flexbox** – Centering
+
+---
+
+## 📂 Folder Structure
+
+```
+09-business-card/
+├── index.html
+├── css/
+│   └── styles.css
+├── images/
+│   └── logo.webp
+└── README.md
+```
+
+---
+
+## 🎨 Key Features
+
+| Feature | Description |
+| :--- | :--- |
+| **Centered design** | `margin: auto` for centering |
+| **Semi-transparent card** | `rgba()` for readability |
+| **No underline** | `text-decoration: none` for clean links |
+| **Rounded borders** | `border-radius` for modern look |
+| **Background image** | `background-image` with `no-repeat` and `center` |
+
+---
+
+## 👤 Author
+
+*NTR1991 – Full Stack in training | FP DAW Student*
+
+## 📅 Date
+
+May 2026
+
+---
+
+*Business card created as a personal project*
