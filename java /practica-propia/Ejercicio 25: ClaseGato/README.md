@@ -1,31 +1,32 @@
-# ClaseGato 🐱
+# 2️⃣5️⃣ ClaseGato
 
 ## 📋 Description
 
-Crea una clase `Gato` con los atributos `nombre` (String) y `color` (String). Constructor que reciba ambos y un método `maullar()` que imprima `"Miau miau"`.
+Creates a `Gato` class with private attributes `nombre` (String) and `color` (String). Includes a constructor that receives both values and a method `maullar()` that prints `"Miau miau"`.
 
 ---
 
-## 🛠️ Technologies Used
+## 🧠 Logic Breakdown
 
-- ☕ Java (OOP)
+The problem asks us to:
+1. Define a class with private attributes.
+2. Implement a constructor to initialize the attributes.
+3. Create a method that prints a fixed message.
+
+**Translation to Java:**
+1. `private String nombre;`
+2. `private String color;`
+3. `public Gato(String nombre, String color) { this.nombre = nombre; this.color = color; }`
+4. `public void maullar() { System.out.println("Miau miau"); }`
 
 ---
 
-## 📁 Project Structure
-
-25-claseGato/  
-Gato.java  
-README.md
-
----
-
-## 🧮 Code
+## 📝 Code
 
 ```java
 public class Gato {
-    String nombre;
-    String color;
+    private String nombre;
+    private String color;
 
     public Gato(String nombre, String color) {
         this.nombre = nombre;
@@ -38,16 +39,81 @@ public class Gato {
 }
 ```
 
-## 📊 Example Usage
+**Alternative with getters:**
 
 ```java
-Gato gato = new Gato("Luna", "negro");
-gato.maullar();  // Output: Miau miau
+public class Gato {
+    private String nombre;
+    private String color;
+
+    public Gato(String nombre, String color) {
+        this.nombre = nombre;
+        this.color = color;
+    }
+
+    public void maullar() {
+        System.out.println("Miau miau");
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getColor() {
+        return color;
+    }
+}
 ```
 
-## 👨‍💻 Author
+---
 
-NTR1991 - Fullstack Development Student
+## 📊 Example Usage
+
+| Method Call | Output |
+| :--- | :--- |
+| `Gato gato = new Gato("Luna", "negro");` | (No output) |
+| `gato.maullar();` | `Miau miau` |
+
+---
+
+## 🎯 Learning Objectives
+
+- Defining classes in Java
+- Using private attributes (encapsulation)
+- Using the `this` keyword
+- Creating constructors
+- Defining methods
+- Using `System.out.println()` for output
+
+---
+
+## ⚠️ Common Mistakes
+
+- Forgetting the `this` keyword – Would cause shadowing issues.
+- Using `public` instead of `private` for attributes – Encapsulation would be broken.
+- Forgetting the return type in the constructor – Constructors have no return type.
+- Using `void` in the constructor – Constructors have no return type.
+- Not making attributes private – The problem asks for `private` (encapsulation).
+
+---
+
+## 🛠️ Technologies Used
+
+- **Java** – OOP, classes, private fields, constructors, methods
+
+---
+
+## 📂 Folder Structure
+
+```
+25-ClaseGato/
+├── Gato.java
+└── README.md
+```
+
+## 👤 Author
+
+*NTR1991 – Full Stack in training | FP DAW Student*
 
 ## 📅 Date
 
