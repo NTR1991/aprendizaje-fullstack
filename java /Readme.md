@@ -1,80 +1,96 @@
 # ☕ Java Practice
 
-Java exercises and practice problems completed during my **FP DAW** training and on platforms like **CodingBat**.
+## 📋 Description
+
+This folder contains all my Java exercises and practice problems, organized by topic. It covers everything from basic boolean logic to object-oriented programming.
 
 ---
 
 ## 📂 Folder Structure
-````
+
+```
 java/
-├── codingbat/
-│ └── warmup-1/ → Ejercicios de introducción (sleepIn, monkeyTrouble, etc.)
-├── exercises/
-│ ├── 01-puedeVotar/
-│ ├── 02-tieneDescuento/
-│ ├── 03-puedeSubirMontana/
-│ ├── 04-esNumeroEspecial/
-│ ├── 05-puedeConducir/
-│ ├── 06-diaDePlaya/
-│ ├── 07-esPositivoYPar/
-│ ├── 08-descuentoPorVolumen/
-│ ├── 09-entre10y20/
-│ ├── 10-fueraDeRango5a15/
-│ ├── 11-rangoEspecial/
-│ ├── 12-maxTres/
-│ ├── 13-minTres/
-│ ├── 14-medioTres/
-│ ├── 15-crearArray/
-│ ├── 16-recorrerArray/
-│ ├── 17-sumarArray/
-│ ├── 18-maximoArray/
-│ ├── 19-minimoArray/
-│ ├── 20-contarParesArray/
-│ ├── 21-buscarElementoArray/
-│ ├── 22-ArrayListBasico/
-│ ├── 23-ArrayListConEnteros/
-│ ├── 24-ClasePerro/
-│ ├── 25-ClaseGato/
-│ ├── 27-BucleDoWhile/
-│ ├── 28-SwitchDias/
-│ └── 29-CalculadoraSimple/
-└── README.md
-````
+├── boolean-logic/                 # (Exercises 01–11)
+│   ├── 01_PuedeVotar.java
+│   ├── 02_TieneDescuento.java
+│   ├── 03_PuedeSubirMontanaRusa.java
+│   ├── 04_EsNumeroEspecial.java
+│   ├── 05_PuedeConducir.java
+│   ├── 06_DiaDePlaya.java
+│   ├── 07_EsPositivoYPar.java
+│   ├── 08_DescuentoPorVolumen.java
+│   ├── 09_Entre10y20.java
+│   ├── 10_FueraDeRango5a15.java
+│   └── 11_RangoEspecial.java
+│
+├── control-flow/                  # (Exercises 26–29)
+│   ├── 26_BucleWhile.java
+│   ├── 27_BucleDoWhile.java
+│   ├── 28_SwitchDias.java
+│   └── 29_CalculadoraSimple.java
+│
+├── arrays-collections/            # (Exercises 15–23)
+│   ├── 15_CrearArray.java
+│   ├── 16_RecorrerArray.java
+│   ├── 17_SumarArray.java
+│   ├── 18_MaximoArray.java
+│   ├── 19_MinimoArray.java
+│   ├── 20_ContarParesArray.java
+│   ├── 21_BuscarElementoArray.java
+│   ├── 22_ArrayListBasico.java
+│   └── 23_ArrayListConEnteros.java
+│
+├── methods/                       # (Exercises 12–14)
+│   ├── 12_MaxTres.java
+│   ├── 13_MinTres.java
+│   └── 14_MedioTres.java
+│
+├── oop/                           # (Exercises 24–25)
+│   ├── 24_ClasePerro.java
+│   └── 25_ClaseGato.java
+│
+└── codingbat/
+    └── warmup-1/                  # (8 introductory CodingBat exercises)
+        ├── 01_sleepIn.java
+        ├── 02_monkeyTrouble.java
+        ├── 03_sumDouble.java
+        ├── 04_diff21.java
+        ├── 05_parrotTrouble.java
+        ├── 06_makes10.java
+        ├── 07_nearHundred.java
+        └── 08_posNeg.java
+```
 
 ---
 
----
+## 🎯 Topics Covered
 
-## 🧠 Topics Covered
-
-| Area | Exercises |
-| :--- | :--- |
-| **Conditionals & Logic** | 01 to 14 (puedeVotar, tieneDescuento, maxTres, medioTres, etc.) |
-| **Arrays** | 15 to 21 (crearArray, sumarArray, maximoArray, contarPares, etc.) |
-| **ArrayList** | 22 and 23 (ArrayListBasico, ArrayListConEnteros) |
-| **OOP** | 24 and 25 (ClasePerro, ClaseGato) |
-| **Loops & Control Structures** | 27 (BucleDoWhile), 28 (SwitchDias) |
-| **Integrated Project** | 29 (CalculadoraSimple) |
+| Folder | Topics | Exercises |
+| :--- | :--- | :--- |
+| `boolean-logic/` | Boolean operators, `if/else`, logical conditions (`&&`, `||`, `!`) | 01–11 |
+| `control-flow/` | Loops (`while`, `do-while`), `switch` statements | 26–29 |
+| `arrays-collections/` | Arrays, `ArrayList`, `map`, `filter`, `reduce` | 15–23 |
+| `methods/` | Method creation, parameters, return values, min/max | 12–14 |
+| `oop/` | Object-Oriented Programming, classes, constructors, encapsulation | 24–25 |
+| `codingbat/warmup-1/` | Introductory CodingBat exercises | 8 exercises |
 
 ---
 
-## 📚 Additional Practice
+## 📚 Learning Objectives
 
-- **CodingBat Warmup-1:** 8 introductory exercises to solidify syntax and basic logic.
-
----
-
-## 🚀 Usage
-
-Each exercise is in its own folder with source code and a specific `README.md` describing the problem and solution.
+- Boolean logic and conditional statements
+- Control flow: loops and `switch`
+- Arrays and collections (`ArrayList`)
+- Creating methods with parameters and return values
+- Object-Oriented Programming (classes, constructors, encapsulation)
+- Problem-solving with Java
 
 ---
 
 ## 👤 Author
 
-**NTR1991** – Full Stack in training
+*NTR1991 – Full Stack in training | FP DAW Student*
 
 ## 📅 Date
 
 June 2026
-
