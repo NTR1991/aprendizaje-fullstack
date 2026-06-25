@@ -72,8 +72,9 @@ A PHP script demonstrating the manipulation and formatting of strings using vari
 1. **HR Employee Data Processing System**
    An HR company needs a system to process and format employee data for internal reports and communications.
 
- ````   
+    
 **Input:**
+````
    $empleadoNombre = "  carlos manuel gomez  ";
    $empleadoEmail = "  CARLOS.GOMEZ@EMPRESA.COM  ";
    $empleadoTelefono = "  912345678  ";
