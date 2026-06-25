@@ -1,0 +1,96 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #f4f7fa;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #2c3e50, #3498db);
+    color: #fff;
+    padding: 30px 20px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    margin-top: 8px;
+}
+
+/* Main content */
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+
+/* PHP info styling */
+.php-info {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 5px solid #3498db;
+    margin-bottom: 20px;
+}
+
+.php-info p {
+    font-size: 1.1rem;
+    margin: 8px 0;
+}
+
+.php-info strong {
+    color: #2c3e50;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    color: #7f8c8d;
+    font-size: 0.95rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    main {
+        padding: 15px;
+    }
+}
