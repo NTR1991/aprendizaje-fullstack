@@ -73,13 +73,15 @@ A PHP script demonstrating the manipulation and formatting of strings using vari
    An HR company needs a system to process and format employee data for internal reports and communications.
 
  ````   
-Input:
+**Input:**
    $empleadoNombre = "  carlos manuel gomez  ";
    $empleadoEmail = "  CARLOS.GOMEZ@EMPRESA.COM  ";
    $empleadoTelefono = "  912345678  ";
    $empleadoPuesto = "   DESARROLLADOR SENIOR   ";
    $empleadoDepartamento = " tecnologia  ";
    $empleadoFecha = "2026-06-25";
+````
+
 
    Tasks to perform:
    - Format name: Remove whitespace, capitalize first letter of each word (using ucwords()).
@@ -90,7 +92,7 @@ Input:
    - Format date: Convert from 2026-06-25 to 25/06/2026 (using explode()).
    - Generate email signature: Combine name, position, and department in a professional format.
    - Generate username: First letter of first name + last name + last 2 digits of year (e.g., "cgomez26").
-````
+
 
 
 ---
