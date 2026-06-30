@@ -85,8 +85,7 @@ A PHP script demonstrating the use of predefined magic constants in real-world b
      - A `warning($mensaje)` method that calls `log()` with level `WARNING`
      - An `error($mensaje)` method that calls `log()` with level `ERROR`
    - Test the function and class with different messages and levels
-
-  ````
+   ````
 
 ---
 
