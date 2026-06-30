@@ -30,12 +30,14 @@ A PHP script demonstrating the use of mathematical functions in real-world busin
    A construction company needs to calculate different measurements for their projects. You must use PHP mathematical functions to perform the calculations.
 
    Input:
+   ````
    $lado1 = 15;
    $lado2 = 8;
    $lado3 = 12;
    $radio = 5;
    $temperaturas = [-3, 5, 12, -1, 8, 0, -5];
    $precios = [99.99, 45.50, 12.75, 89.30, 25.00];
+   ````
 
    Tasks to perform:
    - Calculate the area of a rectangle: $lado1 * $lado2
@@ -57,7 +59,9 @@ A PHP script demonstrating the use of mathematical functions in real-world busin
    A statistics company needs to calculate measures of central tendency and dispersion for monthly sales data.
 
    Input:
+   ````
    $ventas = [1250, 980, 2100, 750, 1650, 1900, 850, 2200, 1400, 1750, 1100, 1950];
+   ````
 
    Tasks to perform:
    - Calculate the total number of months using count()
@@ -78,9 +82,11 @@ A PHP script demonstrating the use of mathematical functions in real-world busin
    An investment company needs to analyze the performance of different investment funds. You must calculate various financial metrics using PHP mathematical functions.
 
    Input:
+   ````
    $fondo1 = [1200, 1350, 1100, 1450, 1600, 1300, 1500, 1700, 1400, 1550, 1250, 1650];
    $fondo2 = [900, 850, 1100, 950, 1200, 1050, 1300, 1150, 1400, 1250, 1500, 1350];
    $fondo3 = [1800, 1650, 1900, 1750, 2000, 1850, 2100, 1950, 2200, 2050, 2300, 2150];
+   ````
 
    Tasks to perform:
    - Calculate the total return of each fund using array_sum()
