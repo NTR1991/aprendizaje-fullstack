@@ -1,5 +1,8 @@
 # 🐘 PHP Learning Path
-![Progress](https://img.shields.io/badge/Progress-14%20of%2054-26%25-orange)
+![PHP](https://img.shields.io/badge/PHP-8.0%2B-777BB4?style=flat&logo=php&logoColor=white)
+![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+![Blocks](https://img.shields.io/badge/Blocks-6%20Total-blue)
+
 ![Topics](https://img.shields.io/badge/Topics-Completed-14-brightgreen)
 ![Block](https://img.shields.io/badge/Current%20Block-Fundamentals-blueviolet)
 
