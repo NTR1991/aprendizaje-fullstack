@@ -168,16 +168,16 @@ java/
 
 ## 🎯 Learning Path
 
-| Block | Topics | Status | Project |
-|-------|--------|--------|---------|
-| 01 | Fundamentals (4 topics) | ✅ Completed | Personal Budget Calculator |
-| 02 | Control Flow (4 topics) | ✅ Completed | Task Management System |
-| 03 | Arrays & Collections (9 topics) | ✅ Completed | Invoice Generator |
-| 04 | Methods (3 topics) | ✅ Completed | Password Generator |
-| 05 | OOP (2 topics) | ✅ Completed | Library Management System |
-| 06 | Errors & Files (3 topics) | ✅ Completed | CSV Exporter |
-| 07 | Advanced Collections (3 topics) | ⏳ In Progress | Inventory Management |
-| 08 | Advanced Topics (4 topics) | ⏳ Pending | Order & Invoice System |
+| Block | Project | Status | Repository |
+|-------|---------|--------|------------|
+| 1 | Personal Budget Calculator | ⏳ Pending | - |
+| 2 | Task Management System | ⏳ Pending | - |
+| 3 | Invoice Generator | ⏳ Pending | - |
+| 4 | Password Generator | ⏳ Pending | - |
+| 5 | Library Management System | ⏳ Pending | - |
+| 6 | CSV Exporter | ⏳ Pending | - |
+| 7 | Inventory Management | ⏳ Pending | - |
+| 8 | Order & Invoice System | ⏳ Pending | - |
 
 ---
 
