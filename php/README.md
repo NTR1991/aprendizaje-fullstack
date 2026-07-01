@@ -3,7 +3,6 @@
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
 ![Blocks](https://img.shields.io/badge/Blocks-6%20Total-blue)
 
-![Topics](https://img.shields.io/badge/Topics-Completed-14-brightgreen)
 ![Block](https://img.shields.io/badge/Current%20Block-Fundamentals-blueviolet)
 
 ## 📋 Description
