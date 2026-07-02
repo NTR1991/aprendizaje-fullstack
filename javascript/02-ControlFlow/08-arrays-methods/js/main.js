@@ -1,54 +1,42 @@
-//Ejercicio 1 
-
-const  user = {
-        name : "Maria",
-        email : "maria5890@gmail.com",
-        age : 28
-}
-
-console.log("welcome ," +  user.name);
-
-
-//Ejercicio 2
-
-const product = {
-        name : 'licuadora',
-        price : 85.00,
-        stock : 150
-}
-const totalValue = product.price * product.stock
-console.log("El resultado es: " + totalValue);
+// Ejercicio 1 – map()
+const celsius = [0, 10, 20, 30];
+const fahrenheit = celsius.map(temp => (temp * 9/5) + 32);
+console.log("Ejercicio 1 - Fahrenheit:");
+console.log(fahrenheit);
 
 
 
 
-//Ejercicio 3
 
 
-const cart = {
-        items : [],
-        addItem: function(name, price) {
-                this.items.push({ name: name, price: price});
-        },
+// Ejercicio 2 – filter() + map()
+const precios = [15, 25, 10, 40, 30, 20];
+const preciosFiltrados = precios.filter(precio => precio > 20);
+const preciosConDescuento = preciosFiltrados.map(precio => precio * 0.9);
+console.log("Ejercicio 2 - Precios con descuento:");
+console.log(preciosConDescuento);
 
-        removeItem: function(name) {
-                const index = this.items.findIndex(item => item.name === name);
-                if (index !== -1) {
-                        this.items.splice(index, 1);
-                }
 
-        }, 
 
-        total: function() {
-                return this.items.reduce((sum, item) => sum + item.price, 0);
-        }
-};
 
-//prueba 
-cart.addItem("pelota", 18);
-cart.addItem("poleras", 35);
-cart.addItem("zapatillas", 115);
 
-cart.remoceItem("camiseta");
 
-console.log("Total: " + cart.total());
+// Ejercicio 3 – filter() + map() + sort() + reduce()
+const products = [
+    { name: "Laptop", price: 1200 },
+    { name: "Mouse", price: 25 },
+    { name: "Keyboard", price: 80 },
+    { name: "Monitor", price: 300 }
+];
+
+const productosBaratos = products.filter(product => product.price < 100);
+const productosConDescuento2 = productosBaratos.map(product => ({
+    ...product,
+    discountPrice: product.price * 0.85
+}));
+const productosOrdenados = productosConDescuento2.sort((a, b) => a.discountPrice - b.discountPrice);
+const totalDescuento = productosOrdenados.reduce((sum, product) => sum + product.discountPrice, 0);
+
+console.log("Ejercicio 3 - Productos con descuento:");
+console.log(productosOrdenados);
+console.log("Total con descuento: " + totalDescuento);
