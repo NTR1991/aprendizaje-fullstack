@@ -1,111 +1,143 @@
-# 📘 Topic 7 – Objects in JavaScript
-
----
+# 📘 JavaScript Arrays Methods
 
 ## 📋 Description
 
-Working with objects: creation, properties, methods, destructuring, and real-world use cases.
+Practice with advanced array methods: `map`, `filter`, `reduce`, `find`, `sort`, `some`, and `every`. All exercises are based on real-world scenarios such as product filtering, cart total calculation, and data transformation.
 
 ---
 
 ## 🎯 Learning Objectives
 
-- Create and manipulate objects
-- Access and modify properties
-- Use object methods and `this`
-- Apply destructuring
-- Iterate objects with `for...in`
+- Use `.map()` to transform all elements of an array
+- Use `.filter()` to select elements that meet a condition
+- Use `.reduce()` to accumulate values into a single result
+- Use `.find()` to locate the first matching element
+- Use `.sort()` to order elements
+- Use `.some()` and `.every()` to test conditions
+- Combine multiple array methods in a single chain
 
 ---
 
 ## 📝 Exercises (Real-World Scenarios)
 
-### 🟢 Normal Level
+### 🟢 Normal Level (1 exercise)
 
-1. **User Profile**  
-   Create an object `user` with properties `name`, `email`, and `age`. Log a welcome message using the object.
+1. **Temperature Converter**
 
----
+   ```javascript
+   const celsius = [0, 10, 20, 30];
+   ```
 
-### 🟡 Intermediate Level
+   Tasks:
+   - Use `.map()` to convert each temperature to Fahrenheit
+   - Formula: (celsius * 9/5) + 32
+   - Show the new array in console
 
-1. **Product Value**  
-   Create an object `product` with `name`, `price`, and `stock`. Add a method `totalValue` that returns `price * stock`. Log the result.
+### 🟡 Intermediate Level (1 exercise)
 
----
+1. **Product Filter with Discount**
 
-### 🔴 Difficult Level
+   ```javascript
+   const precios = [15, 25, 10, 40, 30, 20];
+   ```
 
-1. **Shopping Cart**  
-   Create an object `cart` with:
-   - `items` array
-   - `addItem(name, price)` – adds a product
-   - `removeItem(name)` – removes a product by name
-   - `total()` – returns total price
+   Business rules:
+   - Keep only prices greater than 20
+   - Apply 10% discount to remaining products
 
-   Add 3 products, remove one, and show the total.
+   Tasks:
+   - Use `.filter()` to keep prices > 20
+   - Use `.map()` to apply discount (multiply by 0.9)
+   - Show final result in console
+
+### 🔴 Difficult Level (1 exercise)
+
+1. **Shopping Cart Manager**
+
+   ```javascript
+   const products = [
+       { name: "Laptop", price: 1200 },
+       { name: "Mouse", price: 25 },
+       { name: "Keyboard", price: 80 },
+       { name: "Monitor", price: 300 }
+   ];
+   ```
+
+   Business rules:
+   - Only products under 100 are eligible for discount
+   - Discount is 15%
+   - Final list must be sorted by discounted price
+
+   Tasks:
+   - Use `.filter()` to keep products with price < 100
+   - Use `.map()` to add discountPrice (price * 0.85)
+   - Use `.sort()` to order by discountPrice (lowest to highest)
+   - Use `.reduce()` to calculate total discountPrice
 
 ---
 
 ## 🧪 Test (10 questions)
 
-1. What is an object in JavaScript?
-2. How do you access a property with dot notation?
-3. How do you add a new property to an existing object?
-4. What is a method inside an object?
-5. What does `this` refer to inside an object method?
-6. What is object destructuring?
-7. How do you modify an existing property value?
-8. What is the difference between `object.property` and `object["property"]`?
-9. How do you iterate over an object's properties?
-10. Write code to create a `person` object with `name` and `age`, and a `greet` method that returns `"Hello, I'm [name]"`.
+| # | Question | Correct Answer |
+|---|----------|----------------|
+| 1 | What method transforms all elements of an array? | B (`.map()`) |
+| 2 | What method keeps only elements that meet a condition? | C (`.filter()`) |
+| 3 | What method reduces an array to a single value? | C (`.reduce()`) |
+| 4 | What method returns the first element that meets a condition? | D (`.find()`) |
+| 5 | What method sorts an array? | A (`.sort()`) |
+| 6 | What method returns `true` if at least one element meets a condition? | B (`.some()`) |
+| 7 | What method returns `true` if all elements meet a condition? | B (`.every()`) |
+| 8 | What is the difference between `.map()` and `.filter()`? | B |
+| 9 | What parameters does `.reduce()` receive? | B (`(accumulator, currentElement)`) |
+| 10 | Correct way to chain filter and map? | B (`array.filter().map()`) |
 
 ---
 
-## ✅ Test Answers
+## ✅ Test Results (NTR1991)
 
-| # | Question | Answer |
-|---|----------|--------|
-| 1 | What is an object in JavaScript? | A collection of related data organized in key-value pairs. |
-| 2 | How do you access a property with dot notation? | `object.propertyName` |
-| 3 | How do you add a new property to an existing object? | `object.newProperty = value` |
-| 4 | What is a method inside an object? | A function that belongs to the object and can access its properties with `this`. |
-| 5 | What does `this` refer to inside an object method? | It refers to the object itself. |
-| 6 | What is object destructuring? | A way to extract object properties into individual variables: `const { prop1, prop2 } = obj` |
-| 7 | How do you modify an existing property value? | `object.property = newValue` |
-| 8 | Difference between `object.property` and `object["property"]`? | Both access the same property. Dot notation is more common; bracket notation is used for dynamic keys or special characters. |
-| 9 | How do you iterate over an object's properties? | Using `for...in` loop. |
-| 10 | Write code for a `person` object with `name`, `age`, and `greet` method. | `const person = { name: "Ana", age: 28, greet() { return "Hello, I'm " + this.name; } };` |
+| # | Question | Your Answer | Correct Answer | Status |
+|---|----------|-------------|----------------|--------|
+| 1 | What method transforms all elements? | B | B | ✅ |
+| 2 | What method keeps only elements that meet a condition? | C | C | ✅ |
+| 3 | What method reduces an array to a single value? | C | C | ✅ |
+| 4 | What method returns the first element that meets a condition? | D | D | ✅ |
+| 5 | What method sorts an array? | A | A | ✅ |
+| 6 | What method returns `true` if at least one element meets a condition? | B | B | ✅ |
+| 7 | What method returns `true` if all elements meet a condition? | B | B | ✅ |
+| 8 | What is the difference between `.map()` and `.filter()`? | B | B | ✅ |
+| 9 | What parameters does `.reduce()` receive? | B | B | ✅ |
+| 10 | Correct way to chain filter and map? | B | B | ✅ |
+
+**Result: 10/10 (100%)** ✅
 
 ---
 
 ## 🛠️ Technologies Used
 
-- **JavaScript (ES6+)**
-- **VS Code**
-- **Git & GitHub**
+- **JavaScript (ES6+)** – Core language
+- **HTML5** – Structure
+- **CSS3** – Styling
 
 ---
 
 ## 📂 Folder Structure
-````
-07-objects/
-├── index.html
+
+```
+08-arrays-methods/
 ├── css/
-│ └── style.css
+│   └── style.css
 ├── js/
-│ └── main.js
+│   └── main.js
+├── index.html
 └── README.md
-````
+```
 
 ---
 
 ## 👤 Author
 
-**NTR1991** – Full Stack Developer in training | FP DAW Student
-
----
+*NTR1991 – Full Stack Developer in training | FP DAW Student*
 
 ## 📅 Date
 
-June 2026
+July 2026
