@@ -1,4 +1,4 @@
-# 📘 JavaScript Arrays Methods
+# 📘 Topic 8 – JavaScript Arrays Methods
 
 ## 📋 Description
 
