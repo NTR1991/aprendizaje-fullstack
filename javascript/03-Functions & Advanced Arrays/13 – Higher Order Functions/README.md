@@ -1,18 +1,18 @@
-# 📘 Topic 12 – Dates in JavaScript
+# 📘 Topic 13 – Higher Order Functions
 
 ## 📋 Description
 
-Working with dates: create Date objects, get and set date components, format dates, and calculate differences between dates.
+Practice with higher order functions: functions that receive other functions as parameters (callbacks) and functions that return other functions. Learn to build custom versions of `map`, `filter`, and function factories.
 
 ---
 
 ## 🎯 Learning Objectives
 
-- Create Date objects for current and specific dates
-- Get and set date components (year, month, day)
-- Format dates for display
-- Calculate age from birthdate
-- Calculate days until next birthday
+- Understand what higher order functions are
+- Write functions that receive callbacks
+- Write functions that return functions
+- Build custom `map` and `filter` implementations
+- Use arrow functions as callbacks
 
 ---
 
@@ -20,49 +20,58 @@ Working with dates: create Date objects, get and set date components, format dat
 
 ### 🟢 Normal Level (1 exercise)
 
-1. **Show Current Date in dd/mm/yyyy Format**
+1. **Custom map function**
 
-   Input:
-   ````
-   Today's date (e.g., 11/07/2026)
-   ````
+   Create a function `miMap(array, callback)` that:
+   - Receives an array and a callback function
+   - Iterates over the array
+   - Applies the callback to each element
+   - Returns a new array with the transformed elements
 
-   Task:
-   - Create a Date object for today
-   - Extract day, month, and year
-   - Display the date as "dd/mm/yyyy" in console
+   **Test:**
+   ```javascript
+   const numeros = [2, 4, 6];
+   const dobles = miMap(numeros, num => num * 2);
+   console.log(dobles); // [4, 8, 12]
+   ```
+
+---
 
 ### 🟡 Intermediate Level (1 exercise)
 
-1. **Calculate Age from Birthdate**
+1. **Custom filter function**
 
-   Input: 
-   ````
-   Birthdate = 15/01/1991
-   ````
+   Create a function `miFilter(array, callback)` that:
+   - Receives an array and a callback function
+   - Iterates over the array
+   - Keeps only elements where callback returns `true`
+   - Returns a new array with the filtered elements
 
-   Task:
-   - Create a Date object for the birthdate
-   - Get the current date
-   - Calculate age (considering if birthday has passed this year)
-   - Show the age in console
+   **Test:**
+   ```javascript
+   const edades = [15, 22, 18, 30, 12];
+   const mayores = miFilter(edades, edad => edad >= 18);
+   console.log(mayores); // [22, 18, 30]
+   ```
+
+---
 
 ### 🔴 Difficult Level (1 exercise)
 
-1. **Days Until Next Birthday**
+1. **Function factory – multiplier**
 
-   Input: 
-   
-   ````
-   Birthdate = 15/01/1991
-   ````
-   
+   Create a function `crearMultiplicador(multiplicador)` that:
+   - Receives a number as argument
+   - Returns a new function
+   - The returned function receives a number and multiplies it by the original multiplier
 
-   Task:
-   - Create a Date object for the birthdate
-   - Determine the next birthday (this year or next)
-   - Calculate the number of days until then
-   - Show the result in console
+   **Test:**
+   ```javascript
+   const duplicar = crearMultiplicador(2);
+   const triplicar = crearMultiplicador(3);
+   console.log(duplicar(10)); // 20
+   console.log(triplicar(10)); // 30
+   ```
 
 ---
 
@@ -70,16 +79,16 @@ Working with dates: create Date objects, get and set date components, format dat
 
 | # | Question | Correct Answer |
 |---|----------|----------------|
-| 1 | What method creates a current date? | A |
-| 2 | What method returns the full year? | B |
-| 3 | What method returns the day of the month? | C |
-| 4 | What method returns the month (0-11)? | A |
-| 5 | Why add +1 to getMonth() when displaying? | B |
-| 6 | What method sets the year? | B |
-| 7 | Formula for days between two dates? | A |
-| 8 | What does `Math.ceil()` do? | B |
-| 9 | When is the next birthday if today is July and birthday is January? | B |
-| 10 | What does `getDay()` return? | B |
+| 1 | What is a Higher Order Function? | B |
+| 2 | Example of function that receives a callback | B |
+| 3 | Example of function that returns a function | A |
+| 4 | In `miMap`, what does the callback do? | B |
+| 5 | In `miFilter`, what does the callback do? | B |
+| 6 | What does `miMap` return? | A |
+| 7 | What does `miFilter` return? | B |
+| 8 | What is a callback? | B |
+| 9 | In `crearMultiplicador`, what does the inner function remember? | B |
+| 10 | Output of `crearMultiplicador(2)(5)`? | B |
 
 ---
 
@@ -87,16 +96,16 @@ Working with dates: create Date objects, get and set date components, format dat
 
 | # | Question | Your Answer | Correct Answer | Status |
 |---|----------|-------------|----------------|--------|
-| 1 | What method creates a current date? | A | A | ✅ |
-| 2 | What method returns the full year? | B | B | ✅ |
-| 3 | What method returns the day of the month? | C | C | ✅ |
-| 4 | What method returns the month (0-11)? | A | A | ✅ |
-| 5 | Why add +1 to getMonth()? | B | B | ✅ |
-| 6 | What method sets the year? | B | B | ✅ |
-| 7 | Formula for days between two dates? | A | A | ✅ |
-| 8 | What does `Math.ceil()` do? | B | B | ✅ |
-| 9 | When is the next birthday? | B | B | ✅ |
-| 10 | What does `getDay()` return? | B | B | ✅ |
+| 1 | What is a Higher Order Function? | B | B | ✅ |
+| 2 | Example of function that receives a callback | B | B | ✅ |
+| 3 | Example of function that returns a function | A | A | ✅ |
+| 4 | In `miMap`, what does the callback do? | B | B | ✅ |
+| 5 | In `miFilter`, what does the callback do? | B | B | ✅ |
+| 6 | What does `miMap` return? | A | A | ✅ |
+| 7 | What does `miFilter` return? | B | B | ✅ |
+| 8 | What is a callback? | B | B | ✅ |
+| 9 | In `crearMultiplicador`, what does the inner function remember? | B | B | ✅ |
+| 10 | Output of `crearMultiplicador(2)(5)`? | B | B | ✅ |
 
 **Result: 10/10 (100%)** ✅
 
@@ -104,20 +113,20 @@ Working with dates: create Date objects, get and set date components, format dat
 
 ## 🛠️ Technologies Used
 
-- **JavaScript (ES6+)**
-- **HTML5**
-- **CSS3**
+- **JavaScript (ES6+)** – Higher order functions, callbacks
+- **HTML5** – Structure
+- **CSS3** – Styling
 
 ---
 
 ## 📂 Folder Structure
 
 ```
-12-dates/
+13-higher-order-functions/
 ├── css/
-│ └── style.css
+│   └── style.css
 ├── js/
-│ └── main.js
+│   └── main.js
 ├── index.html
 └── README.md
 ```
