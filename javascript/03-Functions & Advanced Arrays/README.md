@@ -2,7 +2,7 @@
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
-![Topics](https://img.shields.io/badge/Topics-1%2F8-blue)
+![Topics](https://img.shields.io/badge/Topics-3%2F8-blue)
 
 ## 📋 Description
 
@@ -15,8 +15,8 @@ This block deepens the understanding of functions and arrays, covering higher or
 | # | Topic | Description | Status |
 |---|-------|-------------|--------|
 | 13 | Higher Order Functions | Functions that receive or return other functions | ✅ |
-| 14 | Callbacks | Functions passed as arguments, async patterns | ⏳ |
-| 15 | Closures | Functions that remember their lexical scope | ⏳ |
+| 14 | Callbacks | Functions passed as arguments, async patterns | ✅ |
+| 15 | Closures | Functions that remember their lexical scope | ✅ |
 | 16 | Recursion | Functions that call themselves | ⏳ |
 | 17 | Advanced Arrays | `some`, `every`, `find`, `findIndex` | ⏳ |
 | 18 | Array Chaining | Combining multiple array methods | ⏳ |
@@ -30,8 +30,8 @@ This block deepens the understanding of functions and arrays, covering higher or
 By the end of this block, you should be able to:
 
 - ✅ Write higher order functions (functions that receive or return functions)
-- ⏳ Use callbacks effectively in real-world scenarios
-- ⏳ Understand closures and lexical scope
+- ✅ Use callbacks effectively in real-world scenarios
+- ✅ Understand closures and lexical scope
 - ⏳ Implement recursive functions
 - ⏳ Use advanced array methods: `some`, `every`, `find`, `findIndex`
 - ⏳ Chain array methods for complex data transformations
@@ -48,6 +48,7 @@ By the end of this block, you should be able to:
 ---
 
 ## 📂 Folder Structure
+
 ````
 03-FunctionsArrays/
 ├── 13-higher-order-functions/
@@ -69,16 +70,17 @@ By the end of this block, you should be able to:
 
 
 
+
 ---
 
 ## 📊 Progress
 
-**1/8 topics completed** ✅
+**3/8 topics completed** ✅
 
 | Status | Topics |
 |--------|--------|
-| ✅ Completed | 13-higher-order-functions |
-| ⏳ Pending | 14-callbacks, 15-closures, 16-recursion, 17-advanced-arrays, 18-array-chaining, 19-array-from, 20-array-of |
+| ✅ Completed | 13-higher-order-functions, 14-callbacks, 15-closures |
+| ⏳ Pending | 16-recursion, 17-advanced-arrays, 18-array-chaining, 19-array-from, 20-array-of |
 | ⏳ Pending | Project Integrator: Product Catalog |
 
 ---
