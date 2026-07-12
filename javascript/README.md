@@ -25,14 +25,14 @@ javascript/
 │   ├── 📁 06-arrays/ ✅
 │   └── 📄 README.md ✅
 │
-├── 📁 02-ControlFlow/ ▶️ (Bloque 2 En Progreso)
-│   ├── 📁 07-objects/ ✅ (Completado)
-│   ├── 📁 08-arrays-methods/ 📝 (Ejercicios hechos, test pendiente)
-│   ├── 📁 09-json/ ⏳ (Pendiente)
-│   ├── 📁 10-destructuring/ ⏳ (Pendiente)
-│   ├── 📁 11-spread-rest/ ⏳ (Pendiente)
-│   ├── 📁 12-dates/ ⏳ (Pendiente)
-│   └── 📄 README.md ▶️ (Actualizado)
+├── 📁 02-ControlFlow/ ✅ (Bloque 2 Completado)
+│ ├── 📁 07-objects/ ✅
+│ ├── 📁 08-arrays-methods/ ✅
+│ ├── 📁 09-json/ ✅
+│ ├── 📁 10-destructuring/ ✅
+│ ├── 📁 11-spread-rest/ ✅
+│ ├── 📁 12-dates/ ✅
+│ └── 📄 README.md ✅
 │
 ├── 📁 03-FunctionsArrays/ ⏳ (Bloque 3 Pendiente)
 │   ├── 📁 13-higher-order-functions/ ⏳
@@ -82,6 +82,7 @@ javascript/
 ````
 
 
+
 ---
 
 ## 🎯 Learning Path
@@ -89,7 +90,7 @@ javascript/
 | Block | Topics | Status | Project |
 |-------|--------|--------|---------|
 | 01 | Fundamentals (6 topics) | ✅ Completed | To-Do List (Console) |
-| 02 | Control Flow & Data Structures (6 topics) | ▶️ In Progress | Shopping Cart System |
+| 02 | Control Flow & Data Structures (6 topics) | ✅ Completed | Event Manager (Console) |
 | 03 | Functions & Advanced Arrays (8 topics) | ⏳ Pending | Product Catalog |
 | 04 | DOM & Events (8 topics) | ⏳ Pending | Interactive Notes App |
 | 05 | Async & Web APIs (10 topics) | ⏳ Pending | Weather Dashboard |
@@ -102,7 +103,7 @@ javascript/
 | Block | Project | Status | Repository |
 |-------|---------|--------|------------|
 | 1 | To-Do List (Console) | ✅ Completed | [View Project](https://github.com/NTR1991/aprendizaje-fullstack/tree/main/my-projects/16-To-Do%20List) |
-| 2 | Shopping Cart System | ⏳ Pending | - |
+| 2 | Event Manager (Console) | ✅ Completed | [View Project](https://github.com/NTR1991/aprendizaje-fullstack/tree/main/my-projects/18-js-event-manager) |
 | 3 | Product Catalog | ⏳ Pending | - |
 | 4 | Interactive Notes App | ⏳ Pending | - |
 | 5 | Weather Dashboard | ⏳ Pending | - |
@@ -112,9 +113,9 @@ javascript/
 
 ## 📊 Progress
 
-**Completed:** 7 of 52 topics  
-**Percentage:** 13% completed  
-**Current:** Block 2 – Topic 08 (Arrays Methods) – In Progress
+**Completed:** 12 of 52 topics  
+**Percentage:** 23% completed  
+**Current:** Block 3 – Topic 13 (Higher Order Functions) – Pending
 
 ### Block 1 – Fundamentals (✅ Completed)
 - ✅ 01-introduction
@@ -124,13 +125,23 @@ javascript/
 - ✅ 05-functions
 - ✅ 06-arrays
 
-### Block 2 – Control Flow & Data Structures (▶️ In Progress)
+### Block 2 – Control Flow & Data Structures (✅ Completed)
 - ✅ 07-objects
-- 📝 08-arrays-methods (Exercises done, test pending)
-- ⏳ 09-json
-- ⏳ 10-destructuring
-- ⏳ 11-spread-rest
-- ⏳ 12-dates
+- ✅ 08-arrays-methods
+- ✅ 09-json
+- ✅ 10-destructuring
+- ✅ 11-spread-rest
+- ✅ 12-dates
+
+### Block 3 – Functions & Advanced Arrays (⏳ Pending)
+- ⏳ 13-higher-order-functions
+- ⏳ 14-callbacks
+- ⏳ 15-closures
+- ⏳ 16-recursion
+- ⏳ 17-array-advanced
+- ⏳ 18-array-chaining
+- ⏳ 19-array-from
+- ⏳ 20-array-of
 
 ---
 
