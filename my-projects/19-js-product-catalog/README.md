@@ -62,8 +62,8 @@ This project integrates all concepts from **Block 3 – Functions & Advanced Arr
 3. Go to the **Console** tab.
 4. Type or paste the following commands (one by one):
 
-```
 javascript
+```
 // Add products
 anadirProducto("Laptop", 1200, "Electronica", 5);
 anadirProducto("Mouse", 25, "Electronica", 20);
