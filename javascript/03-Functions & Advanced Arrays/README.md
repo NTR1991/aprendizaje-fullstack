@@ -1,8 +1,8 @@
 # 📘 Block 3 – Functions & Advanced Arrays
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
-![Topics](https://img.shields.io/badge/Topics-3%2F8-blue)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Topics](https://img.shields.io/badge/Topics-8%2F8-blue)
 
 ## 📋 Description
 
@@ -17,11 +17,11 @@ This block deepens the understanding of functions and arrays, covering higher or
 | 13 | Higher Order Functions | Functions that receive or return other functions | ✅ |
 | 14 | Callbacks | Functions passed as arguments, async patterns | ✅ |
 | 15 | Closures | Functions that remember their lexical scope | ✅ |
-| 16 | Recursion | Functions that call themselves | ⏳ |
-| 17 | Advanced Arrays | `some`, `every`, `find`, `findIndex` | ⏳ |
-| 18 | Array Chaining | Combining multiple array methods | ⏳ |
-| 19 | Array.from | Creating arrays from iterable objects | ⏳ |
-| 20 | Array.of | Creating arrays from arguments | ⏳ |
+| 16 | Recursion | Functions that call themselves | ✅ |
+| 17 | Advanced Arrays | `some`, `every`, `find`, `findIndex` | ✅ |
+| 18 | Array Chaining | Combining multiple array methods | ✅ |
+| 19 | Array.from | Creating arrays from iterable objects | ✅ |
+| 20 | Array.of | Creating arrays from arguments | ✅ |
 
 ---
 
@@ -32,10 +32,10 @@ By the end of this block, you should be able to:
 - ✅ Write higher order functions (functions that receive or return functions)
 - ✅ Use callbacks effectively in real-world scenarios
 - ✅ Understand closures and lexical scope
-- ⏳ Implement recursive functions
-- ⏳ Use advanced array methods: `some`, `every`, `find`, `findIndex`
-- ⏳ Chain array methods for complex data transformations
-- ⏳ Use `Array.from` and `Array.of` to create arrays
+- ✅ Implement recursive functions
+- ✅ Use advanced array methods: `some`, `every`, `find`, `findIndex`
+- ✅ Chain array methods for complex data transformations
+- ✅ Use `Array.from` and `Array.of` to create arrays
 
 ---
 
@@ -43,11 +43,12 @@ By the end of this block, you should be able to:
 
 **Product Catalog** – A product management system with filtering, sorting, and search functionality, using higher order functions and advanced array methods.
 
-🔗 **View Project** (pending – will be added after completing Block 3)
+🔗 **[View Project](https://github.com/NTR1991/aprendizaje-fullstack/tree/main/my-projects/19-js-product-catalog)**
 
 ---
 
 ## 📂 Folder Structure
+
 
 ````
 03-FunctionsArrays/
@@ -75,13 +76,12 @@ By the end of this block, you should be able to:
 
 ## 📊 Progress
 
-**3/8 topics completed** ✅
+**8/8 topics completed** ✅
 
 | Status | Topics |
 |--------|--------|
-| ✅ Completed | 13-higher-order-functions, 14-callbacks, 15-closures |
-| ⏳ Pending | 16-recursion, 17-advanced-arrays, 18-array-chaining, 19-array-from, 20-array-of |
-| ⏳ Pending | Project Integrator: Product Catalog |
+| ✅ Completed | 13-higher-order-functions, 14-callbacks, 15-closures, 16-recursion, 17-advanced-arrays, 18-array-chaining, 19-array-from, 20-array-of |
+| ✅ Completed | Project Integrator: Product Catalog |
 
 ---
 
