@@ -13,6 +13,7 @@ All exercises are developed following professional coding standards with proper 
 ---
 
 ## 📂 Repository Structure
+
 ````
 javascript/
 │
@@ -34,16 +35,16 @@ javascript/
 │ ├── 📁 12-dates/ ✅
 │ └── 📄 README.md ✅
 │
-├── 📁 03-FunctionsArrays/ ⏳ (Bloque 3 Pendiente)
-│   ├── 📁 13-higher-order-functions/ ⏳
-│   ├── 📁 14-callbacks/ ⏳
-│   ├── 📁 15-closures/ ⏳
-│   ├── 📁 16-recursion/ ⏳
-│   ├── 📁 17-array-advanced/ ⏳
-│   ├── 📁 18-array-chaining/ ⏳
-│   ├── 📁 19-array-from/ ⏳
-│   ├── 📁 20-array-of/ ⏳
-│   └── 📄 README.md ⏳
+├── 📁 03-FunctionsArrays/ ✅ (Bloque 3 Completado)
+│ ├── 📁 13-higher-order-functions/ ✅
+│ ├── 📁 14-callbacks/ ✅
+│ ├── 📁 15-closures/ ✅
+│ ├── 📁 16-recursion/ ✅
+│ ├── 📁 17-advanced-arrays/ ✅
+│ ├── 📁 18-array-chaining/ ✅
+│ ├── 📁 19-array-from/ ✅
+│ ├── 📁 20-array-of/ ✅
+│ └── 📄 README.md ✅
 │
 ├── 📁 04-DOMEvents/ ⏳ (Bloque 4 Pendiente)
 │   ├── 📁 21-dom-selectors/ ⏳
@@ -83,6 +84,7 @@ javascript/
 
 
 
+
 ---
 
 ## 🎯 Learning Path
@@ -91,7 +93,7 @@ javascript/
 |-------|--------|--------|---------|
 | 01 | Fundamentals (6 topics) | ✅ Completed | To-Do List (Console) |
 | 02 | Control Flow & Data Structures (6 topics) | ✅ Completed | Event Manager (Console) |
-| 03 | Functions & Advanced Arrays (8 topics) | ⏳ Pending | Product Catalog |
+| 03 | Functions & Advanced Arrays (8 topics) | ✅ Completed | Product Catalog |
 | 04 | DOM & Events (8 topics) | ⏳ Pending | Interactive Notes App |
 | 05 | Async & Web APIs (10 topics) | ⏳ Pending | Weather Dashboard |
 | 06 | Final Project (14 topics) | ⏳ Pending | Full Stack Application |
@@ -104,7 +106,7 @@ javascript/
 |-------|---------|--------|------------|
 | 1 | To-Do List (Console) | ✅ Completed | [View Project](https://github.com/NTR1991/aprendizaje-fullstack/tree/main/my-projects/16-To-Do%20List) |
 | 2 | Event Manager (Console) | ✅ Completed | [View Project](https://github.com/NTR1991/aprendizaje-fullstack/tree/main/my-projects/18-js-event-manager) |
-| 3 | Product Catalog | ⏳ Pending | - |
+| 3 | Product Catalog (Console) | ✅ Completed | [View Project](https://github.com/NTR1991/aprendizaje-fullstack/tree/main/my-projects/19-js-product-catalog) |
 | 4 | Interactive Notes App | ⏳ Pending | - |
 | 5 | Weather Dashboard | ⏳ Pending | - |
 | 6 | Full Stack Application | ⏳ Pending | - |
@@ -113,9 +115,9 @@ javascript/
 
 ## 📊 Progress
 
-**Completed:** 12 of 52 topics  
-**Percentage:** 23% completed  
-**Current:** Block 3 – Topic 13 (Higher Order Functions) – Pending
+**Completed:** 20 of 52 topics  
+**Percentage:** 38% completed  
+**Current:** Block 4 – Topic 21 (DOM Selectors) – Pending
 
 ### Block 1 – Fundamentals (✅ Completed)
 - ✅ 01-introduction
@@ -133,15 +135,25 @@ javascript/
 - ✅ 11-spread-rest
 - ✅ 12-dates
 
-### Block 3 – Functions & Advanced Arrays (⏳ Pending)
-- ⏳ 13-higher-order-functions
-- ⏳ 14-callbacks
-- ⏳ 15-closures
-- ⏳ 16-recursion
-- ⏳ 17-array-advanced
-- ⏳ 18-array-chaining
-- ⏳ 19-array-from
-- ⏳ 20-array-of
+### Block 3 – Functions & Advanced Arrays (✅ Completed)
+- ✅ 13-higher-order-functions
+- ✅ 14-callbacks
+- ✅ 15-closures
+- ✅ 16-recursion
+- ✅ 17-advanced-arrays
+- ✅ 18-array-chaining
+- ✅ 19-array-from
+- ✅ 20-array-of
+
+### Block 4 – DOM & Events (⏳ Pending)
+- ⏳ 21-dom-selectors
+- ⏳ 22-dom-manipulation
+- ⏳ 23-dom-styles
+- ⏳ 24-dom-traversal
+- ⏳ 25-event-listeners
+- ⏳ 26-event-object
+- ⏳ 27-forms-events
+- ⏳ 28-localStorage
 
 ---
 
