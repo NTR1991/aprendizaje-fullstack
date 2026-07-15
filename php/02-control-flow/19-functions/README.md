@@ -1,20 +1,21 @@
-# 📘 PHP Switch
+# 📘 PHP Functions
 
 ## 📋 Description
 
-A PHP script demonstrating the use of the `switch` statement as an alternative to multiple `if...elseif` conditions in real-world business scenarios, including video game genre pricing, international shipping cost calculation, and mobile phone plan billing.
+A PHP script demonstrating the use of functions to create reusable code blocks in real-world business scenarios, including price calculations, salary calculations, and product pricing with multiple discount rules.
 
 ---
 
 ## 🎯 Learning Objectives
 
-- Understanding the `switch` statement syntax
-- Using `case` to define different conditions
-- Using `break` to exit a switch block
-- Using `default` as a fallback option
-- Comparing `switch` with `if...elseif` for multiple conditions
-- Combining `switch` with `if...elseif...else` for complex logic
-- Applying `switch` in real-world business scenarios
+- Understanding function declaration and syntax
+- Using parameters to pass data to functions
+- Returning values from functions
+- Using default parameter values
+- Understanding variable scope inside functions
+- Using `match` inside functions
+- Using conditional logic inside functions
+- Applying functions in real-world business scenarios
 
 ---
 
@@ -22,75 +23,71 @@ A PHP script demonstrating the use of the `switch` statement as an alternative t
 
 ### 🟢 Normal Level (1 exercise)
 
-1. **Video Game Price by Genre**
-   A video game store needs to display the price of games based on their genre.
+1. **Product Price Calculator**
+   A store needs a function to calculate the final price of a product applying discount and VAT.
 
    Input:
-   ```
-   $genero = "aventura";  // "aventura", "deportes", "estrategia", "rpg", "shooter"
-   ```
-
-   Business rules:
-   - "aventura": 50 €
-   - "deportes": 45 €
-   - "estrategia": 55 €
-   - "rpg": 60 €
-   - "shooter": 40 €
-   - Other genres: 30 €
+   ````
+   $precio = 150;
+   $descuento = 20;
+   $iva = 21;
+   ````
 
    Tasks to perform:
-   - Use `switch` to display the corresponding price
-   - Use `default` for unknown genres
-   - Display the genre and price
+   - Create a function `calcularPrecioFinal($precio, $descuento, $iva)`
+   - Calculate price with discount: `$precio * (1 - $descuento / 100)`
+   - Calculate price with VAT: `$precioConDescuento * (1 + $iva / 100)`
+   - Return the final price
+   - Call the function and display the result
 
 ---
 
 ### 🟡 Intermediate Level (1 exercise)
 
-1. **International Shipping Cost Calculator**
-   A logistics company needs to calculate shipping costs based on zone and package weight.
+1. **Net Salary Calculator**
+   An HR company needs a function to calculate the net salary of an employee after applying tax withholdings.
 
    Input:
-   ```
-   $zona = "europa";  // "europa", "america", "asia", "oceania"
-   $peso = 3.5;       // Weight in kg
-   ```
-
-   Business rules:
-   - Base cost by zone: europe 10 €, america 25 €, asia 40 €, oceania 35 €, other 50 €
-   - Weight surcharge: <= 2 kg 0%, <= 5 kg 10%, <= 10 kg 20%, > 10 kg 30%
+   ````
+   $salarioBruto = 2500;
+   $retencionIRPF = 15;
+   $seguridadSocial = 6.35;
+   ````
 
    Tasks to perform:
-   - Use `switch` to calculate base cost by zone
-   - Use `if...elseif...else` to calculate weight surcharge
-   - Calculate and display the final cost
+   - Create a function `calcularSalarioNeto($salarioBruto, $irpf, $ss)`
+   - Calculate IRPF deduction: `$salarioBruto * $irpf / 100`
+   - Calculate Social Security deduction: `$salarioBruto * $ss / 100`
+   - Calculate net salary: `$salarioBruto - $irpfAplicado - $ssAplicado`
+   - Return the net salary
+   - Call the function and display all results
 
 ---
 
 ### 🔴 Difficult Level (1 exercise)
 
-1. **Mobile Phone Plan Billing System**
-   A telecommunications company needs to calculate monthly bills for different phone plans.
+1. **Product Pricing System**
+   A product management company needs a function to calculate the final price applying discounts based on customer type and payment method.
 
    Input:
-   ```
-   $plan = "premium";     // "basico", "estandar", "premium", "familiar"
-   $datos = 8;            // GB consumed
-   $minutos = 300;        // Minutes consumed
-   $lineas = 2;           // Number of lines (only for family plan)
-   ```
+   ````
+   $precioBase = 200;
+   $tipoCliente = "premium";  // "regular", "premium", "vip"
+   $metodoPago = "tarjeta";   // "tarjeta", "paypal", "transferencia"
+   ````
 
    Business rules:
-   - Base cost by plan: basico 15 €, estandar 25 €, premium 40 €, familiar 30 € × lines
-   - Data surcharge: <= 2 GB 0%, <= 5 GB 10%, <= 10 GB 20%, > 10 GB 35%
-   - Minutes surcharge: <= 100 min 0%, <= 200 min 5%, <= 500 min 10%, > 500 min 20%
-   - Family discount: if plan = "familiar" and lines >= 3 → 10% discount
+   - Customer discount: regular 0%, premium 10%, vip 20%
+   - Payment surcharge: tarjeta +2%, paypal +3%, transferencia 0%
+   - Special discount: if vip AND transferencia → +5% extra
 
    Tasks to perform:
-   - Use `switch` to calculate base cost by plan
-   - Use `if...elseif...else` for data and minutes surcharges
-   - Apply family discount when applicable
-   - Calculate and display the final bill
+   - Create a function `calcularPrecioFinal($precio, $cliente, $pago)`
+   - Use `match` for customer discount
+   - Use `match` for payment surcharge
+   - Use `if` for special discount
+   - Return the final price
+   - Call the function and display results
 
 ---
 
@@ -98,16 +95,16 @@ A PHP script demonstrating the use of the `switch` statement as an alternative t
 
 | # | Question | Correct Answer |
 |---|----------|----------------|
-| 1 | What keyword starts a switch statement? | B) `switch` |
-| 2 | What keyword defines a case in a switch? | C) `case` |
-| 3 | What keyword exits a switch block? | B) `break` |
-| 4 | What keyword is used as a fallback in switch? | D) `default` |
-| 5 | What happens if no `break` is used? | B) Continues to next case |
-| 6 | What comparison does `switch` use? | B) Loose comparison (`==`) |
-| 7 | Can `switch` evaluate strings? | A) Yes |
-| 8 | Is `default` mandatory in switch? | B) No |
-| 9 | What is the output without `break`? | B) Ejecuta el siguiente `case` |
-| 10 | When is `switch` better than `if...elseif`? | B) Comparing same variable with many values |
+| 1 | What keyword is used to create a function in PHP? | A) `function` |
+| 2 | What keyword is used to return a value from a function? | C) `return` |
+| 3 | What are the values passed to a function called? | B) Parameters |
+| 4 | Can a function return multiple values? | B) No, only one |
+| 5 | What happens if a function doesn't use `return`? | A) Returns `null` |
+| 6 | Can a function have default parameter values? | A) Yes |
+| 7 | What is the scope of a variable declared inside a function? | B) Local scope |
+| 8 | How do you call a function in PHP? | A) `functionName()` |
+| 9 | What is the output with `$precio = 100`? | B) 121 |
+| 10 | What is a function? | B) Reusable block of code |
 
 ---
 
@@ -115,24 +112,24 @@ A PHP script demonstrating the use of the `switch` statement as an alternative t
 
 | # | Question | Your Answer | Correct Answer | Status |
 |---|----------|-------------|----------------|--------|
-| 1 | What keyword starts a switch statement? | B | B | ✅ |
-| 2 | What keyword defines a case? | C | C | ✅ |
-| 3 | What keyword exits a switch block? | B | B | ✅ |
-| 4 | What keyword is used as a fallback? | D | D | ✅ |
-| 5 | What happens if no break is used? | B | B | ✅ |
-| 6 | What comparison does `switch` use? | B | B | ✅ |
-| 7 | Can `switch` evaluate strings? | A | A | ✅ |
-| 8 | Is `default` mandatory in switch? | B | B | ✅ |
-| 9 | What is the output without `break`? | B | B | ✅ |
-| 10 | When is `switch` better than `if...elseif`? | B | B | ✅ |
+| 1 | What keyword creates a function? | | A | ✅ |
+| 2 | What keyword returns a value? | | C | ✅ |
+| 3 | What are values passed to a function called? | | B | ✅ |
+| 4 | Can a function return multiple values? | | B | ✅ |
+| 5 | What happens without `return`? | | A | ✅ |
+| 6 | Can a function have default parameter values? | | A | ✅ |
+| 7 | What is the scope inside a function? | | B | ✅ |
+| 8 | How to call a function? | | A | ✅ |
+| 9 | What is the output with `$precio = 100`? | | B | ✅ |
+| 10 | What is a function? | | B | ✅ |
 
-**Result: 10/10 (90%)** ✅
+**Result: 10/10 (100%)** ✅
 
 ---
 
 ## 🛠️ Technologies Used
 
-- **PHP** – Core language, `switch`, `case`, `break`, `default`
+- **PHP** – Core language, functions, parameters, return, `match`, conditional logic
 - **HTML5** – Structure
 - **CSS3** – Styling
 
@@ -141,7 +138,7 @@ A PHP script demonstrating the use of the `switch` statement as an alternative t
 ## 📂 Folder Structure
 
 ```
-16-switch/
+19-functions/
 ├── css/
 │   └── style.css
 ├── php/
