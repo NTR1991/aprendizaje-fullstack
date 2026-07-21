@@ -73,14 +73,13 @@ my-projects/
 | Skill | Projects |
 | :--- | :--- |
 | **HTML5** | All projects |
-| **CSS3** (Flexbox, Grid, Animations) | Projects 01–12, 16, 18, 19 |
+| **CSS3** (Flexbox, Grid, Animations) | Projects 01–12, 16, 18–20 |
 | **JavaScript** (DOM, events, arrays, functions, objects) | Projects 07, 10–16, 18, 19 |
 | **JavaScript Advanced** (Closures, HOF, Array Chaining, Recursion) | Projects 18, 19 |
-| **PHP** (arrays, logic, formatting) | Project 17 |
+| **PHP** (arrays, logic, forms, sessions) | Projects 17, 20 |
 | **Responsive Design** | Projects 03, 04, 08, 09, 12 |
 | **Console-based Interaction** | Projects 13, 15, 16, 18, 19 |
 | **Functional Programming** (Higher Order Functions, Callbacks) | Projects 18, 19 |
-
 ---
 
 ## 👤 Author
