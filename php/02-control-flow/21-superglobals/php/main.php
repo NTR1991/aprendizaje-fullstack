@@ -21,8 +21,43 @@ echo "Nombre del servidor: " . $_SERVER['SERVER_NAME'] . "\n";
 
 
 
-
 //Ejercicio2
+// Simular datos enviados por URL
+$_GET['id'] = 15;
+$_GET['categoria'] = "electronica";
+$_GET['activo'] = "true";
+
+// Obtener valores de $_GET
+$id = $_GET['id'];
+$categoria = $_GET['categoria'];
+$activo = $_GET['activo'];
+
+// Verificar si el ID existe
+if (isset($_GET['id'])) {
+    echo "ID existe en la URL\n";
+} else {
+    echo "ID NO existe en la URL\n";
+}
+
+// Usar null coalescing para valor por defecto
+$nombre = $_GET['nombre'] ?? "Sin nombre";
+
+// Mostrar resultados
+echo "ID: " . $id . "\n";
+echo "Categoría: " . $categoria . "\n";
+echo "Activo: " . $activo . "\n";
+echo "Nombre: " . $nombre . "\n";
+
+
+
+
+
+
+
+
+
+
+//Ejercicio3
 //Simular datos enviados por formulario (POST)
 $_POST['nombre'] = "Ana Perez";
 $_POST['email'] = "ana@email.com";
