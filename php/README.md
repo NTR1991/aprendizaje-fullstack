@@ -14,7 +14,7 @@ All exercises are developed following professional coding standards with proper 
 
 ## 📂 Repository Structure
 ````
-├── 01-fundamentals/ # BLOCK 1: PHP Fundamentals (14 topics)
+├── 01-fundamentals/ # BLOCK 1: PHP Fundamentals (14 topics) ✅
 │ ├── 01-introduction/
 │ ├── 02-syntax/
 │ ├── 03-variables/
@@ -30,7 +30,7 @@ All exercises are developed following professional coding standards with proper 
 │ ├── 13-if-else/
 │ └── 14-switch/
 │
-├── 02-control-flow/ # BLOCK 2: Control Structures (7 topics)
+├── 02-control-flow/ # BLOCK 2: Control Structures (7 topics) ✅
 │ ├── 15-if-else/
 │ ├── 16-switch/
 │ ├── 17-match/
@@ -39,7 +39,7 @@ All exercises are developed following professional coding standards with proper 
 │ ├── 20-arrays/
 │ └── 21-superglobals/
 │
-├── 03-advanced-php/ # BLOCK 3: Advanced PHP I (10 topics)
+├── 03-advanced-php/ # BLOCK 3: Advanced PHP I (10 topics) ⏳
 │ ├── 22-date-time/
 │ ├── 23-include/
 │ ├── 24-file-handling/
@@ -51,7 +51,7 @@ All exercises are developed following professional coding standards with proper 
 │ ├── 30-filters/
 │ └── 31-filters-advanced/
 │
-├── 04-oop-mysql/ # BLOCK 4: OOP & MySQL (10 topics)
+├── 04-oop-mysql/ # BLOCK 4: OOP & MySQL (10 topics) ⏳
 │ ├── 32-callbacks/
 │ ├── 33-json/
 │ ├── 34-exceptions/
@@ -73,7 +73,7 @@ All exercises are developed following professional coding standards with proper 
 │ ├── 48-mysql-insert/
 │ └── 49-mysql-select/
 │
-└── 06-final-project/ # BLOCK 6: Final Project (5 topics)
+└── 06-final-project/ # BLOCK 6: Final Project (5 topics) ⏳
 ├── 50-mysql-update/
 ├── 51-prepared-statements/
 ├── 52-xml/
@@ -109,17 +109,19 @@ All exercises are developed following professional coding standards with proper 
 
 ---
 
-### BLOCK 2: Control Structures (7 topics)
+### BLOCK 2: Control Structures (7 topics) ✅
 
 | # | Topic | Status |
 |---|-------|--------|
-| 15 | If...Else | ⏳ Pending |
-| 16 | Switch | ⏳ Pending |
-| 17 | Match | ⏳ Pending |
-| 18 | Loops | ⏳ Pending |
-| 19 | Functions | ⏳ Pending |
-| 20 | Arrays | ⏳ Pending |
-| 21 | Superglobals | ⏳ Pending |
+| 15 | If...Else | ✅ Completed |
+| 16 | Switch | ✅ Completed |
+| 17 | Match | ✅ Completed |
+| 18 | Loops | ✅ Completed |
+| 19 | Functions | ✅ Completed |
+| 20 | Arrays | ✅ Completed |
+| 21 | Superglobals | ✅ Completed |
+
+**📌 Block 2 Project:** Task Management System → [View Project](https://github.com/NTR1991/aprendizaje-fullstack/tree/main/my-projects/20-php-task-manager)
 
 ---
 
@@ -189,7 +191,7 @@ All exercises are developed following professional coding standards with proper 
 | Block | Project | Status | Repository |
 |-------|---------|--------|------------|
 | 1 | Personal Budget Calculator | ✅ Completed | [View Project](https://github.com/NTR1991/aprendizaje-fullstack/tree/main/my-projects/17-php-personal-finance) |
-| 2 | Task Management System | ⏳ Pending | - |
+| 2 | Task Management System | ✅ Completed | [View Project](https://github.com/NTR1991/aprendizaje-fullstack/tree/main/my-projects/20-php-task-manager) |
 | 3 | Invoice Generator | ⏳ Pending | - |
 | 4 | REST API Products | ⏳ Pending | - |
 | 5 | User Management System | ⏳ Pending | - |
@@ -197,15 +199,12 @@ All exercises are developed following professional coding standards with proper 
 
 ---
 
+
 ## 📊 Progress
-````
 
-████████████████████████████░░░░░░░░░░░░░░░ 54%
-````
-
-
-**Completed:** 14 of 54 topics  
-**Current:** Block 1 - Topic 14 (Switch)
+**Completed:** 21 of 54 topics  
+**Percentage:** 38% completed  
+**Current:** Block 3 - Topic 22 (Date and Time)
 
 ---
 
