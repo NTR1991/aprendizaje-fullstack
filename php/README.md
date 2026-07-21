@@ -103,7 +103,7 @@ All exercises are developed following professional coding standards with proper 
 | 11 | Magic Constants | ✅ Completed |
 | 12 | Operators | ✅ Completed |
 | 13 | If...Else...Elseif | ✅ Completed |
-| 14 | Switch | ⏳ Pending |
+| 14 | Switch | ✅ Completed |
 
 **📌 Block 1 Project:** Personal Budget Calculator → [View Project](https://github.com/NTR1991/aprendizaje-fullstack/tree/main/my-projects/17-php-personal-finance)
 
