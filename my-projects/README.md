@@ -33,6 +33,7 @@ my-projects/
 ├── 17-php-personal-finance/
 ├── 18-js-event-manager/
 ├── 19-js-product-catalog/
+├── 20-php-task-manager/
 └── README.md
 ````
 
@@ -63,6 +64,7 @@ my-projects/
 | 17 | PHP Personal Finance | Budget tracker application | PHP, HTML5, CSS3 |
 | 18 | Event Manager | Console event management system | HTML5, CSS3, JavaScript |
 | 19 | Product Catalog | Console product catalog system | HTML5, CSS3, JavaScript |
+| 20 | PHP Task Manager | Task management system with PHP | PHP, HTML5, CSS3 |
 
 ---
 
