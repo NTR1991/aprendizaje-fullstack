@@ -85,5 +85,50 @@ By the end of this block, you should be able to:
 ````
 
 
+---
+
+## 📊 Progress
+
+**3/10 topics completed** ✅
+
+| Status | Topics |
+|--------|--------|
+| ✅ Completed | 22, 23, 24 |
+| ⏳ Pending | 25, 26, 27, 28, 29, 30, 31 |
+| ⏳ Pending | Project Integrator: Invoice Generator |
+
+---
+
+## 📋 Learning Methodology
+
+Each topic follows the same structure:
+
+1. 📚 **Detailed explanation** with real-world examples
+2. 🟢 **Normal exercises** (1) - Basic scenarios
+3. 🟡 **Intermediate exercises** (1) - Combined concepts
+4. 🔴 **Difficult exercises** (1) - Complex real-world problems
+5. 🧪 **Test** (10 questions) - Knowledge verification
+6. 📝 **README.md** - Documentation with exercise statements
+
+---
+
+## 🛠️ Technologies Used
+
+- **PHP** – Core language
+- **HTML5** – Semantic structure
+- **CSS3** – Professional styling
+- **Git** – Version control
+- **GitHub** – Repository hosting
+
+---
+
+## 👤 Author
+
+*NTR1991 – Full Stack in training | FP DAW Student*
+
+## 📅 Date
+
+July 2026
+
 
 
