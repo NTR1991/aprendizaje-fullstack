@@ -47,5 +47,43 @@ By the end of this block, you should be able to:
 
 ## 📂 Folder Structure
 ````
+03-advanced-php/
+├── 22-date-time/
+│ ├── css/
+│ │ └── style.css
+│ ├── php/
+│ │ └── main.php
+│ ├── index.html
+│ └── README.md
+├── 23-include/
+│ ├── css/
+│ │ └── style.css
+│ ├── php/
+│ │ ├── config.php
+│ │ ├── funciones.php
+│ │ ├── productos.php
+│ │ ├── carrito.php
+│ │ ├── pedido.php
+│ │ └── main.php
+│ ├── index.html
+│ └── README.md
+├── 24-file-handling/
+│ ├── css/
+│ │ └── style.css
+│ ├── php/
+│ │ └── main.php
+│ ├── index.html
+│ └── README.md
+├── 25-file-open-read/
+├── 26-file-create-write/
+├── 27-file-upload/
+├── 28-cookies/
+├── 29-sessions/
+├── 30-filters/
+├── 31-filters-advanced/
+└── README.md
+````
+
+
 
 
