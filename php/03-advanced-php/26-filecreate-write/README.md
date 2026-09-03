@@ -23,7 +23,7 @@ A PHP script demonstrating how to create and write files in real-world business 
 ## 📝 Exercises (Real-World Scenarios)
 
 ### 🟢 Normal Level (1 exercise)
-
+````
 1. Employee Records System
    A company needs to create a file to store employee records.
 
@@ -41,11 +41,11 @@ A PHP script demonstrating how to create and write files in real-world business 
      Empleado: Luis Martinez - Puesto: Analista - Salario: 2800 €
      Total empleados actualizado: 4
    - Display the final file content using file_get_contents()
-
+````
 ---
 
 ### 🟡 Intermediate Level (1 exercise)
-
+````
 1. Inventory CSV Generator
    A company needs to create and manage a CSV file with product inventory data.
 
@@ -62,11 +62,11 @@ A PHP script demonstrating how to create and write files in real-world business 
    - Append a new product: Auriculares,35,20
    - Read and display all products
    - Calculate and display the total number of products and average price
-
+````
 ---
 
 ### 🔴 Difficult Level (1 exercise)
-
+````
 1. Invoice Generation System
    A sales company needs an automated invoice generation system.
 
@@ -105,7 +105,7 @@ A PHP script demonstrating how to create and write files in real-world business 
    - Create a registro_facturas.txt file with a log entry:
      Fecha: 29/07/2026 - Cliente: Maria Lopez - Total: 901.45 €
    - Display confirmation of the generated invoice
-
+````
 ---
 
 ### 🧪 Test (10 questions)
