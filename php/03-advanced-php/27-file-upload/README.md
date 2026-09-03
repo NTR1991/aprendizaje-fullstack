@@ -1,20 +1,23 @@
-# 📘 PHP Include
+# 📘 PHP File Upload
 
 ## 📋 Description
 
-A PHP script demonstrating the use of `include`, `require`, `include_once`, and `require_once` to organize code into multiple files in real-world business scenarios, including configuration management, product listing, shopping cart, and order management systems.
+A PHP script demonstrating how to handle file uploads in real-world business scenarios, including uploading single images, multiple documents for employees, and product images with validation, renaming, and logging.
 
 ---
 
 ## 🎯 Learning Objectives
 
-- Understanding `include` and `require` statements
-- Understanding `include_once` and `require_once`
-- Reusing code across multiple files
-- Organizing code into separate files (config, functions, products, cart, orders)
-- Difference between `include` and `require`
-- When to use `include_once` and `require_once`
-- Applying include in real-world business scenarios
+- Using `$_FILES` superglobal to access uploaded files
+- Using `move_uploaded_file()` to save files to the server
+- Validating file types with `in_array()`
+- Validating file sizes (individual and total)
+- Creating directories with `mkdir()`
+- Generating unique filenames with `time()`
+- Handling multiple file uploads
+- Logging uploads to a file
+- Simulating image thumbnail creation
+- Applying file upload in real-world business scenarios
 
 ---
 
@@ -22,90 +25,98 @@ A PHP script demonstrating the use of `include`, `require`, `include_once`, and 
 
 ### 🟢 Normal Level (1 exercise)
 
-1. **Code Organization - Configuration and Functions**
-   A company needs to organize its code into different files using `include` and `require`.
+````
+1. Product Image Upload
+   A company needs a system to upload product images to their online store.
+
+   Input (simulated):
+   $_FILES['producto'] = [
+       'name' => 'laptop.jpg',
+       'type' => 'image/jpeg',
+       'tmp_name' => '/tmp/phpXyZ123',
+       'error' => 0,
+       'size' => 150000
+   ];
 
    Tasks to perform:
-   - Create a `config.php` file with constants:
-     - `NOMBRE_EMPRESA` = "Tech Solutions"
-     - `IVA` = 21
-     - `MONEDA` = "€"
-   - Create a `funciones.php` file with functions:
-     - `calcularPrecioConIva($precio)` → calculates price with VAT
-     - `formatearMoneda($cantidad)` → formats price with currency
-   - Create a `main.php` file that includes both files and uses the constants and functions
-   - Display results with `echo`
-
+   - Create a `uploads/` directory if it doesn't exist
+   - Verify that there are no upload errors (`error === 0`)
+   - Validate file type (only JPG, PNG, GIF allowed)
+   - Validate file size (max 2MB)
+   - Move the file to `uploads/` with a unique name using timestamp
+   - Display success or error message
+````
 ---
 
 ### 🟡 Intermediate Level (1 exercise)
 
-1. **E-commerce System - Products and Cart**
-   An e-commerce company needs to organize its code into different files to manage products, shopping cart, and orders.
+````
+1. Employee Document Upload System
+   An HR company needs a system to upload employee documents (CV, cover letter, certificates).
 
-   Tasks to perform:
-   - Create a `config.php` file with:
-     - `NOMBRE_EMPRESA` = "MiTiendaOnline"
-     - `IVA` = 21
-     - `MONEDA` = "€"
-     - `ENVIO_GRATIS_DESDE` = 50
-   - Create a `productos.php` file with:
-     - Array `$productos` with 3 products (name, price, stock)
-     - Function `mostrarProductos()` to display all products
-   - Create a `carrito.php` file with:
-     - Function `calcularTotalCarrito($productos, $cantidades)` to calculate total
-     - Function `aplicarDescuento($total)` to apply discount if > 50 €
-   - Create a `main.php` file that includes all files and displays:
-     - Product list
-     - Cart total with discount applied
+   Input (simulated):
+   $_FILES['documentos'] = [
+       'name' => ['cv.pdf', 'carta.docx', 'titulo.jpg'],
+       'type' => ['application/pdf', 'application/msword', 'image/jpeg'],
+       'tmp_name' => ['/tmp/phpA1B2C3', '/tmp/phpD4E5F6', '/tmp/phpG7H8I9'],
+       'error' => [0, 0, 0],
+       'size' => [250000, 180000, 350000]
+   ];
 
+   Business rules:
+   - Allowed file types: PDF, DOCX, JPG, PNG
+   - Max individual file size: 2MB
+   - Max total file size: 5MB
+   - Create employee folder: `uploads/empleado_ID/`
+   - Rename files: `tipo_documento_fecha.ext` (e.g., `cv_20260903.pdf`)
+   - Log each upload in a file
+
+````
 ---
 
 ### 🔴 Difficult Level (1 exercise)
 
-1. **Order Management System**
-   An e-commerce company needs an order management system with multiple files.
 
-   Tasks to perform:
-   - Create a `config.php` file with:
-     - `NOMBRE_EMPRESA` = "PedidosYa"
-     - `IVA` = 21
-     - `MONEDA` = "€"
-     - `GASTOS_ENVIO` = 5
-   - Create a `productos.php` file with:
-     - Array `$productos` with 5 products (name, price, stock, category)
-     - Function `mostrarProductos()` to display all products
-     - Function `buscarProducto($nombre)` to search for a product by name
-   - Create a `pedido.php` file with:
-     - Function `crearPedido($productos, $cantidades, $cliente)` that:
-       - Calculates subtotal
-       - Applies 10% discount if subtotal > 100 €
-       - Applies shipping cost (5 €) if subtotal < 50 €
-       - Calculates VAT
-       - Returns an array with all order data
-     - Function `mostrarPedido($pedido)` to display order summary
-   - Create a `main.php` file that:
-     - Includes all files
-     - Displays the product list
-     - Simulates an order with quantities
-     - Displays the order summary
+````
+1. Product Image Gallery Upload System
+   An e-commerce company needs a system to upload multiple product images with strict validations.
 
+   Input (simulated):
+   $_FILES['imagenes'] = [
+       'name' => ['producto1.jpg', 'producto2.png', 'producto3.gif', 'producto4.webp', 'producto5.jpg'],
+       'type' => ['image/jpeg', 'image/png', 'image/gif', 'image/webp', 'image/jpeg'],
+       'tmp_name' => ['/tmp/phpA1', '/tmp/phpA2', '/tmp/phpA3', '/tmp/phpA4', '/tmp/phpA5'],
+       'error' => [0, 0, 0, 0, 0],
+       'size' => [800000, 500000, 200000, 900000, 1200000]
+   ];
+
+   Business rules:
+   - Max 5 images per product
+   - Allowed types: JPG, PNG, GIF, WEBP
+   - Max individual size: 1MB
+   - Max total size: 3MB
+   - Create product folder: `uploads/producto_ID/`
+   - Unique filename: `producto_ID_timestamp_nombre_original.ext`
+   - Create log file in `logs/subidas.log`
+   - Simulate thumbnail creation (200x200 px)
+   - Display detailed summary
+````
 ---
 
 ### 🧪 Test (10 questions)
 
 | # | Question | Correct Answer |
 |---|----------|----------------|
-| 1 | What function is used to include a file in PHP? | D) A and C are correct |
-| 2 | What is the difference between `include` and `require`? | B) `require` stops the script if the file doesn't exist |
-| 3 | What function includes a file only once? | D) A and B are correct |
-| 4 | What happens if you use `require` and the file doesn't exist? | C) PHP shows a fatal error and stops the script |
-| 5 | When would you use `include` instead of `require`? | B) When the file is not critical (e.g., an ad) |
-| 6 | What is the correct syntax to include a file? | D) A and C are correct |
-| 7 | What happens if you use `include_once` twice with the same file? | B) It's included only the first time |
-| 8 | Where is `include` typically placed in a project structure? | A) In the main file to load configurations and functions |
-| 9 | Which configuration file is best to use `require` instead of `include`? | C) `config.php` |
-| 10 | What is the main purpose of using `include` and `require`? | B) To reuse code and organize files |
+| 1 | What superglobal is used to handle uploaded files in PHP? | C) `$_FILES` |
+| 2 | What field of `$_FILES` contains the original filename? | B) `name` |
+| 3 | What function moves an uploaded file to its final location? | A) `move_uploaded_file()` |
+| 4 | What error value indicates no upload errors? | D) `0` |
+| 5 | What mode is used to append content to a log file? | C) `"a"` |
+| 6 | What function checks if a file was uploaded via HTTP POST? | A) `is_uploaded_file()` |
+| 7 | Which of the following is NOT an allowed image type? | C) `application/pdf` |
+| 8 | What function creates a directory in PHP? | B) `mkdir()` |
+| 9 | What field of `$_FILES` contains the file size in bytes? | D) `size` |
+| 10 | What does error code `4` in `$_FILES` mean? | B) No file was uploaded |
 
 ---
 
@@ -113,16 +124,16 @@ A PHP script demonstrating the use of `include`, `require`, `include_once`, and 
 
 | # | Question | Your Answer | Correct Answer | Status |
 |---|----------|-------------|----------------|--------|
-| 1 | What function is used to include a file? | D | D | ✅ |
-| 2 | Difference between `include` and `require`? | B | B | ✅ |
-| 3 | What function includes a file only once? | D | D | ✅ |
-| 4 | What happens if `require` fails? | C | C | ✅ |
-| 5 | When to use `include` instead of `require`? | B | B | ✅ |
-| 6 | Correct syntax to include a file? | D | D | ✅ |
-| 7 | What happens with `include_once` twice? | B | B | ✅ |
-| 8 | Where is `include` typically placed? | A | A | ✅ |
-| 9 | Which file is best with `require`? | C | C | ✅ |
-| 10 | Main purpose of `include` and `require`? | B | B | ✅ |
+| 1 | What superglobal handles uploaded files? | C | C | ✅ |
+| 2 | What field contains the original filename? | B | B | ✅ |
+| 3 | What function moves an uploaded file? | A | A | ✅ |
+| 4 | What error value indicates no errors? | D | D | ✅ |
+| 5 | What mode appends to a log file? | C | C | ✅ |
+| 6 | What function checks if a file was uploaded via POST? | A | A | ✅ |
+| 7 | Which is NOT an allowed image type? | C | C | ✅ |
+| 8 | What function creates a directory? | B | B | ✅ |
+| 9 | What field contains the file size? | D | D | ✅ |
+| 10 | What does error code `4` mean? | B | B | ✅ |
 
 **Result: 10/10 (100%)** ✅
 
@@ -130,23 +141,19 @@ A PHP script demonstrating the use of `include`, `require`, `include_once`, and 
 
 ## 🛠️ Technologies Used
 
-- **PHP** – Core language, `include`, `require`, `include_once`, `require_once`
-- **HTML5** – Structure
-- **CSS3** – Styling
+- PHP – Core language, `$_FILES`, `move_uploaded_file()`, `is_uploaded_file()`, `mkdir()`, `file_exists()`, `file_put_contents()`, `pathinfo()`, `time()`, `date()`
+- HTML5 – Structure
+- CSS3 – Styling
 
 ---
 
 ## 📂 Folder Structure
+
 ````
-23-include/
+27-file-upload/
 ├── css/
 │ └── style.css
 ├── php/
-│ ├── config.php
-│ ├── funciones.php
-│ ├── productos.php
-│ ├── carrito.php
-│ ├── pedido.php
 │ └── main.php
 ├── index.html
 └── README.md
@@ -157,7 +164,7 @@ A PHP script demonstrating the use of `include`, `require`, `include_once`, and 
 
 ## 👤 Author
 
-*NTR1991 – Full Stack in training | FP DAW Student*
+NTR1991 – Full Stack in training | FP DAW Student
 
 ## 📅 Date
 
