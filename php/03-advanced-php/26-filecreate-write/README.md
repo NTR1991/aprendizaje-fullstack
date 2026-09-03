@@ -1,20 +1,22 @@
-# 📘 PHP Include
+# 📘 PHP File Create/Write
 
 ## 📋 Description
 
-A PHP script demonstrating the use of `include`, `require`, `include_once`, and `require_once` to organize code into multiple files in real-world business scenarios, including configuration management, product listing, shopping cart, and order management systems.
+A PHP script demonstrating how to create and write files in real-world business scenarios, including generating employee records, managing product inventories with CSV files, and creating automated invoice systems.
 
 ---
 
 ## 🎯 Learning Objectives
 
-- Understanding `include` and `require` statements
-- Understanding `include_once` and `require_once`
-- Reusing code across multiple files
-- Organizing code into separate files (config, functions, products, cart, orders)
-- Difference between `include` and `require`
-- When to use `include_once` and `require_once`
-- Applying include in real-world business scenarios
+- Creating files with fopen() and "w" mode
+- Writing to files with fwrite()
+- Creating and writing with file_put_contents()
+- Appending to files with FILE_APPEND and "a" mode
+- Writing CSV files with fputcsv()
+- Creating directories with mkdir()
+- Checking if a file exists with file_exists()
+- Generating unique filenames with date()
+- Applying file writing in real-world business scenarios
 
 ---
 
@@ -22,90 +24,166 @@ A PHP script demonstrating the use of `include`, `require`, `include_once`, and 
 
 ### 🟢 Normal Level (1 exercise)
 
-1. **Code Organization - Configuration and Functions**
-   A company needs to organize its code into different files using `include` and `require`.
+1. Employee Records System
+   A company needs to create a file to store employee records.
 
    Tasks to perform:
-   - Create a `config.php` file with constants:
-     - `NOMBRE_EMPRESA` = "Tech Solutions"
-     - `IVA` = 21
-     - `MONEDA` = "€"
-   - Create a `funciones.php` file with functions:
-     - `calcularPrecioConIva($precio)` → calculates price with VAT
-     - `formatearMoneda($cantidad)` → formats price with currency
-   - Create a `main.php` file that includes both files and uses the constants and functions
-   - Display results with `echo`
+   - Create a file empleados.txt with the following content:
+     === REGISTRO DE EMPLEADOS ===
+     Fecha: 29/07/2026
+     Empleado: Ana Perez - Puesto: Desarrollador - Salario: 2500 €
+     Empleado: Carlos Gomez - Puesto: Disenador - Salario: 2200 €
+     Empleado: Elena Ruiz - Puesto: Gerente - Salario: 3500 €
+     Total empleados: 3
+   - Use fopen() and fwrite() to create the file
+   - Verify that the file was created correctly with file_exists()
+   - Append a new employee to the end:
+     Empleado: Luis Martinez - Puesto: Analista - Salario: 2800 €
+     Total empleados actualizado: 4
+   - Display the final file content using file_get_contents()
 
 ---
 
 ### 🟡 Intermediate Level (1 exercise)
 
-1. **E-commerce System - Products and Cart**
-   An e-commerce company needs to organize its code into different files to manage products, shopping cart, and orders.
+1. Inventory CSV Generator
+   A company needs to create and manage a CSV file with product inventory data.
 
    Tasks to perform:
-   - Create a `config.php` file with:
-     - `NOMBRE_EMPRESA` = "MiTiendaOnline"
-     - `IVA` = 21
-     - `MONEDA` = "€"
-     - `ENVIO_GRATIS_DESDE` = 50
-   - Create a `productos.php` file with:
-     - Array `$productos` with 3 products (name, price, stock)
-     - Function `mostrarProductos()` to display all products
-   - Create a `carrito.php` file with:
-     - Function `calcularTotalCarrito($productos, $cantidades)` to calculate total
-     - Function `aplicarDescuento($total)` to apply discount if > 50 €
-   - Create a `main.php` file that includes all files and displays:
-     - Product list
-     - Cart total with discount applied
+   - Create a file productos.csv with initial data:
+     Header: nombre,precio,stock
+     Products:
+     Portatil,650,10
+     Raton,25,30
+     Teclado,45,15
+     Monitor,180,8
+   - Use fputcsv() to write the CSV file
+   - Verify that the file was created
+   - Append a new product: Auriculares,35,20
+   - Read and display all products
+   - Calculate and display the total number of products and average price
 
 ---
 
 ### 🔴 Difficult Level (1 exercise)
 
-1. **Order Management System**
-   An e-commerce company needs an order management system with multiple files.
+1. Invoice Generation System
+   A sales company needs an automated invoice generation system.
+
+   Input (simulated):
+   $pedido = [
+       "cliente" => "Maria Lopez",
+       "email" => "maria@email.com",
+       "fecha" => "29/07/2026",
+       "productos" => [
+           ["nombre" => "Portatil", "cantidad" => 1, "precio" => 650],
+           ["nombre" => "Raton", "cantidad" => 2, "precio" => 25],
+           ["nombre" => "Teclado", "cantidad" => 1, "precio" => 45]
+       ]
+   ];
 
    Tasks to perform:
-   - Create a `config.php` file with:
-     - `NOMBRE_EMPRESA` = "PedidosYa"
-     - `IVA` = 21
-     - `MONEDA` = "€"
-     - `GASTOS_ENVIO` = 5
-   - Create a `productos.php` file with:
-     - Array `$productos` with 5 products (name, price, stock, category)
-     - Function `mostrarProductos()` to display all products
-     - Function `buscarProducto($nombre)` to search for a product by name
-   - Create a `pedido.php` file with:
-     - Function `crearPedido($productos, $cantidades, $cliente)` that:
-       - Calculates subtotal
-       - Applies 10% discount if subtotal > 100 €
-       - Applies shipping cost (5 €) if subtotal < 50 €
-       - Calculates VAT
-       - Returns an array with all order data
-     - Function `mostrarPedido($pedido)` to display order summary
-   - Create a `main.php` file that:
-     - Includes all files
-     - Displays the product list
-     - Simulates an order with quantities
-     - Displays the order summary
+   - Create a facturas/ directory if it doesn't exist
+   - Generate an invoice file with the following format:
+     ========================================
+               FACTURA
+     ========================================
+     Cliente: Maria Lopez
+     Email: maria@email.com
+     Fecha: 29/07/2026
+     ----------------------------------------
+     Producto     Cantidad   Precio   Total
+     Portatil     1          650      650
+     Raton        2          25       50
+     Teclado      1          45       45
+     ----------------------------------------
+     Subtotal: 745 €
+     IVA (21%): 156.45 €
+     TOTAL: 901.45 €
+     ========================================
+   - Save the invoice in facturas/ with a unique name using date('Ymd_His')
+   - Create a registro_facturas.txt file with a log entry:
+     Fecha: 29/07/2026 - Cliente: Maria Lopez - Total: 901.45 €
+   - Display confirmation of the generated invoice
 
 ---
 
 ### 🧪 Test (10 questions)
 
-| # | Question | Correct Answer |
-|---|----------|----------------|
-| 1 | What function is used to include a file in PHP? | D) A and C are correct |
-| 2 | What is the difference between `include` and `require`? | B) `require` stops the script if the file doesn't exist |
-| 3 | What function includes a file only once? | D) A and B are correct |
-| 4 | What happens if you use `require` and the file doesn't exist? | C) PHP shows a fatal error and stops the script |
-| 5 | When would you use `include` instead of `require`? | B) When the file is not critical (e.g., an ad) |
-| 6 | What is the correct syntax to include a file? | D) A and C are correct |
-| 7 | What happens if you use `include_once` twice with the same file? | B) It's included only the first time |
-| 8 | Where is `include` typically placed in a project structure? | A) In the main file to load configurations and functions |
-| 9 | Which configuration file is best to use `require` instead of `include`? | C) `config.php` |
-| 10 | What is the main purpose of using `include` and `require`? | B) To reuse code and organize files |
+1. What function writes to an open file in PHP?
+   A) fopen()
+   B) fwrite()
+   C) fread()
+   D) fclose()
+   Correct Answer: B
+
+2. What mode is used to create and write a file from scratch (overwrites if exists)?
+   A) "r"
+   B) "a"
+   C) "w"
+   D) "x"
+   Correct Answer: C
+
+3. What mode is used to append content to the end of a file without deleting existing content?
+   A) "r"
+   B) "a"
+   C) "w"
+   D) "x"
+   Correct Answer: B
+
+4. What function writes a line in CSV format?
+   A) fwrite()
+   B) fputcsv()
+   C) fgetcsv()
+   D) file_put_contents()
+   Correct Answer: B
+
+5. What constant is used with file_put_contents() to append content to the end of a file?
+   A) FILE_READ
+   B) FILE_WRITE
+   C) FILE_APPEND
+   D) FILE_CREATE
+   Correct Answer: C
+
+6. What function checks if a file exists on the server?
+   A) file_exists()
+   B) is_file()
+   C) file_exist()
+   D) exists()
+   Correct Answer: A
+
+7. What function closes an open file?
+   A) fclose()
+   B) close()
+   C) file_close()
+   D) fcloseall()
+   Correct Answer: A
+
+8. What function creates a directory in PHP?
+   A) mkdir()
+   B) create_dir()
+   C) make_dir()
+   D) folder_create()
+   Correct Answer: A
+
+9. What is the output with fwrite() and FILE_APPEND?
+   $archivo = fopen("test.txt", "w");
+   fwrite($archivo, "Hola");
+   fclose($archivo);
+   file_put_contents("test.txt", " Mundo", FILE_APPEND);
+   echo file_get_contents("test.txt");
+   A) "Hola"
+   B) "Mundo"
+   C) "Hola Mundo"
+   D) Error
+   Correct Answer: C
+
+10. What function reads all content from a file?
+    A) fopen()
+    B) file_get_contents()
+    C) fwrite()
+    D) fputcsv()
+    Correct Answer: B
 
 ---
 
@@ -113,52 +191,45 @@ A PHP script demonstrating the use of `include`, `require`, `include_once`, and 
 
 | # | Question | Your Answer | Correct Answer | Status |
 |---|----------|-------------|----------------|--------|
-| 1 | What function is used to include a file? | D | D | ✅ |
-| 2 | Difference between `include` and `require`? | B | B | ✅ |
-| 3 | What function includes a file only once? | D | D | ✅ |
-| 4 | What happens if `require` fails? | C | C | ✅ |
-| 5 | When to use `include` instead of `require`? | B | B | ✅ |
-| 6 | Correct syntax to include a file? | D | D | ✅ |
-| 7 | What happens with `include_once` twice? | B | B | ✅ |
-| 8 | Where is `include` typically placed? | A | A | ✅ |
-| 9 | Which file is best with `require`? | C | C | ✅ |
-| 10 | Main purpose of `include` and `require`? | B | B | ✅ |
+| 1 | What function writes to an open file? | B | B | ✅ |
+| 2 | What mode creates and writes from scratch? | C | C | ✅ |
+| 3 | What mode appends without deleting? | B | B | ✅ |
+| 4 | What function writes CSV? | B | B | ✅ |
+| 5 | What constant appends content? | C | C | ✅ |
+| 6 | What function checks if a file exists? | A | A | ✅ |
+| 7 | What function closes a file? | A | A | ✅ |
+| 8 | What function creates a directory? | A | A | ✅ |
+| 9 | Output with fwrite() and FILE_APPEND? | C | C | ✅ |
+| 10 | What function reads all content? | B | B | ✅ |
 
-**Result: 10/10 (100%)** ✅
+Result: 10/10 (100%) ✅
 
 ---
 
 ## 🛠️ Technologies Used
 
-- **PHP** – Core language, `include`, `require`, `include_once`, `require_once`
-- **HTML5** – Structure
-- **CSS3** – Styling
+- PHP – Core language, fopen(), fwrite(), fclose(), file_put_contents(), FILE_APPEND, fputcsv(), fgetcsv(), mkdir(), file_exists(), str_pad(), date()
+- HTML5 – Structure
+- CSS3 – Styling
 
 ---
 
 ## 📂 Folder Structure
-````
-23-include/
+
+26-file-create-write/
 ├── css/
-│ └── style.css
+│   └── style.css
 ├── php/
-│ ├── config.php
-│ ├── funciones.php
-│ ├── productos.php
-│ ├── carrito.php
-│ ├── pedido.php
-│ └── main.php
+│   └── main.php
 ├── index.html
 └── README.md
-````
-
 
 ---
 
 ## 👤 Author
 
-*NTR1991 – Full Stack in training | FP DAW Student*
+NTR1991 – Full Stack in training | FP DAW Student
 
 ## 📅 Date
 
-July 2026
+September 2026
