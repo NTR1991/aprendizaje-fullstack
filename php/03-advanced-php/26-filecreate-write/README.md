@@ -110,80 +110,18 @@ A PHP script demonstrating how to create and write files in real-world business 
 
 ### 🧪 Test (10 questions)
 
-1. What function writes to an open file in PHP?
-   A) fopen()
-   B) fwrite()
-   C) fread()
-   D) fclose()
-   Correct Answer: B
-
-2. What mode is used to create and write a file from scratch (overwrites if exists)?
-   A) "r"
-   B) "a"
-   C) "w"
-   D) "x"
-   Correct Answer: C
-
-3. What mode is used to append content to the end of a file without deleting existing content?
-   A) "r"
-   B) "a"
-   C) "w"
-   D) "x"
-   Correct Answer: B
-
-4. What function writes a line in CSV format?
-   A) fwrite()
-   B) fputcsv()
-   C) fgetcsv()
-   D) file_put_contents()
-   Correct Answer: B
-
-5. What constant is used with file_put_contents() to append content to the end of a file?
-   A) FILE_READ
-   B) FILE_WRITE
-   C) FILE_APPEND
-   D) FILE_CREATE
-   Correct Answer: C
-
-6. What function checks if a file exists on the server?
-   A) file_exists()
-   B) is_file()
-   C) file_exist()
-   D) exists()
-   Correct Answer: A
-
-7. What function closes an open file?
-   A) fclose()
-   B) close()
-   C) file_close()
-   D) fcloseall()
-   Correct Answer: A
-
-8. What function creates a directory in PHP?
-   A) mkdir()
-   B) create_dir()
-   C) make_dir()
-   D) folder_create()
-   Correct Answer: A
-
-9. What is the output with fwrite() and FILE_APPEND?
-   $archivo = fopen("test.txt", "w");
-   fwrite($archivo, "Hola");
-   fclose($archivo);
-   file_put_contents("test.txt", " Mundo", FILE_APPEND);
-   echo file_get_contents("test.txt");
-   A) "Hola"
-   B) "Mundo"
-   C) "Hola Mundo"
-   D) Error
-   Correct Answer: C
-
-10. What function reads all content from a file?
-    A) fopen()
-    B) file_get_contents()
-    C) fwrite()
-    D) fputcsv()
-    Correct Answer: B
+| # | Question | Correct Answer |
+|---|----------|----------------|
+| 1 | What function writes to an open file in PHP? | B) `fwrite()` |
+| 2 | What mode is used to create and write a file from scratch (overwrites if exists)? | C) `"w"` |
+| 3 | What mode is used to append content to the end of a file without deleting existing content? | B) `"a"` |
+| 4 | What function writes a line in CSV format? | B) `fputcsv()` |
+| 5 | What constant is used with `file_put_contents()` to append content to the end of a file? | C) `FILE_APPEND` |
+| 6 | What function checks if a file exists on the server? | A) `file_exists()` |
+| 7 | What function closes an open file? | A) `fclose()` |
+| 8 | What function creates a directory in PHP? | A) `mkdir()` |
+| 9 | What is the output with `fwrite()` and `FILE_APPEND`? | C) "Hola Mundo" |
+| 10 | What function reads all content from a file? | B) `file_get_contents()` |
 
 ---
 
