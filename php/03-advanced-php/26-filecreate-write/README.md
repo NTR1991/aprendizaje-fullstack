@@ -163,6 +163,7 @@ Result: 10/10 (100%) ✅
 
 ## 📂 Folder Structure
 
+````
 26-file-create-write/
 ├── css/
 │   └── style.css
@@ -170,6 +171,7 @@ Result: 10/10 (100%) ✅
 │   └── main.php
 ├── index.html
 └── README.md
+````
 
 ---
 
