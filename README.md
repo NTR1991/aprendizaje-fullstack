@@ -8,31 +8,28 @@
 
 Este espacio contiene **todos mis ejercicios, prácticas y proyectos personales** mientras aprendo desarrollo web y programación. Cada carpeta representa un paso más en mi formación como **Desarrollador Full Stack**.
 
-<div align="center">
-
 | 📌 Lo encontrarás aquí |
 |-----------------------|
 | ✅ Ejercicios de **freeCodeCamp** (Responsive Web Design) |
-| ✅ Proyectos **personales** (blog de Mr. Miau, recetas, películas) |
+| ✅ Proyectos **personales** (blog, recetas, CRUD, etc.) |
 | ✅ Prácticas de **Java** (FP DAW) |
+| ✅ Prácticas de **JavaScript** (fundamentos) |
+| ✅ Prácticas de **PHP** (fundamentos) |
 | ✅ Código **limpio, ordenado y documentado** |
 
-</div>
-
+---
 
 ## 🛠️ Tecnologías que estoy utilizando
-
-<div align="center">
 
 | Tecnología | Estado | Proyectos donde la uso |
 |------------|--------|------------------------|
 | **HTML5** | ✅ Completado | Todos los proyectos |
-| **CSS3** (Flexbox, Grid) | ✅ Completado | Mr. Miau Blog, Recetas |
-| **JavaScript** | ⏳ Próximamente | En planificación |
-| **React** | ⏳ Futuro | En planificación |
-| **Java** | 📚 En curso | FP DAW |
-
-</div>
+| **CSS3** (Flexbox, Grid) | ✅ Completado | Mr. Miau Blog, Recetas, CRUD |
+| **JavaScript** | ✅ Completado | Proyectos 07, 10–16, 18, 19 |
+| **PHP** | ✅ Completado (Bloque 1) | Proyectos 17, 20, 21 |
+| **MySQL** | ✅ Completado | Proyecto 21 |
+| **Java** | ✅ Completado (6 bloques) | FP DAW |
+| **React** | ⏳ Próximo paso | En planificación |
 
 ---
 
@@ -72,15 +69,20 @@ Este espacio contiene **todos mis ejercicios, prácticas y proyectos personales*
 │   ├── 📁 13-js-coding-facts/
 │   ├── 📁 14-js-registration-form/
 │   ├── 📁 15-js-madlibs-story/
-│   └── 📁 16-To-Do-List/
+│   ├── 📁 16-To-Do-List/
+│   ├── 📁 17-php-personal-finance/
+│   ├── 📁 18-js-event-manager/
+│   ├── 📁 19-js-product-catalog/
+│   ├── 📁 20-php-task-manager/
+│   └── 📁 21-php-video-game-crud/  ⭐ CRUD completo con API REST
 │
 ├── 📁 java/
-│   ├── 📁 codingbat/
-│   │   └── 📁 warmup-1/
-│   └── 📁 practica-propia/
-│       ├── 📄 01-puedeVotar/
-│       ├── 📄 02-tieneDescuento/
-│       └── ... (hasta 29-CalculadoraSimple)
+│   ├── 📁 boolean-logic/
+│   ├── 📁 control-flow/
+│   ├── 📁 arrays-collections/
+│   ├── 📁 methods/
+│   ├── 📁 oop/
+│   └── 📁 codingbat/
 │
 ├── 📁 javascript/
 │   ├── 📁 01-introduction/
@@ -89,6 +91,9 @@ Este espacio contiene **todos mis ejercicios, prácticas y proyectos personales*
 │   ├── 📁 04-conditionalStatements/
 │   ├── 📁 05-functions/
 │   └── 📁 06-arrays/
+│
+├── 📁 php/
+│   └── 📁 01-fundamentals/         (14 temas completados)
 │
 └── 📁 css/
     └── 📄 styles.css
@@ -118,31 +123,28 @@ Este repositorio es de uso educativo. Los ejercicios de freeCodeCamp son propied
 
 This space contains **all my exercises, practices, and personal projects** while learning web development and programming. Each folder represents a step forward in my journey to become a **Full Stack Developer**.
 
-<div align="center">
-    
 | 📌 What You'll Find Here |
 |--------------------------|
 | ✅ **freeCodeCamp** exercises (Responsive Web Design) |
-| ✅ **Personal projects** (Mr. Miau Blog, recipes, movies) |
+| ✅ **Personal projects** (blog, recipes, CRUD, etc.) |
 | ✅ **Java** practice (FP DAW) |
+| ✅ **JavaScript** practice (fundamentals) |
+| ✅ **PHP** practice (fundamentals) |
 | ✅ **Clean, organized, and documented** code |
 
-</div>
-
+---
 
 ## 🛠️ Technologies I'm Using
-
-<div align="center">
 
 | Technology | Status | Projects Using It |
 |------------|--------|-------------------|
 | **HTML5** | ✅ Completed | All projects |
-| **CSS3** (Flexbox, Grid) | ✅ Completed | Mr. Miau Blog, Recipes |
-| **JavaScript** | ⏳ Upcoming | In planning |
-| **React** | ⏳ Future | In planning |
-| **Java** | 📚 In progress | FP DAW |
-
-</div>
+| **CSS3** (Flexbox, Grid) | ✅ Completed | Mr. Miau Blog, Recipes, CRUD |
+| **JavaScript** | ✅ Completed | Projects 07, 10–16, 18, 19 |
+| **PHP** | ✅ Completed (Block 1) | Projects 17, 20, 21 |
+| **MySQL** | ✅ Completed | Project 21 |
+| **Java** | ✅ Completed (6 blocks) | FP DAW |
+| **React** | ⏳ Next step | In planning |
 
 ---
 
@@ -182,15 +184,20 @@ This space contains **all my exercises, practices, and personal projects** while
 │   ├── 📁 13-js-coding-facts/
 │   ├── 📁 14-js-registration-form/
 │   ├── 📁 15-js-madlibs-story/
-│   └── 📁 16-To-Do-List/
+│   ├── 📁 16-To-Do-List/
+│   ├── 📁 17-php-personal-finance/
+│   ├── 📁 18-js-event-manager/
+│   ├── 📁 19-js-product-catalog/
+│   ├── 📁 20-php-task-manager/
+│   └── 📁 21-php-video-game-crud/  ⭐ Full CRUD with REST API
 │
 ├── 📁 java/
-│   ├── 📁 codingbat/
-│   │   └── 📁 warmup-1/
-│   └── 📁 practica-propia/
-│       ├── 📄 01-puedeVotar/
-│       ├── 📄 02-tieneDescuento/
-│       └── ... (up to 29-CalculadoraSimple)
+│   ├── 📁 boolean-logic/
+│   ├── 📁 control-flow/
+│   ├── 📁 arrays-collections/
+│   ├── 📁 methods/
+│   ├── 📁 oop/
+│   └── 📁 codingbat/
 │
 ├── 📁 javascript/
 │   ├── 📁 01-introduction/
@@ -199,6 +206,9 @@ This space contains **all my exercises, practices, and personal projects** while
 │   ├── 📁 04-conditionalStatements/
 │   ├── 📁 05-functions/
 │   └── 📁 06-arrays/
+│
+├── 📁 php/
+│   └── 📁 01-fundamentals/         (14 topics completed)
 │
 └── 📁 css/
     └── 📄 styles.css
