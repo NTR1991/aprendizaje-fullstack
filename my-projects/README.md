@@ -4,6 +4,7 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![PHP](https://img.shields.io/badge/PHP-8.0%2B-777BB4?style=flat&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-8.0%2B-4479A1?style=flat&logo=mysql&logoColor=white)
 
 ## 📋 Description
 
@@ -12,7 +13,8 @@ This folder contains all my personal projects organized by number. Each project 
 ---
 
 ## 📂 Folder Structure
-````
+
+```
 my-projects/
 ├── 01-music-bands/
 ├── 02-movies/
@@ -34,10 +36,9 @@ my-projects/
 ├── 18-js-event-manager/
 ├── 19-js-product-catalog/
 ├── 20-php-task-manager/
+├── 21-php-video-game-crud/
 └── README.md
-````
-
-
+```
 
 ---
 
@@ -65,6 +66,7 @@ my-projects/
 | 18 | Event Manager | Console event management system | HTML5, CSS3, JavaScript |
 | 19 | Product Catalog | Console product catalog system | HTML5, CSS3, JavaScript |
 | 20 | PHP Task Manager | Task management system with PHP | PHP, HTML5, CSS3 |
+| 21 | PHP Video Game CRUD | Full CRUD app with REST API | PHP, MySQL, PDO, HTML5, CSS3 |
 
 ---
 
@@ -73,13 +75,16 @@ my-projects/
 | Skill | Projects |
 | :--- | :--- |
 | **HTML5** | All projects |
-| **CSS3** (Flexbox, Grid, Animations) | Projects 01–12, 16, 18–20 |
+| **CSS3** (Flexbox, Grid, Animations) | Projects 01–12, 16, 18–21 |
 | **JavaScript** (DOM, events, arrays, functions, objects) | Projects 07, 10–16, 18, 19 |
 | **JavaScript Advanced** (Closures, HOF, Array Chaining, Recursion) | Projects 18, 19 |
-| **PHP** (arrays, logic, forms, sessions) | Projects 17, 20 |
+| **PHP** (arrays, logic, forms, sessions) | Projects 17, 20, 21 |
+| **MySQL & PDO** (CRUD, prepared statements) | Project 21 |
+| **REST API** (GET, POST, PUT, DELETE) | Project 21 |
 | **Responsive Design** | Projects 03, 04, 08, 09, 12 |
 | **Console-based Interaction** | Projects 13, 15, 16, 18, 19 |
 | **Functional Programming** (Higher Order Functions, Callbacks) | Projects 18, 19 |
+
 ---
 
 ## 👤 Author
@@ -88,4 +93,4 @@ my-projects/
 
 ## 📅 Date
 
-July 2026
+September 2026
